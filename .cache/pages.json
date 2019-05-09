@@ -1,0 +1,37 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-jsx",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-arbeitsgruppen-jsx",
+        "jsonName": "arbeitsgruppen-0b1",
+        "path": "/arbeitsgruppen/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-impressum-jsx",
+        "jsonName": "impressum-49f",
+        "path": "/impressum/"
+    },
+    {
+        "componentChunkName": "component---src-pages-netzwerk-jsx",
+        "jsonName": "netzwerk-bd3",
+        "path": "/netzwerk/"
+    },
+    {
+        "componentChunkName": "component---src-pages-partner-jsx",
+        "jsonName": "partner-512",
+        "path": "/partner/"
+    },
+    {
+        "componentChunkName": "component---src-pages-projekte-jsx",
+        "jsonName": "projekte-ac3",
+        "path": "/projekte/"
+    }
+]
