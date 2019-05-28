@@ -1,0 +1,5 @@
+---
+title: "UNYANET (United Nations Youth Association Network)"
+textDe: "Im August 2011 haben in Wien Jugendliche aus elf europäischen Ländern UNYANET gegründet. Im “United Nations Youth Associations Network” sind Dachverbände wie JUNON zusammengeschlossen. Zu den Gründungsmitgliedern zählen die nationalen UN-Jugendorganisationen aus Deutschland, Finnland, Norwegen, Österreich, Polen, Rumänien, Russland, der Schweiz, Serbien, Slowenien und Spanien."
+textEn: "In August 2011, Youth from eleven European countries founded the United Nations Youth Associations Network (UNYANET) in Vienna. UNYANET unites national United Nations Youth Associations in one umbrella organisation. The founding members of UNYANET were UNYA Germany, Finland, Norway, Austria, Poland, Romania, Russia, Switzerland, Serbia, Slovenia and Spain."
+---

@@ -1,11 +1,11 @@
 [
     {
-        "componentChunkName": "component---src-pages-index-jsx",
+        "componentChunkName": "component---src-pages-index-js",
         "jsonName": "index",
         "path": "/"
     },
     {
-        "componentChunkName": "component---src-pages-arbeitsgruppen-jsx",
+        "componentChunkName": "component---src-pages-arbeitsgruppen-js",
         "jsonName": "arbeitsgruppen-0b1",
         "path": "/arbeitsgruppen/"
     },
@@ -15,22 +15,27 @@
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "component---src-pages-impressum-jsx",
+        "componentChunkName": "component---src-pages-impressum-js",
         "jsonName": "impressum-49f",
         "path": "/impressum/"
     },
     {
-        "componentChunkName": "component---src-pages-netzwerk-jsx",
+        "componentChunkName": "component---src-pages-kontakt-js",
+        "jsonName": "kontakt-8ac",
+        "path": "/kontakt/"
+    },
+    {
+        "componentChunkName": "component---src-pages-netzwerk-js",
         "jsonName": "netzwerk-bd3",
         "path": "/netzwerk/"
     },
     {
-        "componentChunkName": "component---src-pages-partner-jsx",
+        "componentChunkName": "component---src-pages-partner-js",
         "jsonName": "partner-512",
         "path": "/partner/"
     },
     {
-        "componentChunkName": "component---src-pages-projekte-jsx",
+        "componentChunkName": "component---src-pages-projekte-js",
         "jsonName": "projekte-ac3",
         "path": "/projekte/"
     }

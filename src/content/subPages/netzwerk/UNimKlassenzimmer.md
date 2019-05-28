@@ -1,0 +1,9 @@
+---
+title: "UN im Klassenzimmer"
+textDE: "UN im Klassenzimmer gibt jungen Menschen die Möglichkeit, internationale Zusammenarbeit, politische Prozesse und die Ziele der Vereinten Nationen in der Praxis kennenzulernen. Studierende werden zu Teamerinnen und Teamern ausgebildet und vermitteln in den Schulen die Module.
+
+Mit UN im Klassenzimmer vermittelt die DGVN auf spielerische Art und Weise grundlegendes Wissen über die Arbeit und Ziele der Vereinten Nationen. In drei Modulen können sich Schulklassen mit den Arbeitsweisen der UN vertraut machen und in die Rolle von Diplomatinnen und Diplomaten schlüpfen. Begleitet werden die Module durch ausgebildete Teamerinnen und Teamer der DGVN, die sich meist im Studium oder der Berufsausbildung befinden und großes Interesse an Politik und den Vereinten Nationen haben. Interessierte Schulen und zukünftige Teamerinnen und Teamer können sich bei der DGVN und den Regionalkoordinationen melden."
+textEn: "UN in the Class Room gives young students the opportunity to gain practical knowledge about international relations, political processes and the goals of the United Nations. Students are trained to be team leaders and teach the modules in schools.
+
+Through UN in the Class Room, UNA Germany is providing basic knowledge about the work and goals of the United Nations in a playful and accessible way. In three modules, student groups can learn about the work of the UN and take the roles of diplomates. The modules are conducted by team leaders that are trained by UNA Germany, are usually either university students or doing an apprenticeship and have shown great interest in politics and the United Nations in the past. Schools interested in participating and young people aspiring to become team leaders should contact UNA Germany and their regional coordinators."
+---

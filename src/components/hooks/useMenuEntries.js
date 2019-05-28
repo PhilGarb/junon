@@ -2,12 +2,11 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 
-const StyledLink = styled(Link)`
+const StyledMenuLink = styled(Link)`
   text-decoration: none;
-  color: blue;
   padding: 0rem 0.8rem;
   margin: 0rem 0.2rem;
-  font-size: 1.4rem;
+  font-size: 1.3vw;
 `
 
 const StyledMenu = styled.div`
@@ -47,12 +46,12 @@ const MenuEntries = () => {
       <StyledMenu>
         {entriesArray.map(entry => {
           return (
-            <StyledLink
+            <StyledMenuLink
               key={entry.node.frontmatter.title}
               to={`/${entry.node.frontmatter.title.toLowerCase()}`}
             >
               {entry.node.frontmatter.title}
-            </StyledLink>
+            </StyledMenuLink>
           )
         })}
       </StyledMenu>

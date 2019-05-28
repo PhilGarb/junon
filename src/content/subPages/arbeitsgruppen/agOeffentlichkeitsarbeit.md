@@ -1,0 +1,5 @@
+---
+title: "AG Öffentlichkeitsarbeit"
+textDE: "Die Arbeitsgemeinschaft Öffentlichkeitsarbeit verfolgt das Ziel der Verbreitung von Projekten, Aktivitäten und Veranstaltung des JUNON unter den Mitgliedsgruppen und Jugendlichen insgesamt. Sie betreibt unsere Social-Media-Kanäle wie Facebook, Twitter und Instagram und stellt die Ansprechpersonen zu Interessierten des Netzwerks. Fragen und Anliegen werden hier beantwortet. Ebenfalls fällt die Anfertigung und Verbreitung von visuellen Werbematerialien über das JUNON und die Vereinten Nationen in den Aufgabenbereich der Arbeitsgemeinschaft."
+textEN: "The public relations working group has the goal to inform about projects, activities and events of UNYA Germany and spread the word among members and youth in general. It oversees our social media channels like Facebook, Twitter and Instagram and serves as a contact point for anyone interested in the work of the association. Your questions and requests are answered here. Additionally, the working group prepares information material about UNYA Germany and the work of the United Nations. "
+---

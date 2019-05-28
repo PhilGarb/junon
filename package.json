@@ -10,11 +10,13 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "svgr": "svgr -d src/svgs/ assets/"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.4.2",
+    "gatsby-image": "^2.1.1",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.1.0",
     "gatsby-plugin-sharp": "^2.0.36",
@@ -23,9 +25,11 @@
     "gatsby-transformer-sharp": "^2.1.19",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "typeface-rubik": "0.0.72"
   },
   "devDependencies": {
+    "@svgr/cli": "^4.2.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^4.2.0",
     "eslint-config-react-app": "^4.0.1",

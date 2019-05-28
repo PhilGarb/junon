@@ -1,31 +1,22 @@
 import React from "react"
-import useSiteMetadata from "../hooks/useSiteMetadata"
 import useMenuEntries from "../hooks/useMenuEntries"
 import styled from "styled-components"
-import { Link } from "gatsby"
+import Logo from "./Logo"
 
 const HeaderWrapper = styled.div`
-  background: lightblue;
+  background: #fafbfb;
   display: flex;
   align-items: center;
-  padding: 0.8rem 3rem;
+  padding: 1vh 5vw;
   justify-content: space-between;
 `
 
-const StyledLogo = styled(Link)`
-  color: white;
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 700;
-`
-
 const Header = () => {
-  const { title } = useSiteMetadata()
   const Menu = useMenuEntries()
 
   return (
     <HeaderWrapper>
-      <StyledLogo to="/">{title}</StyledLogo>
+      <Logo />
       <Menu />
     </HeaderWrapper>
   )

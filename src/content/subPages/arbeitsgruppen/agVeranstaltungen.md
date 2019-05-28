@@ -1,0 +1,5 @@
+---
+title: "AG Veranstaltungen"
+textDE: "Die Arbeitsgemeinschaft Veranstaltungen strukturiert und organisiert alle Veranstaltungen für unsere Mitgliedsgruppen bspw. die Netzwerktreffen, die Delegiertenversammlung oder andere Vorstandstreffen. Dazu zählt zum einen die Koordination der Veranstaltung vor Ort (Austragungsorte, Logistik etc.) sowie ebenfalls die inhaltliche Gestaltung der Veranstaltungen (Themenfindung, Umsetzungsformate etc.). Der/die LeiterIn der wird dabei ebenfalls von einer Ortsgruppe unterstützt, damit anfallende Aufgaben bestmöglich verteilt werden können."
+textEN: "The event management working group structures and organises events for member groups, networking meetings, the delegate assembly and meetings of the executive board. This includes both the coordination of the logistical aspects as well as designing the content (topics, formats etc.). The leader of the working group is supported by the local member group of the host city of the event. "
+---

@@ -1,0 +1,16 @@
+---
+title: "Jugenddelegierte"
+textDE: "Seit 2005 begleiten jeweils zwei junge Menschen zwischen 18 und 25 Jahre als Jugenddelegierte die deutsche Delegation zur Generalversammlung der Vereinten Nationen nach New York. Dort repräsentieren sie die Jugend Deutschlands und setzen sie sich zusammen mit den Jugenddelegierten anderer Länder für die Belange junger Menschen ein. Seit 2006 haben die Jugendlichen jedes Jahr die Möglichkeit, eine Rede vor dem Ausschuss für soziale, humanitäre und kulturelle Fragen der Generalversammlung zu halten. Dabei sind die Jugenddelegierten nicht an die deutsche Regierungsposition gebunden, sondern sprechen stellvertretend für junge Menschen in Deutschland.
+
+Vor ihrer Abreise nach New York unternehmen die Jugendlichen jeweils eine mehrwöchige Tour durch Deutschland. In Gesprächen und Projekten mit anderen Jugendlichen in Schulen und Universitäten, bei Jugendorganisationen und -verbänden sowie freien Trägern informieren sie über die Arbeit der Vereinten Nationen und erarbeiten gemeinsam mit den Jugendlichen, welche Anliegen in New York vorgebracht werden sollen.
+
+Die Jugendfragen werden dann von der Generalversammlung im so genannten Dritten Hauptausschuss (Third Committee) behandelt. Außerdem beschäftigt sich die Sozialentwicklungskommission (SEK), eine funktionale Kommission des Wirtschafts- und Sozialrates der Vereinten Nationen (ECOSOC), mit dem Weltaktionsprogramm für die Jugend.
+
+Das Projekt „Jugenddelegierte zur Generalversammlung“ wird von der deutschen Gesellschaft für die Vereinte Nationen (DGVN) sowie dem Deutschen Nationalkomitee für Internationale Jugendarbeit (DNK) getragen und vom Auswärtigen Amt und dem Bundesministerium für Familie, Senioren, Frauen und Jugend unterstützt."
+textEn: "Since 2005, two young people between the ages of 18 and 25 accompany the German delegation to the United Nations General Assembly in New York as Youth Delegates. There, they serve as representatives of German Youth and, together with the Youth Delegates of other countries, speak up for the interests of young people. Since 2006, the youth delegates also have the opportunity to hold a speech at the Social, Humanitarian and Cultural Committee of the General Assembly. The Youth Delegates are not bound by the position of the German government, but instead speak on behalf of youth in Germany.
+
+Before their departure to New York, the Youth Delegates undertake a multiple week-long tour of Germany. In conversations and projects with youth in schools, universities, youth organisations, youth associations and independent supporters of the programme, they inform about the work of the United Nations and work out the proposals that are to be presented in New York.
+
+Those Youth issues are then discussed by the General Assembly in the so-called Third Committee. In addition to that, the Commission for Social Development (CSocD), a functional commission of the Economic and Social Council (ECOSOC), covers youth issues through the World Programme of Action for Youth.
+
+The project “Youth Delegates to the General Assembly” is provided by the United Nations Association of Germany (UNA Germany), the German National Committee for International Youth Work, the Federal Foreign Office and the Federal Ministry of Family Affairs, Senior Citizens, Women and Youth."
