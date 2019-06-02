@@ -6,7 +6,6 @@ const StyledMenuLink = styled(Link)`
   text-decoration: none;
   padding: 0.5rem 0.8rem;
   margin: 0;
-  font-size: 1rem;
   color: var(--dark-gray);
 
   :hover {

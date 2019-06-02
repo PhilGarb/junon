@@ -3,15 +3,18 @@ import "typeface-rubik"
 
 export const GlobalStyle = createGlobalStyle`
   html {
+    ${`` /* Color Scheme */}
     --primary-color: #52F2E7;
     --secondary-color: #64F954;
     --tertiary-color: #6393F4;
     --dark-gray: #425150;
     --light-gray: #FAFBFB;
-    font-size: 1em;
 
-    @media (min-width: 20em) {
-      font-size: calc(1em + 0.25 * ((100vw - 20em) / 50))
+    ${`` /* Fluid Font-Scaling */}
+    font-size: 0.875em;
+
+    @media (min-width: 25em) {
+      font-size: calc(0.875em + 0.5 * ((100vw - 25em) / 45))
     }
 
     @media (min-width: 70em) {
