@@ -8,6 +8,15 @@ export const GlobalStyle = createGlobalStyle`
     --tertiary-color: #6393F4;
     --dark-gray: #425150;
     --light-gray: #FAFBFB;
+    font-size: 1em;
+
+    @media (min-width: 20em) {
+      font-size: calc(1em + 0.25 * ((100vw - 20em) / 50))
+    }
+
+    @media (min-width: 70em) {
+      font-size: 1.25em
+    }
   }
 
   body {
@@ -15,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     padding:0;
     box-sizing: border-box;
     font-family: "Rubik";
-    color: var(--dark-gray)
+    color: var(--dark-gray);
   }
 
   h1 {
@@ -27,6 +36,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   p {
-    font-weight: 400
+    font-weight: 400;
   }
 `
