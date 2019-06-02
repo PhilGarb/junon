@@ -2,12 +2,20 @@ import { createGlobalStyle } from "styled-components"
 import "typeface-rubik"
 
 export const GlobalStyle = createGlobalStyle`
+  html {
+    --primary-color: #52F2E7;
+    --secondary-color: #64F954;
+    --tertiary-color: #6393F4;
+    --dark-gray: #425150;
+    --light-gray: #FAFBFB;
+  }
+
   body {
     margin: 0;
     padding:0;
     box-sizing: border-box;
     font-family: "Rubik";
-    color: #425150
+    color: var(--dark-gray)
   }
 
   h1 {
@@ -20,9 +28,5 @@ export const GlobalStyle = createGlobalStyle`
 
   p {
     font-weight: 400
-  }
-
-  a {
-    text-decoration: none
   }
 `

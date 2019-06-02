@@ -4,9 +4,14 @@ import styled from "styled-components"
 
 const StyledMenuLink = styled(Link)`
   text-decoration: none;
-  padding: 0rem 0.8rem;
-  margin: 0rem 0.2rem;
+  padding: 0.5rem 0.8rem;
+  margin: 0;
   font-size: 1.3vw;
+  color: var(--dark-gray);
+
+  :hover {
+    background-color: var(--primary-color);
+  }
 `
 
 const StyledMenu = styled.div`
