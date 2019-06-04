@@ -5,7 +5,7 @@ import React from "react"
 const Logo = () => {
   return (
     <Link to="/">
-      <LogoLarge height="3vh" width="13vw" />
+      <LogoLarge height="2em" width="6em" />
     </Link>
   )
 }

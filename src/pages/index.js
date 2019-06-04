@@ -1,31 +1,21 @@
 import React from "react"
-import { graphql } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/Layout"
-// import Img from "gatsby-image"
-import BackgroundImage from "gatsby-background-image"
 import LinkButton from "../components/LayoutComponents/LinkButton"
-import Overlay from "../components/LayoutComponents/Overlay"
+import useHero from "../components/hooks/useHero"
 
-const StyledBackgroundImage = styled(BackgroundImage)`
-  height: 80vh;
-  background-size: cover;
+const PositionedSection = styled.section`
+  grid-column: 2 / 3;
 `
 
-const index = ({ data }) => {
+const index = () => {
+  const Hero = useHero()
+
   return (
     <Layout>
-      <hero>
-        <StyledBackgroundImage fluid={data.file.childImageSharp.fluid}>
-          <Overlay>
-            <h2>Willkommen auf der offiziellen Seite des</h2>
-            <h1>Jungen UNO Netzwerk Deutschland e.V.</h1>
-            <LinkButton>Mehr erfahren</LinkButton>
-          </Overlay>
-        </StyledBackgroundImage>
-      </hero>
-      <section>
+      <Hero />
+      <PositionedSection>
         <h1>Projekte</h1>
         <div>
           <h2>Netzwerktreffen</h2>
@@ -47,8 +37,8 @@ const index = ({ data }) => {
           </p>
           <LinkButton>Mehr erfahren</LinkButton>
         </div>
-      </section>
-      <section>
+      </PositionedSection>
+      <PositionedSection>
         <div>
           <h1>Netzwerk</h1>
           <p>
@@ -70,8 +60,8 @@ const index = ({ data }) => {
           </p>
           <LinkButton>Mehr erfahren</LinkButton>
         </div>
-      </section>
-      <section>
+      </PositionedSection>
+      <PositionedSection>
         <h1>Arbeitsweise</h1>
         <p>
           Im JUNON arbeiten wir komplett ehrenamtlichen ohne eine lokale
@@ -83,8 +73,8 @@ const index = ({ data }) => {
           Fördermitglieder verteilen sich über ganz Deutschland.{` `}
         </p>
         <LinkButton>Mehr erfahren</LinkButton>
-      </section>
-      <section>
+      </PositionedSection>
+      <PositionedSection>
         <h1>Interesse oder Fragen?</h1>
         <h2>Schreib uns:</h2>
         <form action="#">
@@ -97,21 +87,9 @@ const index = ({ data }) => {
           />
           <LinkButton>Senden</LinkButton>
         </form>
-      </section>
+      </PositionedSection>
     </Layout>
   )
 }
-
-export const query = graphql`
-  query HomepageQuery {
-    file(relativePath: { regex: "/Background/" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_tracedSVG
-        }
-      }
-    }
-  }
-`
 
 export default index

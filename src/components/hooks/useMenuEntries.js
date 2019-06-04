@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 const StyledMenuLink = styled(Link)`
   text-decoration: none;
-  padding: 0.5rem 0.8rem;
+  padding: 0 0.8rem;
   margin: 0;
   color: var(--dark-gray);
 

@@ -7,8 +7,9 @@ const HeaderWrapper = styled.div`
   background: #fafbfb;
   display: flex;
   align-items: center;
-  padding: 1vh 5vw;
   justify-content: space-between;
+  grid-column: span 3;
+  grid-column: 2 / 3;
 `
 
 const Header = () => {
