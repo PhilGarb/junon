@@ -2,8 +2,9 @@ import React from "react"
 import styled from "styled-components"
 
 import Layout from "../components/Layout"
-import LinkButton from "../components/LayoutComponents/LinkButton"
+import Button from "../components/LayoutComponents/Button"
 import useHero from "../components/hooks/useHero"
+import Card from "../components/LayoutComponents/Card"
 
 const PositionedSection = styled.section`
   grid-column: 2 / 3;
@@ -14,7 +15,15 @@ const index = () => {
 
   return (
     <Layout>
-      <Hero />
+      <Hero
+        card={
+          <Card>
+            <h2>Willkommen auf der offiziellen Seite des</h2>
+            <h1>Jungen UNO Netzwerk Deutschland e.V.</h1>
+          </Card>
+        }
+        img={`background`}
+      />
       <PositionedSection>
         <h1>Projekte</h1>
         <div>
@@ -23,9 +32,9 @@ const index = () => {
             Dieses Jahr beschäftigen wir uns mit den Vereinten Nationen, Model
             United Nations und ihren Rollen zum Thema Umweltschutz.
           </p>
-          <LinkButton>Mehr erfahren</LinkButton>
+          <Button>Mehr erfahren</Button>
           <p>Komm für ein Wochenende nach München es geht auf uns!</p>
-          <LinkButton>Anmeldung</LinkButton>
+          <Button>Anmeldung</Button>
         </div>
         <div>
           <h2>Unsere Arbeit</h2>
@@ -35,7 +44,7 @@ const index = () => {
             Trips, Summer Schools und Delegiertenversammlungen und unterstützen
             bei der Realisierung neuer Projekte.
           </p>
-          <LinkButton>Mehr erfahren</LinkButton>
+          <Button>Mehr erfahren</Button>
         </div>
       </PositionedSection>
       <PositionedSection>
@@ -49,7 +58,7 @@ const index = () => {
             Als Netzwerk wollen wir aktiv das Interesse an Politik und den
             Wissenstransfer unserer Mitgliedsgruppen fördern.
           </p>
-          <LinkButton>Mehr erfahren</LinkButton>
+          <Button>Mehr erfahren</Button>
         </div>
         <div>
           <h1>Partner</h1>
@@ -58,7 +67,7 @@ const index = () => {
             bekennen wir uns zu den universellen Werten und der Zielen Vereinten
             Nationen.
           </p>
-          <LinkButton>Mehr erfahren</LinkButton>
+          <Button>Mehr erfahren</Button>
         </div>
       </PositionedSection>
       <PositionedSection>
@@ -72,7 +81,7 @@ const index = () => {
           Unsere Vorstandsmitglieder sowie die Mitgliedsgruppen und
           Fördermitglieder verteilen sich über ganz Deutschland.{` `}
         </p>
-        <LinkButton>Mehr erfahren</LinkButton>
+        <Button>Mehr erfahren</Button>
       </PositionedSection>
       <PositionedSection>
         <h1>Interesse oder Fragen?</h1>
@@ -85,7 +94,7 @@ const index = () => {
             id="description"
             placeholder="Anliegen"
           />
-          <LinkButton>Senden</LinkButton>
+          <Button>Senden</Button>
         </form>
       </PositionedSection>
     </Layout>

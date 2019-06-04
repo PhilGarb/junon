@@ -1,30 +1,31 @@
 //#FIXME This Hook is not really isolated code. It has hardcoded content. This needs to be fixed if the Hero component is to be reuseable.
+// TODO Try to move the Query from here to the page. The component cannot query the data, because useStaticQuery does not accept variables. So the component could not be truly reusable. By passing the information from the page the component becomes reusable.
 
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
 
 import BackgroundImage from "gatsby-background-image"
-import Overlay from "../LayoutComponents/Overlay"
+// import Card from "../LayoutComponents/Card"
 
 const StyledBackgroundImage = styled(BackgroundImage)`
   height: 80vh;
-  background-size: cover;
   grid-column: 1 / span 3;
   display: grid;
   grid-template-columns: 1fr 2fr 4fr 1fr;
-  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-rows: 1fr 2fr 1fr;
 `
 
-const PositionedOverlay = styled(Overlay)`
-  grid-column-start: 2;
-  grid-row-start: 2;
+const PositionedCard = styled.div`
+  grid-column: 2;
+  grid-row: 2;
 `
-const Hero = () => {
+
+const Hero = ({ img }) => {
   const data = useStaticQuery(
     graphql`
       query {
-        file(relativePath: { regex: "/Background/" }) {
+        file(relativePath: { regex: ${img}}) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -35,13 +36,10 @@ const Hero = () => {
     `
   )
 
-  const HeroSection = () => {
+  const HeroSection = ({ card }) => {
     return (
       <StyledBackgroundImage fluid={data.file.childImageSharp.fluid}>
-        <PositionedOverlay>
-          <h2>Willkommen auf der offiziellen Seite des</h2>
-          <h1>Jungen UNO Netzwerk Deutschland e.V.</h1>
-        </PositionedOverlay>
+        <PositionedCard>{card}</PositionedCard>
       </StyledBackgroundImage>
     )
   }
