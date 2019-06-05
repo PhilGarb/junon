@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import Button from "../components/LayoutComponents/Button"
@@ -10,8 +11,16 @@ const PositionedSection = styled.section`
   grid-column: 2 / 3;
 `
 
-const index = () => {
+const index = ({ data }) => {
   const Hero = useHero()
+
+  const {
+    file: {
+      childImageSharp: {
+        fluid: { ...backgroundImage },
+      },
+    },
+  } = data
 
   return (
     <Layout>
@@ -22,7 +31,7 @@ const index = () => {
             <h1>Jungen UNO Netzwerk Deutschland e.V.</h1>
           </Card>
         }
-        img={`background`}
+        img={backgroundImage}
       />
       <PositionedSection>
         <h1>Projekte</h1>
@@ -100,5 +109,17 @@ const index = () => {
     </Layout>
   )
 }
+
+export const query = graphql`
+  query HomepageQuery {
+    file(relativePath: { regex: "/Background/" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+  }
+`
 
 export default index
