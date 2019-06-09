@@ -4,9 +4,7 @@ const SvgLogoLarge = props => (
   <svg viewBox="0 0 310.7 63.41" {...props}>
     <defs>
       <style>
-        {
-          `.Logo_large_svg__cls-2{clip-path:url(#Logo_large_svg__clip-path)}.Logo_large_svg__cls-3,.Logo_large_svg__cls-4{fill:#6393f4}.Logo_large_svg__cls-3{fill-rule:evenodd}`
-        }
+        {`.Logo_large_svg__cls-2{clip-path:url(#Logo_large_svg__clip-path)}.Logo_large_svg__cls-3,.Logo_large_svg__cls-4{fill:#6393f4}.Logo_large_svg__cls-3{fill-rule:evenodd}`}
       </style>
       <clipPath id="Logo_large_svg__clip-path">
         <path fill="none" d="M179.2 0h73.06v63.41H179.2z" />

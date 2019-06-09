@@ -7,9 +7,11 @@ import Header from "./LayoutComponents/Header"
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
-  grid-template-rows: 3rem auto;
+  grid-template-areas: "sidebar1 content sidebar2";
+  grid-area: content;
+  grid-template-columns: 1fr 4fr 1fr;
   background-color: var(--light-gray);
+  /* grid-gap: 1em 0; */
 `
 
 const Layout = ({ children }) => {

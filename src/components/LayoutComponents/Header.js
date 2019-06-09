@@ -5,6 +5,7 @@ import Logo from "./Logo"
 
 const HeaderWrapper = styled.div`
   background: #fafbfb;
+  padding: 0.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

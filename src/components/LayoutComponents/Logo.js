@@ -1,4 +1,4 @@
-import LogoLarge from "../../svgs/LogoLarge"
+import { LogoLarge } from "../../svgs"
 import { Link } from "gatsby"
 import React from "react"
 

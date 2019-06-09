@@ -3,12 +3,29 @@ import styled from "styled-components"
 import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
-import Button from "../components/LayoutComponents/Button"
-import useHero from "../components/hooks/useHero"
-import Card from "../components/LayoutComponents/Card"
+import { Button, CSSBackgroundImage } from "../components/LayoutComponents"
+import { useHero } from "../components/hooks"
+// import { Netzwerktreffen, Projekte } from "../svgs"
+import { netzwerktreffen, projekte } from "../images/Homepage"
 
 const PositionedSection = styled.section`
   grid-column: 2 / 3;
+  height: 80vh;
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  justify-items: center;
+  grid-gap: 2em 1em;
+`
+const SectionHeading = styled.h1`
+  grid-column: 1/ -1;
+  justify-self: start;
+  margin: 0;
+`
+const SectionParagraph = styled.div`
+  padding: 1em 0;
+  width: 30em;
 `
 
 const index = ({ data }) => {
@@ -26,16 +43,16 @@ const index = ({ data }) => {
     <Layout>
       <Hero
         card={
-          <Card>
+          <>
             <h2>Willkommen auf der offiziellen Seite des</h2>
             <h1>Jungen UNO Netzwerk Deutschland e.V.</h1>
-          </Card>
+          </>
         }
         img={backgroundImage}
       />
       <PositionedSection>
-        <h1>Projekte</h1>
-        <div>
+        <SectionHeading>Projekte</SectionHeading>
+        <SectionParagraph>
           <h2>Netzwerktreffen</h2>
           <p>
             Dieses Jahr beschäftigen wir uns mit den Vereinten Nationen, Model
@@ -44,8 +61,10 @@ const index = ({ data }) => {
           <Button>Mehr erfahren</Button>
           <p>Komm für ein Wochenende nach München es geht auf uns!</p>
           <Button>Anmeldung</Button>
-        </div>
-        <div>
+        </SectionParagraph>
+        <CSSBackgroundImage img={netzwerktreffen} />
+        <CSSBackgroundImage img={projekte} />
+        <SectionParagraph>
           <h2>Unsere Arbeit</h2>
           <p>
             Wir bündeln und vermitteln das Wissen unserer Mitgliedsgruppen bei
@@ -54,7 +73,7 @@ const index = ({ data }) => {
             bei der Realisierung neuer Projekte.
           </p>
           <Button>Mehr erfahren</Button>
-        </div>
+        </SectionParagraph>
       </PositionedSection>
       <PositionedSection>
         <div>
