@@ -8,10 +8,10 @@ const StyledCard = styled.div`
   display: grid;
   flex-direction: column;
   justify-items: center;
-  /* justify-content: left; */
-  /* align-items: flex-end; */
   padding: 2rem;
-  /* box-shadow: 8px 8px 25px 0px rgba(0, 0, 0, 0.5); */
+  background-blend-mode: overlay;
+  background-color: #ffffffe6;
+  box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.5);
 `
 
 const Card = ({ className, children }) => {

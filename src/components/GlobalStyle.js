@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --tertiary-color: #6393F4;
     --dark-gray: #425150;
     --light-gray: #FAFBFB;
+    --main-gradient: 28deg, rgba(99, 249, 85, 1) 0%, rgba(81, 242, 231, 1) 100%;
 
     ${`` /* Fluid Font-Scaling */}
     font-size: 0.875em;

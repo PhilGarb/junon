@@ -9,8 +9,7 @@ import { netzwerk } from "../../../images/imageIndex"
 const BackgroundGradient = styled.div`
   background: rgb(99, 249, 85);
   background-image: url(${netzwerk});
-  background-image: url(${netzwerk}),
-    linear-gradient(28deg, rgba(99, 249, 85, 1) 0%, rgba(81, 242, 231, 1) 100%);
+  background-image: url(${netzwerk}), linear-gradient(var(--main-gradient));
   background-position: center;
   background-size: 95%, cover;
   background-repeat: no-repeat;
@@ -28,9 +27,8 @@ const PositionedSection = styled.section`
 `
 
 const PositionedCard = styled(Card)`
-  background-blend-mode: overlay;
-  background-color: #ffffffbf;
   max-width: 20em;
+  margin: 1em;
 `
 
 const TopLeftCard = styled(PositionedCard)``

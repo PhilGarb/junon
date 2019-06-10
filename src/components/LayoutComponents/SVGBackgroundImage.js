@@ -9,8 +9,8 @@ const Image = styled.div`
   background-repeat: no-repeat;
   background-position: center;
 `
-const CSSBackgroundImage = ({ img }) => {
-  return <Image imgUrl={img} />
+const CSSBackgroundImage = ({ className, img }) => {
+  return <Image className={className} imgUrl={img} />
 }
 
 export default CSSBackgroundImage

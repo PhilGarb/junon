@@ -3,7 +3,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Button, SVGBackgroundImage } from "../layoutIndex"
+import { Button, SVGBackgroundImage, Card } from "../layoutIndex"
 import { netzwerktreffen, projekte } from "../../../images/imageIndex"
 
 const PositionedSection = styled.section`
@@ -18,7 +18,7 @@ const SectionHeading = styled.h1`
   grid-column: 1/ -1;
   justify-self: center;
 `
-const SectionParagraph = styled.div`
+const SectionParagraph = styled(Card)`
   display: flex;
   flex-direction: column;
   justify-content: center;
