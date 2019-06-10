@@ -13,11 +13,11 @@ export const GlobalStyle = createGlobalStyle`
     ${`` /* Fluid Font-Scaling */}
     font-size: 0.875em;
 
-    @media (min-width: 25em) {
-      font-size: calc(0.875em + 0.5 * ((100vw - 25em) / 45))
+    @media (min-width: 50em) {
+      font-size: calc(0.875em + 0.5 * ((100vw - 50em) / 50))
     }
 
-    @media (min-width: 70em) {
+    @media (min-width: 100em) {
       font-size: 1.25em
     }
   }

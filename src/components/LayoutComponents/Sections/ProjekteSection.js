@@ -8,26 +8,28 @@ import { netzwerktreffen, projekte } from "../../../images/imageIndex"
 
 const PositionedSection = styled.section`
   grid-column: 2 / 3;
-  height: 80vh;
-  margin-top: 2em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr 1fr;
-  justify-items: center;
-  grid-gap: 2em 1em;
+  grid-gap: 5em 1em;
+  height: 80vh;
 `
 const SectionHeading = styled.h1`
   grid-column: 1/ -1;
-  justify-self: start;
+  justify-self: center;
 `
 const SectionParagraph = styled.div`
-  width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 `
 
 const ProjekteSection = () => {
   return (
     <PositionedSection>
       <SectionHeading>Projekte</SectionHeading>
+      <SVGBackgroundImage img={netzwerktreffen} />
       <SectionParagraph>
         <h2>Netzwerktreffen</h2>
         <p>
@@ -38,7 +40,6 @@ const ProjekteSection = () => {
         <p>Komm für ein Wochenende nach München es geht auf uns!</p>
         <Button>Anmeldung</Button>
       </SectionParagraph>
-      <SVGBackgroundImage img={netzwerktreffen} />
       <SVGBackgroundImage img={projekte} />
       <SectionParagraph>
         <h2>Unsere Arbeit</h2>

@@ -35,7 +35,7 @@ const PositionedCard = styled(Card)`
 
 const TopLeftCard = styled(PositionedCard)``
 const BottomRightCard = styled(PositionedCard)`
-  align-self: end;
+  align-self: flex-end;
 `
 const ArbeitsweiseSection = () => {
   return (
