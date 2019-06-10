@@ -3,61 +3,67 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Button } from "../layoutIndex"
-import { backgroundGradient } from "../../../images/imageIndex"
+import { Button, Card } from "../layoutIndex"
+import { netzwerk } from "../../../images/imageIndex"
 
-const Background = styled.div`
-  background-image: url(${backgroundGradient});
-  background-size: cover;
+const BackgroundGradient = styled.div`
+  background: rgb(99, 249, 85);
+  background-image: url(${netzwerk});
+  background-image: url(${netzwerk}),
+    linear-gradient(28deg, rgba(99, 249, 85, 1) 0%, rgba(81, 242, 231, 1) 100%);
+  background-position: center;
+  background-size: 95%, cover;
+  background-repeat: no-repeat;
   grid-column: 1/ -1;
   display: grid;
   grid-template-columns: inherit;
+  height: 80vh;
 `
 
 const PositionedSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   grid-column: 2 / 3;
-  height: 80vh;
-  margin-top: 2em;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr;
-  justify-items: center;
-  grid-gap: 2em 1em;
 `
-const SectionHeading = styled.h1`
-  grid-column: 1/ -1;
-  justify-self: start;
+
+const PositionedCard = styled(Card)`
+  background-blend-mode: overlay;
+  background-color: #ffffffbf;
+  max-width: 20em;
 `
-const SectionParagraph = styled.div`
-  width: 30em;
+
+const TopLeftCard = styled(PositionedCard)``
+const BottomRightCard = styled(PositionedCard)`
+  align-self: end;
 `
 const ArbeitsweiseSection = () => {
   return (
-    <Background>
+    <BackgroundGradient>
       <PositionedSection>
-        <div>
-          <SectionHeading>Netzwerk</SectionHeading>
-          <SectionParagraph>
+        <TopLeftCard>
+          <h1>Netzwerk</h1>
+          <p>
             Das Junon ist ein Zusammenschluss aus zahlreichen jungen
             UN-Initiativen und Hochschulgruppen in Deutschland.
             <br />
             <br />
             Als Netzwerk wollen wir aktiv das Interesse an Politik und den
             Wissenstransfer unserer Mitgliedsgruppen fördern.
-          </SectionParagraph>
+          </p>
           <Button>Mehr erfahren</Button>
-        </div>
-        <div>
-          <SectionHeading>Partner</SectionHeading>
-          <SectionParagraph>
+        </TopLeftCard>
+        <BottomRightCard>
+          <h1>Partner</h1>
+          <p>
             Zusammen mit unseren nationalen und internationalen Partnern
             bekennen wir uns zu den universellen Werten und der Zielen Vereinten
             Nationen.
-          </SectionParagraph>
+          </p>
           <Button>Mehr erfahren</Button>
-        </div>
+        </BottomRightCard>
       </PositionedSection>
-    </Background>
+    </BackgroundGradient>
   )
 }
 

@@ -5,12 +5,13 @@ import styled from "styled-components"
 
 const StyledCard = styled.div`
   background-color: var(--light-gray);
-  display: flex;
+  display: grid;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-items: center;
+  /* justify-content: left; */
+  /* align-items: flex-end; */
   padding: 2rem;
-  box-shadow: 8px 8px 25px 0px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 8px 8px 25px 0px rgba(0, 0, 0, 0.5); */
 `
 
 const Card = ({ className, children }) => {

@@ -11,16 +11,16 @@ const Grid = styled.div`
   grid-area: content;
   grid-template-columns: 1fr 4fr 1fr;
   background-color: var(--light-gray);
-  /* grid-gap: 1em 0; */
+  grid-gap: 3em 0;
 `
 
 const Layout = ({ children }) => {
   return (
-    <Grid>
+    <>
       <GlobalStyle />
       <Header />
-      {children}
-    </Grid>
+      <Grid>{children}</Grid>
+    </>
   )
 }
 
