@@ -5,7 +5,7 @@ import BackgroundImage from "gatsby-background-image"
 import { Card } from "../LayoutComponents/layoutIndex"
 
 const StyledBackgroundImage = styled(BackgroundImage)`
-  height: 80vh;
+  height: 80vmin;
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: inherit;
@@ -14,7 +14,8 @@ const StyledBackgroundImage = styled(BackgroundImage)`
 const PositionedCard = styled(Card)`
   grid-column: 2;
   align-self: end;
-  justify-self: stretch;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 `
 
 const Hero = () => {

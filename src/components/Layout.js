@@ -11,7 +11,11 @@ const Grid = styled.div`
   grid-area: content;
   grid-template-columns: 1fr 4fr 1fr;
   background-color: var(--light-gray);
-  grid-gap: 3em 0;
+  grid-gap: 2em 0;
+
+  @media (max-width: 35em) {
+    grid-template-columns: 1fr;
+  }
 `
 
 const Layout = ({ children }) => {

@@ -8,21 +8,19 @@ import { teams } from "../../../images/imageIndex"
 
 const PositionedSection = styled.section`
   grid-column: 2 / 3;
-  height: 80vh;
+  min-height: 80vmin;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 2em;
   background-image: url(${teams});
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  align-items: flex-start;
 `
 const SectionParagraph = styled(Card)`
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: flex-start;
+  width: 40%;
+  @media (max-width: 1000px) {
+    justify-self: center;
+  }
 `
 
 const ProjekteSection = () => {

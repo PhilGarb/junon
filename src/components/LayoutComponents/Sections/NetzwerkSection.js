@@ -16,7 +16,7 @@ const BackgroundGradient = styled.div`
   grid-column: 1/ -1;
   display: grid;
   grid-template-columns: inherit;
-  height: 80vh;
+  min-height: 80vmin;
 `
 
 const PositionedSection = styled.section`
@@ -27,8 +27,13 @@ const PositionedSection = styled.section`
 `
 
 const PositionedCard = styled(Card)`
-  max-width: 20em;
-  margin: 1em;
+  max-width: 40%;
+  margin: 1em 0em;
+
+  @media (max-width: 800px) {
+    max-width: 70%;
+    align-self: center;
+  }
 `
 
 const TopLeftCard = styled(PositionedCard)``

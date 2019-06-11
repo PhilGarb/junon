@@ -10,20 +10,26 @@ const PositionedSection = styled.section`
   grid-column: 2 / 3;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr;
-  grid-gap: 5em 1em;
-  height: 80vh;
+  grid-gap: 2em 1em;
+  min-height: 80vmin;
+
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    margin: 1em;
+  }
 
   h1 {
     grid-column: 1/ -1;
     justify-self: center;
+    border-bottom: 1px solid var(--dark-gray);
+    padding-bottom: 1em;
   }
 `
-const SectionParagraph = styled(Card)`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+
+const PositionedCard = styled(Card)`
+  @media (max-width: 100px) {
+    width: 90%;
+  }
 `
 
 const ProjekteSection = () => {
@@ -31,7 +37,7 @@ const ProjekteSection = () => {
     <PositionedSection>
       <h1>Projekte</h1>
       <SVGBackgroundImage img={netzwerktreffen} />
-      <SectionParagraph>
+      <PositionedCard>
         <h2>Netzwerktreffen</h2>
         <p>
           Dieses Jahr beschäftigen wir uns mit den Vereinten Nationen, Model
@@ -40,9 +46,9 @@ const ProjekteSection = () => {
         <Button>Mehr erfahren</Button>
         <p>Komm für ein Wochenende nach München es geht auf uns!</p>
         <Button>Anmeldung</Button>
-      </SectionParagraph>
+      </PositionedCard>
       <SVGBackgroundImage img={projekte} />
-      <SectionParagraph>
+      <PositionedCard>
         <h2>Unsere Arbeit</h2>
         <p>
           Wir bündeln und vermitteln das Wissen unserer Mitgliedsgruppen bei
@@ -51,7 +57,7 @@ const ProjekteSection = () => {
           bei der Realisierung neuer Projekte.
         </p>
         <Button>Mehr erfahren</Button>
-      </SectionParagraph>
+      </PositionedCard>
     </PositionedSection>
   )
 }
