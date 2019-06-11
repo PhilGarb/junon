@@ -5,6 +5,9 @@ import BackgroundImage from "gatsby-background-image"
 import { Card } from "../LayoutComponents/layoutIndex"
 
 const StyledBackgroundImage = styled(BackgroundImage)`
+  background: linear-gradient(var(--main-gradient));
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 80vmin;
   grid-column: 1 / -1;
   display: grid;
@@ -19,9 +22,9 @@ const PositionedCard = styled(Card)`
 `
 
 const Hero = () => {
-  const HeroSection = ({ card, img }) => {
+  const HeroSection = ({ className, card, img }) => {
     return (
-      <StyledBackgroundImage fluid={img}>
+      <StyledBackgroundImage className={className} fluid={img}>
         <PositionedCard>{card}</PositionedCard>
       </StyledBackgroundImage>
     )

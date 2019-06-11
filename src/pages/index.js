@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import {
-  Button,
   ProjekteSection,
   ArbeitsweiseSection,
   NetzwerkSection,

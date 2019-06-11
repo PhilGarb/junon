@@ -9,9 +9,11 @@ import { netzwerktreffen, projekte } from "../../../images/imageIndex"
 const PositionedSection = styled.section`
   grid-column: 2 / 3;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2em 1em;
+  grid-template-columns: 40% 1fr;
+  grid-gap: 2em 2em;
   min-height: 80vmin;
+  align-content: center;
+  justify-content: center;
 
   @media (max-width: 1000px) {
     grid-template-columns: 1fr;
@@ -27,7 +29,8 @@ const PositionedSection = styled.section`
 `
 
 const PositionedCard = styled(Card)`
-  @media (max-width: 100px) {
+  max-width: 100%;
+  @media (max-width: 1000px) {
     width: 90%;
   }
 `
