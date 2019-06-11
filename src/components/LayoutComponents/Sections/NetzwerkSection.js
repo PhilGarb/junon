@@ -35,6 +35,7 @@ const TopLeftCard = styled(PositionedCard)``
 const BottomRightCard = styled(PositionedCard)`
   align-self: flex-end;
 `
+
 const ArbeitsweiseSection = () => {
   return (
     <BackgroundGradient>

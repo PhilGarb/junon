@@ -13,10 +13,11 @@ const PositionedSection = styled.section`
   grid-template-rows: auto 1fr 1fr;
   grid-gap: 5em 1em;
   height: 80vh;
-`
-const SectionHeading = styled.h1`
-  grid-column: 1/ -1;
-  justify-self: center;
+
+  h1 {
+    grid-column: 1/ -1;
+    justify-self: center;
+  }
 `
 const SectionParagraph = styled(Card)`
   display: flex;
@@ -28,7 +29,7 @@ const SectionParagraph = styled(Card)`
 const ProjekteSection = () => {
   return (
     <PositionedSection>
-      <SectionHeading>Projekte</SectionHeading>
+      <h1>Projekte</h1>
       <SVGBackgroundImage img={netzwerktreffen} />
       <SectionParagraph>
         <h2>Netzwerktreffen</h2>
