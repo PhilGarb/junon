@@ -10,7 +10,7 @@ const Grid = styled.div`
   grid-template-areas: "sidebar1 content sidebar2";
   grid-area: content;
   grid-template-columns: 1fr 4fr 1fr;
-  background-color: var(--light-gray);
+  background-color: rgb(var(--light-gray));
   grid-gap: 2em 0;
 
   @media (max-width: 35em) {

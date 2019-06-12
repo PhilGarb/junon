@@ -7,7 +7,7 @@ import { Button, Card } from "../layoutIndex"
 import { kontakt } from "../../../images/imageIndex"
 
 const Background = styled.div`
-  background: rgb(99, 249, 85);
+  background: rgb(var(--main-color));
   background-image: url(${kontakt});
   background-image: url(${kontakt}), linear-gradient(var(--main-gradient));
   grid-column: 1/ -1;
@@ -24,7 +24,7 @@ const PositionedCard = styled(Card)`
   margin: 3em;
 
   h1 {
-    border-bottom: 1px solid var(--dark-gray);
+    border-bottom: 1px solid rgb(var(--dark-gray));
     padding-bottom: 1em;
   }
 
@@ -36,8 +36,8 @@ const PositionedCard = styled(Card)`
     display: block;
     width: 100%;
     height: 3em;
-    background-color: var(--light-gray);
-    border: 1px solid var(--dark-gray);
+    background-color: rgb(var(--light-gray));
+    border: 1px solid rgb(var(--dark-gray));
     border-radius: 10px;
     margin: 1em 0em;
 

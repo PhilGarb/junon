@@ -4,11 +4,11 @@ import "typeface-rubik"
 export const GlobalStyle = createGlobalStyle`
   html {
     ${`` /* Color Scheme */}
-    --primary-color: #52F2E7;
-    --secondary-color: #64F954;
-    --tertiary-color: #6393F4;
-    --dark-gray: #425150;
-    --light-gray: #FAFBFB;
+    --primary-color: 82, 242, 231; //rgb(82, 242, 231)
+    --secondary-color: 100, 249, 84; //rgb(100, 249, 84)
+    --tertiary-color: 99, 147, 244; //rgb(99, 147, 244)
+    --dark-gray: 66, 81, 80; //rgb(66, 81, 80)
+    --light-gray: 250, 251, 251; //rgb(250, 251, 251)
     --main-gradient: 28deg, rgba(99, 249, 85, 1) 0%, rgba(81, 242, 231, 1) 100%;
 
     ${`` /* Fluid Font-Scaling */}
@@ -26,9 +26,8 @@ export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding:0;
-    box-sizing: border-box;
     font-family: "Rubik";
-    color: var(--dark-gray);
+    color: rgb(var(--dark-gray));
   }
 
   h1 {

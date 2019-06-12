@@ -23,7 +23,7 @@ const PositionedSection = styled.section`
   h1 {
     grid-column: 1/ -1;
     justify-self: center;
-    border-bottom: 1px solid var(--dark-gray);
+    border-bottom: 1px solid rgb(var(--dark-gray));
     padding-bottom: 1em;
   }
 `

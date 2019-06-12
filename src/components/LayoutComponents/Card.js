@@ -4,7 +4,7 @@ import styled from "styled-components"
 // import LinkButton from "../LayoutComponents/LinkButton"
 
 const StyledCard = styled.div`
-  background-color: var(--light-gray);
+  background-color: rgb(var(--light-gray));
   display: flex;
   flex-direction: column;
   justify-content: center;

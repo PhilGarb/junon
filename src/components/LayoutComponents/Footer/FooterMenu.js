@@ -1,15 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
 
-const StyledLink = styled(Link)`
-  text-decoration: none;
-  color: var(--dark-gray);
-
-  :hover {
-    background-color: var(--primary-color);
-  }
-`
+import { Link } from "../layoutIndex"
 
 const StyledMenu = styled.div`
   display: flex;
@@ -18,9 +10,9 @@ const StyledMenu = styled.div`
 const FooterMenu = ({ className }) => {
   return (
     <StyledMenu className={className}>
-      <StyledLink to="/impressum">Impressum</StyledLink>
-      <StyledLink to="/downloads">Downloads</StyledLink>
-      <StyledLink to="/datenschutz">Datenschutzerklärung</StyledLink>
+      <Link to="/impressum">Impressum</Link>
+      <Link to="/downloads">Downloads</Link>
+      <Link to="/datenschutz">Datenschutzerklärung</Link>
     </StyledMenu>
   )
 }

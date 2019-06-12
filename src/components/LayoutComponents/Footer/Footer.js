@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 
 import Logo from "../Logo"
-import Menu from "../Header/Menu"
 import FooterMenu from "./FooterMenu"
 
 const Grid = styled.div`
@@ -28,16 +27,10 @@ const StyledLogo = styled(Logo)`
   width: 8em;
 `
 
-const StyledMenu = styled(Menu)`
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 50%;
-  width: min-content;
-`
-
 const StyledFooterMenu = styled(FooterMenu)`
   flex-direction: column;
   justify-content: space-around;
+  align-items: start;
   min-height: 80%;
   width: min-content;
 `
@@ -53,7 +46,6 @@ const Footer = () => {
           <br />
           <p>Zimmermannstraße 26/27 - 10969 Berlin</p>
         </StyledAdress>
-        {/* <StyledMenu /> */}
         <StyledFooterMenu />
       </Wrapper>
     </Grid>

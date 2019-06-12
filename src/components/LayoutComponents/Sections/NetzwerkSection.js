@@ -7,7 +7,7 @@ import { Button, Card } from "../layoutIndex"
 import { netzwerk } from "../../../images/imageIndex"
 
 const BackgroundGradient = styled.div`
-  background: rgb(99, 249, 85);
+  background: rgb(var(--main-color));
   background-image: url(${netzwerk});
   background-image: url(${netzwerk}), linear-gradient(var(--main-gradient));
   background-position: center;
@@ -27,7 +27,7 @@ const PositionedSection = styled.section`
 `
 
 const PositionedCard = styled(Card)`
-  max-width: 40%;
+  max-width: 35%;
   margin: 1em 0em;
 
   @media (max-width: 800px) {
