@@ -1,6 +1,7 @@
+import Header from "./Header/Header"
+import Footer from "./Footer/Footer"
 import Button from "./Button"
 import Card from "./Card"
-import Header from "./Header"
 import Logo from "./Logo"
 import SVGBackgroundImage from "./SVGBackgroundImage"
 import ProjekteSection from "./Sections/ProjekteSection"
@@ -13,6 +14,7 @@ export {
   Card,
   Header,
   Logo,
+  Footer,
   ProjekteSection,
   ArbeitsweiseSection,
   SVGBackgroundImage,

@@ -1,30 +1,39 @@
 import React from "react"
-import useMenuEntries from "../hooks/useMenuEntries"
 import styled from "styled-components"
-import Logo from "./Logo"
+
+import Logo from "../Logo"
+import Menu from "./Menu"
 
 const Grid = styled.div`
   background: #fafbfb;
   padding: 0.4em;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
-  align-items: center;
 `
 const HeaderWrapper = styled.div`
   grid-column: 2 / span 1;
-  align-items: center;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+`
+
+const StyledLogo = styled(Logo)`
+  width: 8em;
+  height: 100%;
+`
+
+const StyledMenu = styled(Menu)`
+  min-width: min-content;
+  max-width: max-content;
   justify-content: space-between;
 `
 
 const Header = () => {
-  const Menu = useMenuEntries()
-
   return (
     <Grid>
       <HeaderWrapper>
-        <Logo />
-        <Menu />
+        <StyledLogo />
+        <StyledMenu />
       </HeaderWrapper>
     </Grid>
   )

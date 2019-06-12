@@ -2,10 +2,10 @@ import LogoLarge from "../../svgs/LogoLarge"
 import { Link } from "gatsby"
 import React from "react"
 
-const Logo = () => {
+const Logo = ({ className }) => {
   return (
     <Link to="/">
-      <LogoLarge height="2em" width="6em" />
+      <LogoLarge className={className} />
     </Link>
   )
 }

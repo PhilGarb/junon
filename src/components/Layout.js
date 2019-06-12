@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import styled from "styled-components"
 
 import { GlobalStyle } from "./GlobalStyle"
-import Header from "./LayoutComponents/Header"
+import { Header, Footer } from "./LayoutComponents/layoutIndex"
 
 const Grid = styled.div`
   display: grid;
@@ -24,6 +24,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Header />
       <Grid>{children}</Grid>
+      <Footer />
     </>
   )
 }
