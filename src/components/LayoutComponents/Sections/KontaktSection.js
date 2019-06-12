@@ -32,18 +32,28 @@ const PositionedCard = styled(Card)`
     align-self: stretch;
   }
 
-  input {
+  .input {
     display: block;
-    width: 100%;
+    width: 95%;
     height: 3em;
-    background-color: rgb(var(--light-gray));
-    border: 1px solid rgb(var(--dark-gray));
-    border-radius: 10px;
+    padding: 0 1em;
+    background-color: rgb(var(--dark-gray), 0.5);
+    border: none;
+    border-bottom: 5px solid transparent;
     margin: 1em 0em;
+    outline: none;
+    transition: all 100ms ease-in;
+
+    :focus {
+      background-color: rgb(var(--tertiary-color));
+      border-bottom: 5px solid rgb(var(--dark-gray), 0.5);
+      color: white;
+    }
   }
 
   #description {
-    height: 10em;
+    resize: none;
+    padding: 1em 1em;
   }
 `
 
@@ -54,10 +64,15 @@ const ProjekteSection = () => {
         <h1>Interesse oder Fragen?</h1>
         <h2>Schreib uns:</h2>
         <form action="#">
-          <label htmlFor="email">E-Mail</label>
-          <input type="email" name="email" id="email" />
-          <label htmlFor="description">Anliegen</label>
-          <input type="text" name="description" id="description" />
+          <label htmlFor="email">E-Mail:</label>
+          <input type="email" name="email" id="email" className="input" />
+          <label htmlFor="description">Anliegen:</label>
+          <textarea
+            type="text"
+            name="description"
+            id="description"
+            className="input"
+          />
           <Button>Senden</Button>
         </form>
       </PositionedCard>
