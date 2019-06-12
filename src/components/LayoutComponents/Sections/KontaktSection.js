@@ -40,6 +40,7 @@ const PositionedCard = styled(Card)`
     background-color: rgb(var(--dark-gray), 0.5);
     border: none;
     border-bottom: 5px solid transparent;
+    border-radius: 5px;
     margin: 1em 0em;
     outline: none;
     transition: all 100ms ease-in;
