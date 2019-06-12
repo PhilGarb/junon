@@ -40,10 +40,6 @@ const PositionedCard = styled(Card)`
     border: 1px solid rgb(var(--dark-gray));
     border-radius: 10px;
     margin: 1em 0em;
-
-    ::placeholder {
-      text-align: left;
-    }
   }
 
   #description {

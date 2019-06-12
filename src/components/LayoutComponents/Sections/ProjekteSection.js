@@ -10,7 +10,7 @@ const PositionedSection = styled.section`
   grid-column: 2 / 3;
   display: grid;
   grid-template-columns: 40% 1fr;
-  grid-gap: 2em 2em;
+  grid-gap: 2em 5em;
   min-height: 80vmin;
   align-content: center;
   justify-content: center;

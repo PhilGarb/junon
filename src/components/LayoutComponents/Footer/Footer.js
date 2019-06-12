@@ -31,7 +31,7 @@ const StyledFooterMenu = styled(FooterMenu)`
   flex-direction: column;
   justify-content: space-around;
   align-items: start;
-  min-height: 80%;
+  min-height: min-content;
   width: min-content;
 `
 
