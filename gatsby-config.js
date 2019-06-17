@@ -26,6 +26,7 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-styled-components`,
     {
+      //FIXME not updated
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
