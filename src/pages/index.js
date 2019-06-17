@@ -45,7 +45,7 @@ export const query = graphql`
     file(relativePath: { regex: "/Background/" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid
         }
       }
     }
