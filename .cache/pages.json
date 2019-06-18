@@ -20,11 +20,6 @@
         "path": "/impressum/"
     },
     {
-        "componentChunkName": "component---src-pages-kontakt-js",
-        "jsonName": "kontakt-8ac",
-        "path": "/kontakt/"
-    },
-    {
         "componentChunkName": "component---src-pages-netzwerk-js",
         "jsonName": "netzwerk-bd3",
         "path": "/netzwerk/"

@@ -5,10 +5,10 @@ import Card from "./Card"
 import Logo from "./Logo"
 import Link from "./Link"
 import SVGBackgroundImage from "./SVGBackgroundImage"
-import ProjekteSection from "./Sections/ProjekteSection"
-import NetzwerkSection from "./Sections/NetzwerkSection"
-import ArbeitsweiseSection from "./Sections/ArbeitsweiseSection"
-import KontaktSection from "./Sections/KontaktSection"
+import ProjekteSection from "./HomepageSections/ProjekteSection"
+import NetzwerkSection from "./HomepageSections/NetzwerkSection"
+import ArbeitsweiseSection from "./HomepageSections/ArbeitsweiseSection"
+import KontaktSection from "./HomepageSections/KontaktSection"
 
 export {
   Button,

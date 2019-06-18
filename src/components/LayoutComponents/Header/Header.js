@@ -23,8 +23,9 @@ const StyledLogo = styled(Logo)`
 `
 
 const StyledMenu = styled(Menu)`
-  min-width: min-content;
-  max-width: max-content;
+  min-width: 40%;
+  max-width: 60%;
+  margin: 0.5em;
   justify-content: space-between;
 `
 

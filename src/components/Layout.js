@@ -7,9 +7,8 @@ import { Header, Footer } from "./LayoutComponents/layoutIndex"
 
 const Grid = styled.div`
   display: grid;
-  grid-template-areas: "sidebar1 content sidebar2";
-  grid-area: content;
   grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: auto 1fr auto;
   background-color: rgb(var(--light-gray));
   grid-gap: 5em 0;
 

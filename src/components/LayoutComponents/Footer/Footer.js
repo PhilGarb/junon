@@ -6,7 +6,7 @@ import FooterMenu from "./FooterMenu"
 
 const Grid = styled.div`
   background: #fafbfb;
-  padding: 1em;
+  padding: 5em 0 2em;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
 `
@@ -14,8 +14,6 @@ const Wrapper = styled.div`
   grid-column: 2 / span 1;
   align-items: center;
   display: flex;
-  height: 100%;
-  min-height: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
 `
@@ -31,8 +29,8 @@ const StyledFooterMenu = styled(FooterMenu)`
   flex-direction: column;
   justify-content: space-around;
   align-items: start;
-  min-height: min-content;
-  width: min-content;
+  min-height: 100%;
+  min-width: min-content;
 `
 
 const Footer = () => {

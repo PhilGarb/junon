@@ -5,7 +5,6 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   color: rgb(var(--dark-gray));
   padding: 0.5em;
-  margin: 0.8em;
   border-bottom: 10px solid transparent;
   border-radius: 10px;
   transition: all 200ms ease;
