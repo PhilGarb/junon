@@ -17,7 +17,8 @@ const StyledLink = styled(Link)`
   box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.5);
   transition: all 100ms ease-in;
 
-  :hover {
+  :hover,
+  :focus {
     background: linear-gradient(var(--main-gradient));
     color: rgb(var(--dark-gray));
   }

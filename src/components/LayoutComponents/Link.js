@@ -9,7 +9,8 @@ const StyledLink = styled(Link)`
   border-radius: 10px;
   transition: all 200ms ease;
 
-  :hover {
+  :hover,
+  :focus {
     border-bottom: 10px solid rgba(var(--tertiary-color), 0.7);
     background: rgba(var(--tertiary-color), 0.2);
   }
