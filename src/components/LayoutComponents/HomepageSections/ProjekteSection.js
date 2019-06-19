@@ -8,6 +8,7 @@ import { netzwerktreffen, projekte } from "../../../images/imageIndex"
 
 const PositionedSection = styled.section`
   grid-column: 2 / 3;
+  margin-top: 5em;
   display: grid;
   grid-template-columns: 40% 1fr;
   grid-gap: 2em 5em;

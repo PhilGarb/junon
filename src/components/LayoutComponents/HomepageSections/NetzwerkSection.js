@@ -13,6 +13,7 @@ const BackgroundGradient = styled.div`
   background-position: center;
   background-size: 95%, cover;
   background-repeat: no-repeat;
+  margin-top: 5em;
   grid-column: 1/ -1;
   display: grid;
   grid-template-columns: inherit;

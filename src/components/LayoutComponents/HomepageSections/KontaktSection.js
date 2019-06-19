@@ -14,6 +14,7 @@ const Background = styled.div`
   background-repeat: no-repeat;
   background-size: 70%, cover;
   background-position: bottom;
+  margin-top: 5em;
   min-height: 80vmin;
   display: flex;
   justify-content: center;

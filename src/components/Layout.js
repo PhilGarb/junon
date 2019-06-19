@@ -7,23 +7,24 @@ import { Header, Footer } from "./LayoutComponents/layoutIndex"
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid: auto / 1fr 4fr 1fr;
+  min-height: 100vh;
   background-color: rgb(var(--light-gray));
-  grid-gap: 5em 0;
 
-  @media (max-width: 35em) {
+  /* @media (max-width: 35em) {
     grid-template-columns: 1fr;
-  }
+  } */
 `
 
 const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <Header />
-      <Grid>{children}</Grid>
-      <Footer />
+      <Grid>
+        <Header />
+        {children}
+        <Footer />
+      </Grid>
     </>
   )
 }

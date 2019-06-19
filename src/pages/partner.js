@@ -22,6 +22,7 @@ const StyledContent = styled.div`
 const StyledSVGBackgroundImage = styled(SVGBackgroundImage)`
   min-width: 40%;
   flex-basis: 40em;
+  background-position: right;
 `
 
 const Partner = () => (
