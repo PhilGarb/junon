@@ -11,7 +11,7 @@ const HeaderWrapper = styled.div`
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0.5em;
+  padding: 0.5em 0;
 `
 
 const StyledLogo = styled(Logo)`
