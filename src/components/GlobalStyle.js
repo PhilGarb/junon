@@ -3,6 +3,7 @@ import "typeface-rubik"
 
 export const GlobalStyle = createGlobalStyle`
   html {
+
     ${`` /* Color Scheme */}
     --primary-color: 82, 242, 231; //rgb(82, 242, 231)
     --secondary-color: 100, 249, 84; //rgb(100, 249, 84)
@@ -27,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: "Rubik";
+    font-family: "Rubik", sans-serif;
     color: rgb(var(--dark-gray));
   }
 

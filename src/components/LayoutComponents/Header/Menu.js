@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { Link } from "../layoutIndex"
 import useMenuEntries from "../../hooks/useMenuEntries"
 
-const StyledMenu = styled.div`
+const StyledMenu = styled.nav`
   display: flex;
   justify-content: space-between;
 `

@@ -13,6 +13,7 @@ const PositionedSection = styled.section`
   background-image: url(${teams});
   background-size: contain;
   background-position: center;
+  margin-top: 5em;
   background-repeat: no-repeat;
   align-items: flex-start;
 `

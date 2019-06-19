@@ -4,39 +4,33 @@ import styled from "styled-components"
 import Logo from "../Logo"
 import Menu from "./Menu"
 
-const Grid = styled.div`
-  background: #fafbfb;
-  padding: 0.4em;
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-`
 const HeaderWrapper = styled.div`
   grid-column: 2 / span 1;
+  width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5em;
 `
 
 const StyledLogo = styled(Logo)`
   width: 8em;
-  height: 100%;
+  cursor: pointer;
 `
 
 const StyledMenu = styled(Menu)`
-  min-width: 40%;
-  max-width: 60%;
-  margin: 0.5em;
+  margin-top: 0.5em;
   justify-content: space-between;
+  align-items: center;
 `
 
 const Header = () => {
   return (
-    <Grid>
-      <HeaderWrapper>
-        <StyledLogo />
-        <StyledMenu />
-      </HeaderWrapper>
-    </Grid>
+    <HeaderWrapper>
+      <StyledLogo />
+      <StyledMenu />
+    </HeaderWrapper>
   )
 }
 
