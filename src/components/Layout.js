@@ -7,13 +7,9 @@ import { Header, Footer } from "./LayoutComponents/layoutIndex"
 
 const Grid = styled.div`
   display: grid;
-  grid: auto / 1fr 4fr 1fr;
+  grid: max-content auto / 1fr 4fr 1fr;
   min-height: 100vh;
   background-color: rgb(var(--light-gray));
-
-  /* @media (max-width: 35em) {
-    grid-template-columns: 1fr;
-  } */
 `
 
 const Layout = ({ children }) => {
