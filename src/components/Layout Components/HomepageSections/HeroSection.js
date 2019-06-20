@@ -10,6 +10,7 @@ const StyledBackgroundImage = styled(BackgroundImage)`
   display: grid;
   grid: inherit;
   grid-template-rows: 1fr;
+  background-repeat: no-repeat;
 `
 
 const PositionedCard = styled(Card)`
