@@ -8,51 +8,58 @@ import {
 } from "../components/ComponentsIndex"
 import { DGVN_logo_SVG } from "../images/ImageIndex"
 
-const StyledSection = styled.section`
+const Content = styled.section`
   grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+`
+
+const Item = styled.div`
   display: flex;
 `
 
-const StyledContent = styled.div`
+const StyledText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: start;
 `
 
 const StyledSVGBackgroundImage = styled(SVGBackgroundImage)`
-  min-width: 40%;
   flex-basis: 40em;
-  background-position: right;
+  background-position: top;
 `
 
 const Partner = () => (
   <Layout>
-    <StyledSection>
-      <StyledContent>
-        <h1>DGVN</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          voluptatem eos repellat fugiat, laudantium amet corporis autem
-          voluptates cumque dolorem laboriosam sed placeat quos consectetur
-          deserunt a. Architecto, dignissimos praesentium?
-        </p>
-        <Button>Mehr erfahren</Button>
-      </StyledContent>
-      <StyledSVGBackgroundImage img={DGVN_logo_SVG} />
-    </StyledSection>
-    <StyledSection>
-      <StyledContent>
-        <h1>UNYANET</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          voluptatem eos repellat fugiat, laudantium amet corporis autem
-          voluptates cumque dolorem laboriosam sed placeat quos consectetur
-          deserunt a. Architecto, dignissimos praesentium?
-        </p>
-        <Button>Mehr erfahren</Button>
-      </StyledContent>
-      <StyledSVGBackgroundImage img={DGVN_logo_SVG} />
-    </StyledSection>
+    <Content>
+      <Item>
+        <StyledSVGBackgroundImage img={DGVN_logo_SVG} />
+        <StyledText>
+          <h1>DGVN</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            voluptatem eos repellat fugiat, laudantium amet corporis autem
+            voluptates cumque dolorem laboriosam sed placeat quos consectetur
+            deserunt a. Architecto, dignissimos praesentium?
+          </p>
+          <Button>Mehr erfahren</Button>
+        </StyledText>
+      </Item>
+      <Item>
+        <StyledSVGBackgroundImage img={DGVN_logo_SVG} />
+        <StyledText>
+          <h1>UNYANET</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            voluptatem eos repellat fugiat, laudantium amet corporis autem
+            voluptates cumque dolorem laboriosam sed placeat quos consectetur
+            deserunt a. Architecto, dignissimos praesentium?
+          </p>
+          <Button>Mehr erfahren</Button>
+        </StyledText>
+      </Item>
+    </Content>
   </Layout>
 )
 

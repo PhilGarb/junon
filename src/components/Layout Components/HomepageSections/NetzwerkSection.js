@@ -1,5 +1,3 @@
-// TODO This is not really a hook, because it is not reusable
-
 import React from "react"
 import styled from "styled-components"
 

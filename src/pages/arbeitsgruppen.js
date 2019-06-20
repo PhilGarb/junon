@@ -10,6 +10,7 @@ const Background = styled.div`
   grid-column: 1/ -1;
   display: grid;
   grid: inherit;
+  align-content: center;
 `
 
 const Content = styled.div`
@@ -24,6 +25,7 @@ const Text = styled(Card)`
 
 const StyledSVGBackgroundImage = styled(SVGBackgroundImage)`
   flex-basis: 50%;
+  margin: 2em 0 2em 2em;
 `
 
 const Arbeitsgruppen = () => {
