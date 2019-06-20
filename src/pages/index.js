@@ -7,30 +7,28 @@ import {
   ArbeitsweiseSection,
   NetzwerkSection,
   KontaktSection,
+  HeroSection,
 } from "../components/ComponentsIndex"
-import { useHero } from "../hooks/hookIndex"
 
 const index = ({ data }) => {
-  const Hero = useHero()
-
   const {
     file: {
       childImageSharp: {
-        fluid: { ...backgroundImage },
+        fluid: { ...backgroundImg },
       },
     },
   } = data
 
   return (
     <Layout>
-      <Hero
+      <HeroSection
         card={
           <>
             <h2>Willkommen auf der offiziellen Seite des</h2>
             <h1>Jungen UNO Netzwerk Deutschland e.V.</h1>
           </>
         }
-        img={backgroundImage}
+        backgroundImg={backgroundImg}
       />
       <ProjekteSection />
       <NetzwerkSection />

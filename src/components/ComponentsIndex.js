@@ -12,6 +12,7 @@ import SVGBackgroundImage from "./Image Components/SVGBackgroundImage"
 import BackgroundImage from "./Image Components/BackgroundImage"
 
 //Homepage Section Components
+import HeroSection from "./Layout Components/HomepageSections/HeroSection"
 import ProjekteSection from "./Layout Components/HomepageSections/ProjekteSection"
 import NetzwerkSection from "./Layout Components/HomepageSections/NetzwerkSection"
 import ArbeitsweiseSection from "./Layout Components/HomepageSections/ArbeitsweiseSection"
@@ -27,6 +28,7 @@ export {
   Logo,
   SVGBackgroundImage,
   BackgroundImage,
+  HeroSection,
   ProjekteSection,
   ArbeitsweiseSection,
   NetzwerkSection,
