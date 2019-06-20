@@ -42,5 +42,6 @@ export const GlobalStyle = createGlobalStyle`
 
   p {
     font-weight: 400;
+    line-height: 1.5em;
   }
 `

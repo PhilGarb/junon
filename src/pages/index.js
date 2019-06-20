@@ -14,7 +14,7 @@ const index = ({ data }) => {
   const {
     file: {
       childImageSharp: {
-        fluid: { ...backgroundImg },
+        fluid: { ...img },
       },
     },
   } = data
@@ -28,7 +28,7 @@ const index = ({ data }) => {
             <h1>Jungen UNO Netzwerk Deutschland e.V.</h1>
           </>
         }
-        backgroundImg={backgroundImg}
+        img={img}
       />
       <ProjekteSection />
       <NetzwerkSection />

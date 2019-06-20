@@ -20,9 +20,9 @@ const PositionedCard = styled(Card)`
   border-bottom-right-radius: 0;
 `
 
-const HeroSection = ({ className, card, backgroundImg }) => {
+const HeroSection = ({ className, card, img }) => {
   return (
-    <StyledBackgroundImage className={className} backgroundImg={backgroundImg}>
+    <StyledBackgroundImage className={className} img={img}>
       <PositionedCard>{card}</PositionedCard>
     </StyledBackgroundImage>
   )

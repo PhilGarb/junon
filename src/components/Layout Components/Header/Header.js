@@ -4,18 +4,22 @@ import styled from "styled-components"
 import Logo from "../../Image Components/Logo"
 import Menu from "./Menu"
 
+const Background = styled.div`
+  grid-column: 1/ -1;
+  box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.5);
+  padding: 0.2em 0;
+  display: grid;
+  grid: inherit;
+  z-index: 1;
+`
+
 const HeaderWrapper = styled.div`
   grid-column: 2 / span 1;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0.5em 0;
-  align-items: center;
 
-  @media (max-width: 70em) {
-    justify-content: center;
-  }
+  align-items: center;
 `
 
 const StyledLogo = styled(Logo)`
@@ -30,10 +34,12 @@ const StyledMenu = styled(Menu)`
 
 const Header = () => {
   return (
-    <HeaderWrapper>
-      <StyledLogo />
-      <StyledMenu />
-    </HeaderWrapper>
+    <Background>
+      <HeaderWrapper>
+        <StyledLogo />
+        <StyledMenu />
+      </HeaderWrapper>
+    </Background>
   )
 }
 

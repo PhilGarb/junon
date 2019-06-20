@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Layout, SVGBackgroundImage, Card } from "../components/ComponentsIndex"
+import { Layout, SVGImage, Card } from "../components/ComponentsIndex"
 import { struktur_SVG } from "../images/ImageIndex"
 
 const Background = styled.div`
@@ -16,16 +16,18 @@ const Background = styled.div`
 const Content = styled.div`
   grid-column: 2 / 3;
   display: flex;
+  flex-wrap: wrap;
 `
 
 const Text = styled(Card)`
-  flex-basis: 50%;
-  margin: 2em 2em 2em 0;
+  flex: 2 1 100%;
+  min-width: min-content;
+  margin: 1em;
 `
 
-const StyledSVGBackgroundImage = styled(SVGBackgroundImage)`
-  flex-basis: 50%;
-  margin: 2em 0 2em 2em;
+const StyledSVGImage = styled(SVGImage)`
+  flex: 1 1 100%;
+  margin: 1em 3em 3em 3em;
 `
 
 const Arbeitsgruppen = () => {
@@ -61,7 +63,7 @@ const Arbeitsgruppen = () => {
               stimmberechtigt und hat eine Stimme.
             </p>
           </Text>
-          <StyledSVGBackgroundImage img={struktur_SVG} />
+          <StyledSVGImage img={struktur_SVG} />
         </Content>
       </Background>
     </Layout>

@@ -10,6 +10,7 @@ import Link from "./UI Components/Link"
 import Logo from "./Image Components/Logo"
 import SVGBackgroundImage from "./Image Components/SVGBackgroundImage"
 import BackgroundImage from "./Image Components/BackgroundImage"
+import SVGImage from "./Image Components/SVGImage"
 
 //Homepage Section Components
 import HeroSection from "./Layout Components/HomepageSections/HeroSection"
@@ -28,6 +29,7 @@ export {
   Logo,
   SVGBackgroundImage,
   BackgroundImage,
+  SVGImage,
   HeroSection,
   ProjekteSection,
   ArbeitsweiseSection,
