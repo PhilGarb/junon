@@ -3,13 +3,13 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Button, Card } from "../layoutIndex"
-import { kontakt } from "../../../images/imageIndex"
+import { Button, Card } from "../../ComponentsIndex"
+import { kontakt_SVG } from "../../../images/ImageIndex"
 
 const Background = styled.div`
   background: rgb(var(--main-color));
-  background-image: url(${kontakt});
-  background-image: url(${kontakt}), linear-gradient(var(--main-gradient));
+  background-image: url(${kontakt_SVG});
+  background-image: url(${kontakt_SVG}), linear-gradient(var(--main-gradient));
   grid-column: 1/ -1;
   background-repeat: no-repeat;
   background-size: 70%, cover;

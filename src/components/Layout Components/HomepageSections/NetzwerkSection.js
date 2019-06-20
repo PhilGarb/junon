@@ -3,13 +3,13 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Button, Card } from "../layoutIndex"
-import { netzwerk } from "../../../images/imageIndex"
+import { Button, Card } from "../../ComponentsIndex"
+import { netzwerk_SVG } from "../../../images/ImageIndex"
 
 const BackgroundGradient = styled.div`
   background: rgb(var(--main-color));
-  background-image: url(${netzwerk});
-  background-image: url(${netzwerk}), linear-gradient(var(--main-gradient));
+  background-image: url(${netzwerk_SVG});
+  background-image: url(${netzwerk_SVG}), linear-gradient(var(--main-gradient));
   background-position: center;
   background-size: 95%, cover;
   background-repeat: no-repeat;

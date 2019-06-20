@@ -1,12 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 
-import Layout from "../components/Layout"
 import {
+  Layout,
   Button,
   SVGBackgroundImage,
-} from "../components/LayoutComponents/layoutIndex"
-import DGVN_Logo from "../images/Partner/DGVN_Bildmarke_blue_400px.svg"
+} from "../components/ComponentsIndex"
+import { DGVN_logo_SVG } from "../images/ImageIndex"
 
 const StyledSection = styled.section`
   grid-column: 2/3;
@@ -38,7 +38,7 @@ const Partner = () => (
         </p>
         <Button>Mehr erfahren</Button>
       </StyledContent>
-      <StyledSVGBackgroundImage img={DGVN_Logo} />
+      <StyledSVGBackgroundImage img={DGVN_logo_SVG} />
     </StyledSection>
     <StyledSection>
       <StyledContent>
@@ -51,7 +51,7 @@ const Partner = () => (
         </p>
         <Button>Mehr erfahren</Button>
       </StyledContent>
-      <StyledSVGBackgroundImage img={DGVN_Logo} />
+      <StyledSVGBackgroundImage img={DGVN_logo_SVG} />
     </StyledSection>
   </Layout>
 )

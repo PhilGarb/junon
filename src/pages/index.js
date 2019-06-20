@@ -1,14 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/Layout"
 import {
+  Layout,
   ProjekteSection,
   ArbeitsweiseSection,
   NetzwerkSection,
   KontaktSection,
-} from "../components/LayoutComponents/layoutIndex"
-import { useHero } from "../components/hooks/hookIndex"
+} from "../components/ComponentsIndex"
+import { useHero } from "../hooks/hookIndex"
 
 const index = ({ data }) => {
   const Hero = useHero()

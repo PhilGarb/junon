@@ -1,16 +1,14 @@
-// TODO This is not really a hook, because it is not reusable
-
 import React from "react"
 import styled from "styled-components"
 
-import { Button, Card } from "../layoutIndex"
-import { teams } from "../../../images/imageIndex"
+import { Button, Card } from "../../ComponentsIndex"
+import { teams_SVG } from "../../../images/ImageIndex"
 
 const PositionedSection = styled.section`
   grid-column: 2 / 3;
   min-height: 80vmin;
   display: grid;
-  background-image: url(${teams});
+  background-image: url(${teams_SVG});
   background-size: contain;
   background-position: center;
   margin-top: 5em;

@@ -1,12 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
-import Layout from "../components/Layout"
-import {
-  SVGBackgroundImage,
-  Card,
-} from "../components/LayoutComponents/layoutIndex"
-import struktur from "../images/Arbeitsgruppen/Struktur.svg"
+import { Layout, SVGBackgroundImage, Card } from "../components/ComponentsIndex"
+import { struktur_SVG } from "../images/ImageIndex"
 
 const Background = styled.div`
   background: rgb(var(--main-color));
@@ -14,7 +10,6 @@ const Background = styled.div`
   grid-column: 1/ -1;
   display: grid;
   grid: inherit;
-  align-content: center;
 `
 
 const Content = styled.div`
@@ -64,7 +59,7 @@ const Arbeitsgruppen = () => {
               stimmberechtigt und hat eine Stimme.
             </p>
           </Text>
-          <StyledSVGBackgroundImage img={struktur} />
+          <StyledSVGBackgroundImage img={struktur_SVG} />
         </Content>
       </Background>
     </Layout>

@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Link } from "../layoutIndex"
+import { Link } from "../../ComponentsIndex"
 
 const FooterMenu = ({ className }) => {
   return (

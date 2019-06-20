@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import Logo from "../Logo"
+import Logo from "../../Image Components/Logo"
 import FooterMenu from "./FooterMenu"
 
 const Wrapper = styled.div`

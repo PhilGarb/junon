@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "../layoutIndex"
-import useMenuEntries from "../../hooks/useMenuEntries"
+import { Link } from "../../ComponentsIndex"
+import useMenuEntries from "../../../hooks/useMenuEntries"
 
 const StyledMenu = styled.nav`
   display: flex;

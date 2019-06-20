@@ -3,8 +3,8 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Button, SVGBackgroundImage, Card } from "../layoutIndex"
-import { netzwerktreffen, projekte } from "../../../images/imageIndex"
+import { Button, SVGBackgroundImage, Card } from "../../ComponentsIndex"
+import { netzwerktreffen_SVG, projekte_SVG } from "../../../images/ImageIndex"
 
 const PositionedSection = styled.section`
   grid-column: 2 / 3;
@@ -40,7 +40,7 @@ const ProjekteSection = () => {
   return (
     <PositionedSection>
       <h1>Projekte</h1>
-      <SVGBackgroundImage img={netzwerktreffen} />
+      <SVGBackgroundImage img={netzwerktreffen_SVG} />
       <PositionedCard>
         <h2>Netzwerktreffen</h2>
         <p>
@@ -51,7 +51,7 @@ const ProjekteSection = () => {
         <p>Komm für ein Wochenende nach München es geht auf uns!</p>
         <Button>Anmeldung</Button>
       </PositionedCard>
-      <SVGBackgroundImage img={projekte} />
+      <SVGBackgroundImage img={projekte_SVG} />
       <PositionedCard>
         <h2>Unsere Arbeit</h2>
         <p>

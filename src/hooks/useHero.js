@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import BackgroundImage from "gatsby-background-image"
 
-import { Card } from "../LayoutComponents/layoutIndex"
+import { Card } from "../components/ComponentsIndex"
 
 const StyledBackgroundImage = styled(BackgroundImage)`
   background: linear-gradient(var(--main-gradient));
