@@ -29,10 +29,12 @@ const StyledLogo = styled(Logo)`
   flex: none;
   width: 8em;
   cursor: pointer;
+  margin: 1em 0;
 `
 
 const StyledMenu = styled(Menu)`
   justify-content: space-between;
+  flex-wrap: wrap;
 
   @media (max-width: 50em) {
     flex: 100%;

@@ -17,8 +17,9 @@ const PositionedSection = styled.section`
 `
 const SectionParagraph = styled(Card)`
   width: 40%;
-  @media (max-width: 1000px) {
+  @media (max-width: 50em) {
     justify-self: center;
+    width: 70%;
   }
 `
 

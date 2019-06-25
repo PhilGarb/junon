@@ -26,7 +26,7 @@ const PositionedSection = styled.section`
 `
 
 const PositionedCard = styled(Card)`
-  max-width: 35%;
+  max-width: 40%;
   margin: 1em 0em;
 
   @media (max-width: 800px) {
