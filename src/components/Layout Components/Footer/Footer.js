@@ -34,12 +34,14 @@ const StyledAdress = styled.div`
 
 const StyledLogo = styled(Logo)`
   width: 8em;
+  margin: 1em 0;
 `
 
 const StyledFooterMenu = styled(FooterMenu)`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   @media (max-width: 50em) {
     flex-direction: row;

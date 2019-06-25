@@ -25,19 +25,26 @@ const PositionedCard = styled(Card)`
   h1 {
     border-bottom: 1px solid rgb(var(--dark-gray));
     padding-bottom: 1em;
+    margin: 0;
+  }
+
+  h2 {
+    margin: 0.5em 0 1em 0;
   }
 
   form {
     align-self: stretch;
+    display: flex;
+    flex-direction: column;
   }
 
   .input {
     display: block;
-    width: 95%;
     height: 3em;
     padding: 0 1em;
     background-color: rgb(var(--dark-gray), 0.5);
     border: none;
+
     border-bottom: 5px solid transparent;
     border-radius: 5px;
     margin: 1em 0em;

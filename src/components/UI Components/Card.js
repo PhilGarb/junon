@@ -7,7 +7,7 @@ const StyledCard = styled.div`
   background-color: rgba(var(--light-gray), 0.9);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   padding: 2rem;
   background-blend-mode: overlay;
