@@ -7,7 +7,7 @@ import FooterMenu from "./FooterMenu"
 const Background = styled.div`
   grid-column: 1/ -1;
   box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.5);
-  padding: 0.2em 0;
+
   display: grid;
   grid: inherit;
   z-index: 1;
@@ -15,11 +15,9 @@ const Background = styled.div`
 
 const Wrapper = styled.div`
   grid-column: 2 / span 1;
-  align-items: center;
+  padding: 2em 0;
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
-  padding-top: 1em;
 
   @media (max-width: 50em) {
     flex-wrap: wrap;
@@ -29,6 +27,9 @@ const Wrapper = styled.div`
 
 const StyledAdress = styled.div`
   font-size: smaller;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `
 
 const StyledLogo = styled(Logo)`
@@ -38,10 +39,9 @@ const StyledLogo = styled(Logo)`
 const StyledFooterMenu = styled(FooterMenu)`
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 
   @media (max-width: 50em) {
-    /* flex: 100%; */
     flex-direction: row;
   }
 `
@@ -52,10 +52,12 @@ const Footer = () => {
       <Wrapper>
         <StyledAdress>
           <StyledLogo />
-          <p>Junges UNO Netzwerk Deutschland e.V.</p>
-          <p>United Nations Youth Association Germany</p>
-          <br />
-          <p>Zimmermannstraße 26/27 - 10969 Berlin</p>
+          <div>
+            <p>Junges UNO Netzwerk Deutschland e.V.</p>
+            <p>United Nations Youth Association Germany</p>
+            <br />
+            <p>Zimmermannstraße 26/27 - 10969 Berlin</p>
+          </div>
         </StyledAdress>
         <StyledFooterMenu />
       </Wrapper>
