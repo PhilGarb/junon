@@ -40,7 +40,7 @@ const index = ({ data }) => {
 
 export const query = graphql`
   query HomepageQuery {
-    file(relativePath: { regex: "/Background/" }) {
+    file(relativePath: { regex: "/Hands/" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_tracedSVG

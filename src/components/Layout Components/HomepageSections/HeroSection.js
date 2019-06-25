@@ -5,12 +5,14 @@ import { Card, BackgroundImage } from "../../ComponentsIndex"
 
 const StyledBackgroundImage = styled(BackgroundImage)`
   background: linear-gradient(var(--main-gradient));
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
   height: 80vmin;
   grid-column: 1 / -1;
   display: grid;
   grid: inherit;
   grid-template-rows: 1fr;
-  background-repeat: no-repeat;
 `
 
 const PositionedCard = styled(Card)`

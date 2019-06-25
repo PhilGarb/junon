@@ -18,23 +18,32 @@ const Wrapper = styled.div`
   align-items: center;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: auto;
   padding-top: 1em;
+
+  @media (max-width: 50em) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `
 
 const StyledAdress = styled.div`
-  width: max-content;
   font-size: smaller;
 `
+
 const StyledLogo = styled(Logo)`
   width: 8em;
 `
 
 const StyledFooterMenu = styled(FooterMenu)`
   display: flex;
-  min-width: min-content;
-  align-self: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media (max-width: 50em) {
+    /* flex: 100%; */
+    flex-direction: row;
+  }
 `
 
 const Footer = () => {

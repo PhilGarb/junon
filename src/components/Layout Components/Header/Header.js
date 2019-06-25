@@ -16,20 +16,27 @@ const Background = styled.div`
 const HeaderWrapper = styled.div`
   grid-column: 2 / span 1;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-
   align-items: center;
+
+  @media (max-width: 50em) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `
 
 const StyledLogo = styled(Logo)`
+  flex: none;
   width: 8em;
   cursor: pointer;
 `
 
 const StyledMenu = styled(Menu)`
-  margin-top: 0.5em;
   justify-content: space-between;
+
+  @media (max-width: 50em) {
+    flex: 100%;
+  }
 `
 
 const Header = () => {
