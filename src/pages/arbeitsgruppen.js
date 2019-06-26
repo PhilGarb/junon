@@ -20,7 +20,7 @@ const Content = styled.div`
 `
 
 const Text = styled(Card)`
-  flex: 2 1 100%;
+  flex: 1 1 100%;
   min-width: min-content;
   margin: 1em;
 `

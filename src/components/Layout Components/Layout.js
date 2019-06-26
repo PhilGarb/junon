@@ -9,7 +9,7 @@ const GlobalGrid = styled.div`
   display: grid;
   grid: max-content auto max-content / 1fr 4fr 1fr;
   min-height: 100vh;
-  background-color: rgb(var(--light-gray));
+  background: rgb(var(--light-gray));
 
   @media (max-width: 70em) {
     grid: max-content auto max-content / 1fr 10fr 1fr;
