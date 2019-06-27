@@ -5,6 +5,41 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "delegiertenversammlung-2016-91a",
+        "path": "/Delegiertenversammlung 2016/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "delegiertenversammlung-2017-581",
+        "path": "/Delegiertenversammlung 2017/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "netzwerktreffen-2018-2b4",
+        "path": "/Netzwerktreffen 2018/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "netzwerktreffen-2019-889",
+        "path": "/Netzwerktreffen 2019/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "sdg-mondays-9ce",
+        "path": "/SDG Mondays/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "summer-school-2017-98d",
+        "path": "/Summer School 2017/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "workshop-tubingen-2016-279",
+        "path": "/Workshop Tübingen 2016/"
+    },
+    {
         "componentChunkName": "component---src-pages-arbeitsgruppen-js",
         "jsonName": "arbeitsgruppen-0b1",
         "path": "/arbeitsgruppen/"
@@ -28,11 +63,6 @@
         "componentChunkName": "component---src-pages-partner-js",
         "jsonName": "partner-512",
         "path": "/partner/"
-    },
-    {
-        "componentChunkName": "component---src-pages-projekt-js",
-        "jsonName": "projekt-e26",
-        "path": "/projekt/"
     },
     {
         "componentChunkName": "component---src-pages-projekte-js",

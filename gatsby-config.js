@@ -10,8 +10,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/content/`,
+        name: `mainPages`,
+        path: `${__dirname}/src/content/mainPages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projectSubPages`,
+        path: `${__dirname}/src/content/subPages/projekte`,
       },
     },
     {
@@ -34,7 +41,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 590,
+              maxWidth: 800,
             },
           },
         ],
