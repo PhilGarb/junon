@@ -13,7 +13,7 @@ const Content = styled.div`
   flex-wrap: wrap;
 `
 
-const StyledSVGBackgroundImage = styled(SVGImage)`
+const StyledSVGImage = styled(SVGImage)`
   flex: 1 1 45%;
 `
 
@@ -44,7 +44,7 @@ const Netzwerk = () => {
           <h2>Dann schreib uns:</h2>
           <Button>Kontakt</Button>
         </Text>
-        <StyledSVGBackgroundImage img={struktur_SVG} />
+        <StyledSVGImage img={struktur_SVG} />
       </Content>
     </Layout>
   )

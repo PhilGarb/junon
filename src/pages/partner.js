@@ -25,15 +25,15 @@ const StyledText = styled.div`
   align-items: start;
 `
 
-const StyledSVGBackgroundImage = styled(SVGImage)`
-  flex: 1 1 20%;
-  object-fit: scale-down;
+const StyledSVGImage = styled(SVGImage)`
+  flex: 1 1 30%;
+  object-fit: contain;
   object-position: top;
   margin: 0 3em;
 `
 
-const StyledBackgroundImage = styled(Image)`
-  flex: 1 1 20%;
+const StyledImage = styled(Image)`
+  flex: 1 1 30%;
   object-fit: contain;
   object-position: top;
   margin: 0 3em;
@@ -52,7 +52,7 @@ const Partner = ({ data }) => {
     <Layout>
       <Content>
         <Item>
-          <StyledSVGBackgroundImage img={DGVN_logo_SVG} />
+          <StyledSVGImage img={DGVN_logo_SVG} />
           <StyledText>
             <h1>DGVN</h1>
             <p>
@@ -65,7 +65,7 @@ const Partner = ({ data }) => {
           </StyledText>
         </Item>
         <Item>
-          <StyledBackgroundImage img={UNYANET_Logo} />
+          <StyledImage img={UNYANET_Logo} />
           <StyledText>
             <h1>UNYANET</h1>
             <p>

@@ -48,7 +48,7 @@ const Projekt = ({ data }) => {
 }
 
 export const query = graphql`
-  query ProjektByTitle($slug: String!) {
+  query ProjektPageByTitle($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
@@ -65,7 +65,5 @@ export const query = graphql`
     }
   }
 `
-
-// ($title: String!)
 
 export default Projekt

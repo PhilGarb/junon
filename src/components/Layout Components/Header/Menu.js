@@ -9,11 +9,11 @@ const StyledMenu = styled.nav`
 `
 
 const Menu = ({ className }) => {
-  const Entries = useMenuEntries()
+  const entries = useMenuEntries()
 
   return (
     <StyledMenu className={className}>
-      {Entries.map(entry => {
+      {entries.map(entry => {
         return (
           <Link
             key={entry.node.frontmatter.title}
