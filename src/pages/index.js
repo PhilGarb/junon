@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import styled from "styled-components"
 
 import {
   Layout,
@@ -7,8 +8,22 @@ import {
   ArbeitsweiseSection,
   NetzwerkSection,
   KontaktSection,
-  HeroSection,
+  Hero,
+  Card,
 } from "../components/ComponentsIndex"
+
+const StyledHero = styled(Hero)`
+  background-size: contain;
+  background-position: top;
+  height: 80vmin;
+`
+
+const PositionedCard = styled(Card)`
+  grid-column: 2;
+  align-self: flex-end;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+`
 
 const index = ({ data }) => {
   const {
@@ -21,15 +36,12 @@ const index = ({ data }) => {
 
   return (
     <Layout>
-      <HeroSection
-        card={
-          <>
-            <h2>Willkommen auf der offiziellen Seite des</h2>
-            <h1>Jungen UNO Netzwerk Deutschland e.V.</h1>
-          </>
-        }
-        img={heroImg}
-      />
+      <StyledHero img={heroImg}>
+        <PositionedCard>
+          <h2>Willkommen auf der offiziellen Seite des</h2>
+          <h1>Jungen UNO Netzwerk Deutschland e.V.</h1>
+        </PositionedCard>
+      </StyledHero>
       <ProjekteSection />
       <NetzwerkSection />
       <ArbeitsweiseSection />

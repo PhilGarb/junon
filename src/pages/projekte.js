@@ -1,8 +1,20 @@
-/* eslint-disable react/display-name */
 import React from "react"
+import styled from "styled-components"
 
-import { Layout } from "../components/ComponentsIndex"
+import { Layout, Hero } from "../components/ComponentsIndex"
 
-const Projekte = () => <Layout />
+const StyledHero = styled(Hero)`
+  grid-column: 2/3;
+`
+
+const Projekte = () => {
+  return (
+    <Layout>
+      <StyledHero>
+        <h1>test</h1>
+      </StyledHero>
+    </Layout>
+  )
+}
 
 export default Projekte

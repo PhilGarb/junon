@@ -9,7 +9,7 @@ import teams_SVG from "./Homepage/teams.svg"
 
 import struktur_SVG from "./Arbeitsgruppen/Struktur.svg"
 
-import DGVN_logo_SVG from "./Partner/DGVN_Bildmarke_blue_400px.svg"
+import DGVN_logo_SVG from "./Partner/DGVN_Logo.svg"
 import UNYANET_logo from "./Partner/UNYANET-Logo_Colour.png"
 
 export {

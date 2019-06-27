@@ -30,6 +30,11 @@
         "path": "/partner/"
     },
     {
+        "componentChunkName": "component---src-pages-projekt-js",
+        "jsonName": "projekt-e26",
+        "path": "/projekt/"
+    },
+    {
         "componentChunkName": "component---src-pages-projekte-js",
         "jsonName": "projekte-ac3",
         "path": "/projekte/"
