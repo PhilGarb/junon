@@ -8,8 +8,8 @@ import { DGVN_logo_SVG } from "../images/ImageIndex"
 const Content = styled.section`
   grid-column: 2/3;
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
-  justify-content: space-around;
 `
 
 const Item = styled.div`

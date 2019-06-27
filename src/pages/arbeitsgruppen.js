@@ -10,7 +10,6 @@ const Background = styled.div`
   grid-column: 1/ -1;
   display: grid;
   grid: inherit;
-  align-content: center;
 `
 
 const Content = styled.div`
