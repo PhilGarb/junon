@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import { Layout, Button, SVGImage } from "../components/ComponentsIndex"
-import { struktur_SVG } from "../images/ImageIndex"
+import { karte_SVG } from "../images/ImageIndex"
 
 const Content = styled.div`
   grid-column: 2 / 3;
@@ -44,7 +44,7 @@ const Netzwerk = () => {
           <h2>Dann schreib uns:</h2>
           <Button to="/#contact">Kontakt</Button>
         </Text>
-        <StyledSVGImage img={struktur_SVG} />
+        <StyledSVGImage img={karte_SVG} />
       </Content>
     </Layout>
   )

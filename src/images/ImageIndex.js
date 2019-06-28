@@ -6,6 +6,7 @@ import diagramm_SVG from "./Homepage/diagramm.svg"
 import kontakt_SVG from "./Homepage/kontakt.svg"
 import netzwerk_SVG from "./Homepage/netzwerk.svg"
 import teams_SVG from "./Homepage/teams.svg"
+import karte_SVG from "./Netzwerk/Karte.svg"
 
 import struktur_SVG from "./Arbeitsgruppen/Struktur.svg"
 
@@ -23,4 +24,5 @@ export {
   struktur_SVG,
   DGVN_logo_SVG,
   UNYANET_logo,
+  karte_SVG,
 }
