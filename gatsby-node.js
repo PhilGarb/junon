@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {

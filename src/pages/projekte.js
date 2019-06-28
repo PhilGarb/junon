@@ -64,7 +64,6 @@ const Projects = ({ data }) => {
                   signup,
                   startDate,
                   endDate,
-                  place,
                   titleImage: {
                     childImageSharp: {
                       fluid: { ...img },
@@ -73,14 +72,6 @@ const Projects = ({ data }) => {
                 },
               },
             } = project
-
-            let state = {
-              title,
-              startDate,
-              endDate,
-              place,
-              img,
-            }
 
             return (
               <StyledCard key={title}>
@@ -97,9 +88,7 @@ const Projects = ({ data }) => {
                     }
                   })()}
                   <p>{excerpt}</p>
-                  <StyledButton to={slug} state={state}>
-                    Mehr erfahren
-                  </StyledButton>
+                  <StyledButton to={slug}>Mehr erfahren</StyledButton>
                   {signup === true && <StyledButton>Anmeldung</StyledButton>}
                 </StyledText>
                 <StyledImage img={img} />

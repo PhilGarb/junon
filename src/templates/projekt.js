@@ -18,14 +18,23 @@ const PositionedCard = styled(Card)`
   justify-self: left;
 `
 
-const Projekt = ({ data, location }) => {
+const Projekt = ({ data }) => {
   const {
-    markdownRemark: { html: content },
+    markdownRemark: {
+      html: content,
+      frontmatter: {
+        title,
+        place,
+        startDate,
+        endDate,
+        titleImage: {
+          childImageSharp: {
+            fluid: { ...img },
+          },
+        },
+      },
+    },
   } = data
-
-  const {
-    state: { title, startDate, endDate, img, place },
-  } = location
 
   return (
     <Layout>
@@ -54,6 +63,20 @@ export const query = graphql`
   query ProjektPageByTitle($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      frontmatter {
+        title
+        place
+        signup
+        startDate(formatString: "DD.MM.YYYY", locale: "de-DE")
+        endDate(formatString: "DD.MM.YYYY", locale: "de-DE")
+        titleImage {
+          childImageSharp {
+            fluid(maxWidth: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
     }
   }
 `
