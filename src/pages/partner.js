@@ -26,15 +26,14 @@ const StyledText = styled.div`
 `
 
 const StyledSVGImage = styled(SVGImage)`
-  flex: 1 1 30%;
-  object-fit: contain;
+  flex-basis: 20em;
   object-position: top;
   margin: 0 3em;
 `
 
 const StyledImage = styled(Image)`
-  flex: 1 1 30%;
-  object-fit: contain;
+  flex-basis: 20em;
+  object-fit: scale-down;
   object-position: top;
   margin: 0 3em;
 `

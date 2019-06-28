@@ -16,6 +16,7 @@ const Content = styled.div`
   grid-column: 2 / 3;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 `
 
 const Text = styled(Card)`
@@ -25,7 +26,7 @@ const Text = styled(Card)`
 `
 
 const StyledSVGImage = styled(SVGImage)`
-  flex: 1 1 100%;
+  flex-basis: 70%;
   margin: 1em 3em 3em 3em;
 `
 
