@@ -1,7 +1,8 @@
 ---
 title: "Netzwerktreffen 2019"
 location: "München"
-date: "13.09.2019"
+dateFrom: "2019-09-06"
+dateTo: "2019-09-08"
 titleImage: "../../../images/Projekte/Netzwerktreffen 2019/München_Titelbild.jpg"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "SDG Mondays"
-date: "13.09.2019"
+dateFrom: "2019-01"
+dateTo: "2019-06"
 titleImage: "../../../images/Projekte/Sustainable_Development_Goals.jpg"
 ---
 

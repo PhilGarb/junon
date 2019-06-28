@@ -6,6 +6,12 @@ import { Layout, Card, Image } from "../components/ComponentsIndex"
 
 const Content = styled.div`
   grid-column: 2/3;
+  padding: 3em 0;
+
+  h1 {
+    border-bottom: 1px solid rgb(var(--dark-gray));
+    padding-bottom: 1em;
+  }
 `
 
 const ProjectList = styled.div`
@@ -51,6 +57,10 @@ const Projects = ({ data }) => {
               <StyledCard key={project.node.frontmatter.title}>
                 <StyledText>
                   <h1>{project.node.frontmatter.title}</h1>
+                  <h2>
+                    {`${project.node.frontmatter.dateFrom} -
+                    ${project.node.frontmatter.dateTo}`}
+                  </h2>
                   <p>{project.node.excerpt}</p>
                 </StyledText>
                 <StyledImage
@@ -68,13 +78,21 @@ const Projects = ({ data }) => {
 }
 
 export const query = graphql`
-  query ProjektByTitle {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/projekte//" } }) {
+  query PastProjektByTitle {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/projekte//" } }
+      sort: {
+        fields: [frontmatter___dateFrom, frontmatter___title]
+        order: DESC
+      }
+    ) {
       edges {
         node {
           excerpt(pruneLength: 200)
           frontmatter {
             title
+            dateFrom(formatString: "DD.MM.YYYY", locale: "de-DE")
+            dateTo(formatString: "DD.MM.YYYY", locale: "de-DE")
             titleImage {
               childImageSharp {
                 fluid(maxWidth: 1200) {

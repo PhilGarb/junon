@@ -1,7 +1,8 @@
 ---
 title: "Netzwerktreffen 2018"
 location: "Frankfurt an der Oder"
-date: "13.09.2019"
+dateFrom: "2018-09-13"
+dateTo: "2018-09-16"
 titleImage: "../../../images/Projekte/Netzwerktreffen 2018/FrankfurtOder_Titelbild2.jpg"
 ---
 
