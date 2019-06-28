@@ -37,7 +37,7 @@ const ProjekteSection = () => {
           Unsere Vorstandsmitglieder sowie die Mitgliedsgruppen und
           Fördermitglieder verteilen sich über ganz Deutschland.{` `}
         </p>
-        <Button>Mehr erfahren</Button>
+        <Button to="/arbeitsgruppen">Mehr erfahren</Button>
       </SectionParagraph>
     </PositionedSection>
   )

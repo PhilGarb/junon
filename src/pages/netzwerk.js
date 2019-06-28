@@ -42,7 +42,7 @@ const Netzwerk = () => {
           </p>
           <p>Hast du oder hat deine Gruppe Interesse mitzumachen?</p>
           <h2>Dann schreib uns:</h2>
-          <Button>Kontakt</Button>
+          <Button to="/#contact">Kontakt</Button>
         </Text>
         <StyledSVGImage img={struktur_SVG} />
       </Content>

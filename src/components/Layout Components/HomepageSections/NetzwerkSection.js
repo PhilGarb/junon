@@ -54,7 +54,7 @@ const ArbeitsweiseSection = () => {
             Als Netzwerk wollen wir aktiv das Interesse an Politik und den
             Wissenstransfer unserer Mitgliedsgruppen fördern.
           </p>
-          <Button>Mehr erfahren</Button>
+          <Button to="/netzwerk">Mehr erfahren</Button>
         </TopLeftCard>
         <BottomRightCard>
           <h1>Partner</h1>
@@ -63,7 +63,7 @@ const ArbeitsweiseSection = () => {
             bekennen wir uns zu den universellen Werten und der Zielen Vereinten
             Nationen.
           </p>
-          <Button>Mehr erfahren</Button>
+          <Button to="/partner">Mehr erfahren</Button>
         </BottomRightCard>
       </PositionedSection>
     </BackgroundGradient>

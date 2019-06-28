@@ -68,7 +68,7 @@ const ProjekteSection = () => {
   return (
     <Background>
       <PositionedCard>
-        <h1>Interesse oder Fragen?</h1>
+        <h1 id="contact">Interesse oder Fragen?</h1>
         <h2>Schreib uns:</h2>
         <form action="#">
           <label htmlFor="email">E-Mail:</label>

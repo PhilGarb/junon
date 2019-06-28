@@ -33,9 +33,9 @@ const ProjekteSection = () => {
           Dieses Jahr beschäftigen wir uns mit den Vereinten Nationen, Model
           United Nations und ihren Rollen zum Thema Umweltschutz.
         </p>
-        <Button>Mehr erfahren</Button>
+        <Button to="/Netzwerktreffen 2019">Mehr erfahren</Button>
         <p>Komm für ein Wochenende nach München es geht auf uns!</p>
-        <Button>Anmeldung</Button>
+        <Button to="/Netzwerktreffen 2019">Anmeldung</Button>
       </Card>
       <SVGImage img={netzwerktreffen_SVG} />
       <Card>
@@ -49,7 +49,7 @@ const ProjekteSection = () => {
           Delegiertenversammlungen und unterstützen bei der Realisierung neuer
           Projekte.
         </p>
-        <Button>Mehr erfahren</Button>
+        <Button to="/projekte">Mehr erfahren</Button>
       </Card>
       <SVGImage img={projekte_SVG} />
     </PositionedSection>
