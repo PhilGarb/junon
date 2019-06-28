@@ -69,21 +69,20 @@ const Projects = ({ data }) => {
               },
             } = project
 
-            const dates = (startDate, endDate) => {
-              if (startDate !== null || endDate !== null) {
-                if (endDate !== null) {
-                  return <h2>{`${startDate} - ${endDate}`}</h2>
-                } else {
-                  return <h2>{startDate}</h2>
-                }
-              }
-            }
-
             return (
               <StyledCard key={title}>
                 <StyledText>
                   <h1>{title}</h1>
-                  {dates}
+                  {(() => {
+                    switch ((startDate, endDate)) {
+                      case startDate && endDate === null:
+                        return null
+                      case endDate === null:
+                        return <h2>{startDate}</h2>
+                      default:
+                        return <h2>{`${startDate} - ${endDate}`}</h2>
+                    }
+                  })()}
                   <p>{excerpt}</p>
                   <Button
                     to={slug}

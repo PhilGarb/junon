@@ -1,6 +1,6 @@
 ---
 title: "Facebook Aktionen"
-titleImage: "../../../images/Projekte/Facebook Aktionen/Facebook_Aktion_3.jpg"
+titleImage: "../../../images/Projekte/Facebook Aktionen/Facebook_Aktion_2.jpg"
 ---
 
 Durch online Postings schaffen wir Aufmerksamkeit für Sondertage, Veranstaltungen und Publikationen oder Berichte der Vereinten Nationen.

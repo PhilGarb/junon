@@ -24,9 +24,9 @@ const StyledLink = styled(Link)`
   }
 `
 
-const Button = ({ children, to, state }) => {
+const Button = ({ children, to, state, className }) => {
   return (
-    <StyledLink to={to} state={state}>
+    <StyledLink to={to} state={state} className={className}>
       {children}
     </StyledLink>
   )
