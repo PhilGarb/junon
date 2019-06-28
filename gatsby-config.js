@@ -49,14 +49,14 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     {
-      //FIXME not updated
+      //TODO Icon is missing
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Junges UNO Netzwerk Deutschland e.V.`,
+        short_name: `JUNON`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `rgb(99, 147, 244)`,
+        theme_color: `rgb(99, 147, 244)`,
         display: `minimal-ui`,
         // icon can be specified here
       },
@@ -71,6 +71,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
   ],
 }
