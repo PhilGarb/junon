@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 
-import { Layout, Card, Image } from "../components/ComponentsIndex"
+import { Layout, Card, Image, Button } from "../components/ComponentsIndex"
 
 const Content = styled.div`
   grid-column: 2/3;
@@ -21,23 +21,21 @@ const ProjectList = styled.div`
 
 const StyledCard = styled(Card)`
   margin: 1em 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 2fr 20em;
   padding: 0;
+
+  @media (max-width: 50em) {
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 20em;
+  }
 `
 
 const StyledText = styled.div`
   padding: 3em;
-  flex: 3 1;
-  min-width: 30em;
 `
-
 const StyledImage = styled(Image)`
-  object-fit: cover;
-  height: 25em;
-  overflow: hidden;
-  flex: 1 1 10em;
+  height: 100%;
 `
 
 const Projects = ({ data }) => {
@@ -53,21 +51,42 @@ const Projects = ({ data }) => {
         <h1>Projekte</h1>
         <ProjectList>
           {projects.map(project => {
+            const {
+              node: {
+                excerpt,
+                fields: { slug },
+                frontmatter: {
+                  title,
+                  startDate,
+                  endDate,
+                  place,
+                  titleImage: {
+                    childImageSharp: {
+                      fluid: { ...img },
+                    },
+                  },
+                },
+              },
+            } = project
+
             return (
-              <StyledCard key={project.node.frontmatter.title}>
+              <StyledCard key={title}>
                 <StyledText>
-                  <h1>{project.node.frontmatter.title}</h1>
-                  <h2>
-                    {`${project.node.frontmatter.dateFrom} -
-                    ${project.node.frontmatter.dateTo}`}
-                  </h2>
-                  <p>{project.node.excerpt}</p>
+                  <h1>{title}</h1>
+                  {endDate === null ? (
+                    <h2>{startDate}</h2>
+                  ) : (
+                    <h2>{`${startDate} - ${endDate}`}</h2>
+                  )}
+                  <p>{excerpt}</p>
+                  <Button
+                    to={slug}
+                    state={{ title, startDate, endDate, img, place }}
+                  >
+                    Mehr erfahren
+                  </Button>
                 </StyledText>
-                <StyledImage
-                  img={
-                    project.node.frontmatter.titleImage.childImageSharp.fluid
-                  }
-                />
+                <StyledImage img={img} />
               </StyledCard>
             )
           })}
@@ -78,21 +97,25 @@ const Projects = ({ data }) => {
 }
 
 export const query = graphql`
-  query PastProjektByTitle {
+  query ProjektByTitle {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/projekte//" } }
       sort: {
-        fields: [frontmatter___dateFrom, frontmatter___title]
+        fields: [frontmatter___startDate, frontmatter___title]
         order: DESC
       }
     ) {
       edges {
         node {
           excerpt(pruneLength: 200)
+          fields {
+            slug
+          }
           frontmatter {
             title
-            dateFrom(formatString: "DD.MM.YYYY", locale: "de-DE")
-            dateTo(formatString: "DD.MM.YYYY", locale: "de-DE")
+            place
+            startDate(formatString: "DD.MM.YYYY", locale: "de-DE")
+            endDate(formatString: "DD.MM.YYYY", locale: "de-DE")
             titleImage {
               childImageSharp {
                 fluid(maxWidth: 1200) {

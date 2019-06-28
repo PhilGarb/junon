@@ -13,10 +13,10 @@ export const GlobalStyle = createGlobalStyle`
     --main-gradient: 28deg, rgba(99, 249, 85, 1) 0%, rgba(81, 242, 231, 1) 100%;
 
     ${`` /* Fluid Font-Scaling */}
-    font-size: 0.75em;
+    font-size: 0.65em;
 
     @media (min-width: 50em) {
-      font-size: calc(0.75em + 0.5 * ((100vw - 50em) / 50))
+      font-size: calc(0.65em + 0.6 * ((100vw - 50em) / 50))
     }
 
     @media (min-width: 100em) {

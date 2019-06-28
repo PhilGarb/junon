@@ -1,8 +1,8 @@
 ---
 title: "Delegiertenversammlung 2017"
-location: "Berlin"
-dateFrom: "2017-12-08"
-dateTo: "2017-12-10"
+place: "Berlin"
+startDate: "2017-12-08"
+endDate: "2017-12-10"
 titleImage: "../../../images/Projekte/Delegiertenversammlung 2017/Berlin_Titelbild.jpg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Workshop 2016"
-location: "Tübingen"
-dateFrom: "2017-05-20"
+place: "Tübingen"
+startDate: "2017-05-20"
 titleImage: "../../../images/Projekte/Tübingen_Titelbild.jpg"
 ---
 

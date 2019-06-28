@@ -18,28 +18,26 @@ const PositionedCard = styled(Card)`
   justify-self: left;
 `
 
-const Projekt = ({ data }) => {
+const Projekt = ({ data, location }) => {
   const {
-    markdownRemark: {
-      html: content,
-      frontmatter: {
-        title,
-        location,
-        titleImage: {
-          childImageSharp: {
-            fluid: { ...img },
-          },
-        },
-      },
-    },
+    markdownRemark: { html: content },
   } = data
+
+  const {
+    state: { title, startDate, endDate, img, place },
+  } = location
 
   return (
     <Layout>
       <StyledHero img={img}>
         <PositionedCard>
           <h1>{title}</h1>
-          {location !== null && <h2>in {location}</h2>}
+          {endDate === null ? (
+            <h3>{startDate}</h3>
+          ) : (
+            <h3>{`${startDate} - ${endDate}`}</h3>
+          )}
+          {place !== null && <h2>in {place}</h2>}
         </PositionedCard>
       </StyledHero>
       <Content dangerouslySetInnerHTML={{ __html: content }} />
@@ -51,17 +49,6 @@ export const query = graphql`
   query ProjektPageByTitle($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
-      frontmatter {
-        title
-        location
-        titleImage {
-          childImageSharp {
-            fluid(maxWidth: 980) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
     }
   }
 `

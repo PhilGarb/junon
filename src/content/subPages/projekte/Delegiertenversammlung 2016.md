@@ -1,8 +1,8 @@
 ---
 title: "Delegiertenversammlung 2016"
-location: "Münster"
-dateFrom: "2016-01-21"
-dateTo: "2016-01-23"
+place: "Münster"
+startDate: "2016-01-21"
+endDate: "2016-01-23"
 titleImage: "../../../images/Projekte/Delegiertenversammlung 2016/Münster_Titelbild.jpg"
 ---
 

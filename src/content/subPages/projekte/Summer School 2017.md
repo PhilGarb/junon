@@ -1,8 +1,8 @@
 ---
 title: "Summer School 2017"
-location: "Köln"
-dateFrom: "2017-08-14"
-dateTo: "2017-08-17"
+place: "Köln"
+startDate: "2017-08-14"
+endDate: "2017-08-17"
 titleImage: "../../../images/Projekte/Summer School 2017/Köln_Titelbild.jpg"
 ---
 

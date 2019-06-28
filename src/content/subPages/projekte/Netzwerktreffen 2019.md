@@ -1,8 +1,8 @@
 ---
 title: "Netzwerktreffen 2019"
-location: "München"
-dateFrom: "2019-09-06"
-dateTo: "2019-09-08"
+place: "München"
+startDate: "2019-09-06"
+endDate: "2019-09-08"
 titleImage: "../../../images/Projekte/Netzwerktreffen 2019/München_Titelbild.jpg"
 ---
 
