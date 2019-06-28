@@ -16,6 +16,11 @@
     },
     {
         "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "facebook-aktionen-e1f",
+        "path": "/Facebook Aktionen/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "netzwerktreffen-2018-2b4",
         "path": "/Netzwerktreffen 2018/"
     },
@@ -23,6 +28,11 @@
         "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "netzwerktreffen-2019-889",
         "path": "/Netzwerktreffen 2019/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "postkartenaktionen-cef",
+        "path": "/Postkartenaktionen/"
     },
     {
         "componentChunkName": "component---src-templates-projekt-js",

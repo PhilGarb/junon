@@ -1,11 +1,26 @@
 ---
 title: "Netzwerktreffen 2019"
 place: "München"
+partner: "MUNAM e.V."
+signup: true
 startDate: "2019-09-06"
 endDate: "2019-09-08"
 titleImage: "../../../images/Projekte/Netzwerktreffen 2019/München_Titelbild.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Unser Netzwerktreffen 2019 steht unter dem Motto “UmWELT- und was bewegt dich?”**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Dabei werden wir uns inhaltlich mit den folgenden SDGs auseinandersetzen:
+
+- SDG 6:  Clean Water and Sanitation
+- SDG 7:  Affordable and Clean Energy
+- SDG 13: Climate Action
+- SDG 14: Life below water
+- SDG 15: Life on Land
+
+Zum Auftakt der Veranstaltung wird es eine Paneldiskussion mit dem Thema *"Umweltschutz global gedacht"* geben, zu dem wir euch Experten aus Unternehmen, Politik und Wissenschaft eingeladen haben, um zusammen mit euch aktuelle Themen des Umweltschutzes zu diskutieren. Dabei werden wir einen speziellen Fokus auf die Weltpolitik und aktuelle Entwicklungen in der Politik einnehmen. Während des Netzwerktreffens könnt ihr spannende Einblicke in Vereine und junge Start-ups erhalten, die sich aktiv mit Umweltthemen auseinandersetzen.
+
+Aber auch die Entwicklungen und Fragen aus eurer Welt und den Mitgliedsgruppen werden uns beschäftigen. Dazu wird es u.a. einen MUN Chairing Workshop in Kooperation mit unserer Mitgliedsgruppe MUNAM e.V. geben.
+
+Unsere jährliche Delegiertenversammlung am Sonntag rundet das Format ab.
+
