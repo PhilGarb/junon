@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{152:function(n,e,t){"use strict";t.r(e),t.d(e,"query",function(){return o});var u=t(0),r=t.n(u),c=t(157),o="1097489062";e.default=function(){return r.a.createElement(c.j,null)}}}]);
+//# sourceMappingURL=component---src-pages-impressum-js-22e0954c5e5c255badc6.js.map

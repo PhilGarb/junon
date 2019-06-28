@@ -31,6 +31,10 @@ const StyledCard = styled(Card)`
   }
 `
 
+const StyledButton = styled(Button)`
+  margin-right: 2em;
+`
+
 const StyledText = styled.div`
   padding: 3em;
 `
@@ -57,6 +61,7 @@ const Projects = ({ data }) => {
                 fields: { slug },
                 frontmatter: {
                   title,
+                  signup,
                   startDate,
                   endDate,
                   place,
@@ -68,6 +73,14 @@ const Projects = ({ data }) => {
                 },
               },
             } = project
+
+            let state = {
+              title,
+              startDate,
+              endDate,
+              place,
+              img,
+            }
 
             return (
               <StyledCard key={title}>
@@ -84,12 +97,10 @@ const Projects = ({ data }) => {
                     }
                   })()}
                   <p>{excerpt}</p>
-                  <Button
-                    to={slug}
-                    state={{ title, startDate, endDate, img, place }}
-                  >
+                  <StyledButton to={slug} state={state}>
                     Mehr erfahren
-                  </Button>
+                  </StyledButton>
+                  {signup === true && <StyledButton>Anmeldung</StyledButton>}
                 </StyledText>
                 <StyledImage img={img} />
               </StyledCard>
@@ -119,6 +130,7 @@ export const query = graphql`
           frontmatter {
             title
             place
+            signup
             startDate(formatString: "DD.MM.YYYY", locale: "de-DE")
             endDate(formatString: "DD.MM.YYYY", locale: "de-DE")
             titleImage {

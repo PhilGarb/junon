@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1412.292" height="1174.878" viewBox="0 0 1412.292 1174.878">
+  <defs>
+    <style>
+      .cls-1, .cls-15, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: 0.9;
+      }
+
+      .cls-3 {
+        fill: #2f2e41;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-14, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #3f3d56;
+      }
+
+      .cls-6 {
+        fill: #6393f4;
+      }
+
+      .cls-7 {
+        stroke: #3f3d56;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-8 {
+        fill: #ff6584;
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-10 {
+        font-size: 31px;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-14 {
+        font-family: Rubik-Medium, Rubik;
+        font-weight: 500;
+      }
+
+      .cls-11 {
+        font-size: 29px;
+      }
+
+      .cls-12 {
+        font-size: 27px;
+      }
+
+      .cls-13 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-14 {
+        font-size: 17px;
+      }
+
+      .cls-15 {
+        stroke: #707070;
+        stroke-width: 3px;
+      }
+
+      .cls-16 {
+        filter: url(#Rechteck_235-5);
+      }
+
+      .cls-17 {
+        filter: url(#Rechteck_235-4);
+      }
+
+      .cls-18 {
+        filter: url(#Rechteck_235-3);
+      }
+
+      .cls-19 {
+        filter: url(#Rechteck_235-2);
+      }
+
+      .cls-20 {
+        filter: url(#Rechteck_235);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="380.701" height="165.261"/>
+    </clipPath>
+    <filter id="Rechteck_235" x="167.145" y="640.553" width="380.701" height="166.261" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rechteck_235-2" x="717.794" y="395.553" width="380.701" height="166.261" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rechteck_235-3" x="717.794" y="640.553" width="380.701" height="166.261" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rechteck_235-4" x="717.794" y="885.553" width="380.701" height="166.261" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-5">
+      <rect class="cls-1" width="287.687" height="95.1"/>
+    </clipPath>
+    <filter id="Rechteck_235-5" x="213.905" y="817.818" width="287.687" height="96.1" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="SVG" transform="translate(-347.855 -412.686)">
+    <g id="Background_Elements" data-name="Background Elements" class="cls-2">
+      <g id="Constructor" transform="translate(-162.742 472.681) rotate(-16)">
+        <ellipse id="Ellipse_167" data-name="Ellipse 167" class="cls-3" cx="79" cy="79" rx="79" ry="79" transform="translate(1312.005 603.47)"/>
+        <rect id="Rechteck_236" data-name="Rechteck 236" class="cls-3" width="24" height="43" transform="translate(1344.544 737.058) rotate(10.261)"/>
+        <rect id="Rechteck_237" data-name="Rechteck 237" class="cls-3" width="24" height="43" transform="translate(1391.776 745.609) rotate(10.261)"/>
+        <ellipse id="Ellipse_168" data-name="Ellipse 168" class="cls-3" cx="20" cy="7.5" rx="20" ry="7.5" transform="translate(1410.449 814.035) rotate(-139.739)"/>
+        <ellipse id="Ellipse_169" data-name="Ellipse 169" class="cls-3" cx="20" cy="7.5" rx="20" ry="7.5" transform="translate(1364.201 805.663) rotate(-139.739)"/>
+        <ellipse id="Ellipse_170" data-name="Ellipse 170" class="cls-4" cx="27" cy="27" rx="27" ry="27" transform="translate(1369.536 636.146)"/>
+        <ellipse id="Ellipse_171" data-name="Ellipse 171" class="cls-5" cx="9" cy="9" rx="9" ry="9" transform="translate(1398.633 644.468)"/>
+        <path id="Pfad_817" data-name="Pfad 817" class="cls-6" d="M893.512,137.245c-1.188-29.247,24.019-54.019,56.3-55.331s59.415,21.335,60.6,50.582-21.252,35.892-53.534,37.2S894.7,166.492,893.512,137.245Z" transform="translate(435.168 459.282)"/>
+        <ellipse id="Ellipse_172" data-name="Ellipse 172" class="cls-3" cx="12.4" cy="39.5" rx="12.4" ry="39.5" transform="translate(1428.216 688.992) rotate(-102.91)"/>
+        <ellipse id="Ellipse_173" data-name="Ellipse 173" class="cls-3" cx="12.4" cy="39.5" rx="12.4" ry="39.5" transform="translate(1273.144 714.785) rotate(-102.91)"/>
+        <path id="Pfad_818" data-name="Pfad 818" class="cls-4" d="M934.4,254.321a18,18,0,1,0,35.424,6.413c1.771-9.782-5.792-13.244-15.575-15.015S936.172,244.539,934.4,254.321Z" transform="translate(434.905 459.282)"/>
+        <line id="Linie_17" data-name="Linie 17" class="cls-7" x1="91" y2="70" transform="translate(1493.454 592)"/>
+        <ellipse id="Ellipse_174" data-name="Ellipse 174" class="cls-8" cx="68" cy="68" rx="68" ry="68" transform="translate(1559.454 493)"/>
+      </g>
+      <g id="Constructor-2" data-name="Constructor" transform="matrix(0.978, 0.208, -0.208, 0.978, 292.628, -299.113)">
+        <rect id="Rechteck_134" data-name="Rechteck 134" class="cls-3" width="24" height="43" transform="translate(1734.899 1543.852) rotate(166.547)"/>
+        <ellipse id="Ellipse_3" data-name="Ellipse 3" class="cls-3" cx="7.5" cy="20" rx="7.5" ry="20" transform="translate(1701.701 1564.123) rotate(-103.453)"/>
+        <ellipse id="Ellipse_4" data-name="Ellipse 4" class="cls-3" cx="39.5" cy="12.4" rx="39.5" ry="12.4" transform="translate(1671.354 1447.033) rotate(-170.281)"/>
+        <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-3" cx="79" cy="79" r="79" transform="matrix(0.035, -0.999, 0.999, 0.035, 1626.442, 1514.643)"/>
+        <rect id="Rechteck_135" data-name="Rechteck 135" class="cls-3" width="24" height="43" transform="translate(1720.907 1543.363) rotate(166.547)"/>
+        <ellipse id="Ellipse_6" data-name="Ellipse 6" class="cls-3" cx="7.5" cy="20" rx="7.5" ry="20" transform="translate(1687.709 1563.634) rotate(-103.453)"/>
+        <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-4" cx="27" cy="27" r="27" transform="matrix(0.035, -0.999, 0.999, 0.035, 1635.721, 1442.179)"/>
+        <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-5" cx="9" cy="9" r="9" transform="matrix(0.035, -0.999, 0.999, 0.035, 1642.719, 1415.773)"/>
+        <path id="Pfad_201" data-name="Pfad 201" class="cls-6" d="M1048.86,816.306c29.234-1.463,51.625-28.808,50.01-61.076s-26.623-57.241-55.858-55.778-33.822,24.412-32.207,56.681S1019.62,817.769,1048.86,816.306Z" transform="matrix(0.035, -0.999, 0.999, 0.035, 913.177, 2368.899)"/>
+        <path id="Pfad_202" data-name="Pfad 202" class="cls-4" d="M925.341,728.592a18,18,0,1,1-2.9-35.883c9.909-.8,12.611,7.065,13.413,16.973S935.25,727.79,925.341,728.592Z" transform="matrix(0.035, -0.999, 0.999, 0.035, 913.177, 2368.899)"/>
+        <rect id="Rechteck_140" data-name="Rechteck 140" class="cls-6" width="126.129" height="64.161" transform="matrix(0.035, -0.999, 0.999, 0.035, 1541.866, 1512.802)"/>
+        <rect id="Rechteck_141" data-name="Rechteck 141" class="cls-7" width="126.129" height="64.161" transform="matrix(0.035, -0.999, 0.999, 0.035, 1551.934, 1523.03)"/>
+        <ellipse id="Ellipse_35" data-name="Ellipse 35" class="cls-3" cx="39.5" cy="12.4" rx="39.5" ry="12.4" transform="translate(1689.078 1477.322) rotate(-170.281)"/>
+      </g>
+      <g id="random_elements" data-name="random elements">
+        <rect id="Rechteck_142" data-name="Rechteck 142" class="cls-8" width="36" height="36" transform="translate(404.603 933)"/>
+        <rect id="Rechteck_143" data-name="Rechteck 143" class="cls-7" width="36" height="36" transform="translate(395.603 921)"/>
+        <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-6" cx="13.685" cy="13.685" r="13.685" transform="translate(347.855 1091.34)"/>
+        <rect id="Rechteck_238" data-name="Rechteck 238" class="cls-8" width="36" height="36" transform="translate(1541.603 1099)"/>
+        <rect id="Rechteck_239" data-name="Rechteck 239" class="cls-7" width="36" height="36" transform="translate(1550.603 1087)"/>
+        <circle id="Ellipse_14" data-name="Ellipse 14" class="cls-7" cx="14.756" cy="14.756" r="14.756" transform="translate(1550.82 413.686)"/>
+      </g>
+      <g id="Constructor-3" data-name="Constructor">
+        <g id="Gruppe_35" data-name="Gruppe 35">
+          <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-3" cx="39.5" cy="12.4" rx="39.5" ry="12.4" transform="matrix(0.357, -0.934, 0.934, 0.357, 993.143, 1443.253)"/>
+          <circle id="Ellipse_21" data-name="Ellipse 21" class="cls-3" cx="79" cy="79" r="79" transform="translate(866.805 1391.436)"/>
+          <circle id="Ellipse_24" data-name="Ellipse 24" class="cls-4" cx="27" cy="27" r="27" transform="translate(920.805 1423.436)"/>
+          <circle id="Ellipse_25" data-name="Ellipse 25" class="cls-5" cx="9" cy="9" r="9" transform="translate(938.805 1441.436)"/>
+          <path id="Pfad_205" data-name="Pfad 205" class="cls-6" d="M99.215,429.687c-6.379-28.568,14.012-57.434,45.544-64.475s62.265,10.41,68.644,38.978-14.519,39.1-46.051,46.145S105.594,458.254,99.215,429.687Z" transform="translate(769.957 967.282)"/>
+          <ellipse id="Ellipse_26" data-name="Ellipse 26" class="cls-3" cx="12.4" cy="39.5" rx="12.4" ry="39.5" transform="translate(815.817 1428.055) rotate(-64.626)"/>
+          <path id="Pfad_206" data-name="Pfad 206" class="cls-4" d="M137.043,531.655c0,7.732,19.909,23,42,23s42.8-21.768,42.8-29.5-20.713,1.5-42.8,1.5S137.043,523.923,137.043,531.655Z" transform="translate(769.957 967.282)"/>
+          <rect id="Rechteck_138" data-name="Rechteck 138" class="cls-3" width="24" height="43" transform="translate(909.805 1532.436)"/>
+          <rect id="Rechteck_139" data-name="Rechteck 139" class="cls-3" width="24" height="43" transform="translate(957.805 1532.436)"/>
+          <ellipse id="Ellipse_22" data-name="Ellipse 22" class="cls-3" cx="20" cy="7.5" rx="20" ry="7.5" transform="translate(909.805 1568.436)"/>
+          <ellipse id="Ellipse_23" data-name="Ellipse 23" class="cls-3" cx="20" cy="7.5" rx="20" ry="7.5" transform="translate(957.805 1567.436)"/>
+        </g>
+        <g id="Gruppe_36" data-name="Gruppe 36" transform="translate(-3 -15)">
+          <ellipse id="Ellipse_15" data-name="Ellipse 15" class="cls-5" cx="170" cy="23.127" rx="170" ry="23.127" transform="translate(563 1556.309)"/>
+          <circle id="Ellipse_36" data-name="Ellipse 36" class="cls-6" cx="13.685" cy="13.685" r="13.685" transform="translate(618.126 1542.34)"/>
+          <rect id="Rechteck_146" data-name="Rechteck 146" class="cls-8" width="36" height="36" transform="translate(819.603 1540)"/>
+          <circle id="Ellipse_37" data-name="Ellipse 37" class="cls-6" cx="13.685" cy="13.685" r="13.685" transform="translate(806.125 1550.34)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Organigramm" transform="translate(-11.325 -92.761)">
+      <g id="Karte" class="cls-9" transform="translate(521.325 1140)">
+        <g class="cls-20" transform="matrix(1, 0, 0, 1, -162.15, -634.55)">
+          <rect id="Rechteck_235-6" data-name="Rechteck 235" class="cls-6" width="362.701" height="147.261" rx="12" transform="translate(171.15 640.55)"/>
+        </g>
+        <text id="GeneralsekretärInnen" class="cls-10" transform="translate(27 89.765)"><tspan x="0" y="0">GeneralsekretärInnen</tspan></text>
+      </g>
+      <g id="Karte-2" data-name="Karte" class="cls-9" transform="translate(1071.975 895)">
+        <g class="cls-19" transform="matrix(1, 0, 0, 1, -712.79, -389.55)">
+          <rect id="Rechteck_235-7" data-name="Rechteck 235" class="cls-6" width="362.701" height="147.261" rx="12" transform="translate(721.79 395.55)"/>
+        </g>
+        <text id="AG_Verwaltung" data-name="AG Verwaltung" class="cls-11" transform="translate(87 89.766)"><tspan x="0" y="0">AG Verwaltung</tspan></text>
+      </g>
+      <g id="Karte-3" data-name="Karte" class="cls-9" transform="translate(1071.975 1140)">
+        <g class="cls-18" transform="matrix(1, 0, 0, 1, -712.79, -634.55)">
+          <rect id="Rechteck_235-8" data-name="Rechteck 235" class="cls-6" width="362.701" height="147.261" rx="12" transform="translate(721.79 640.55)"/>
+        </g>
+        <text id="AG_Veranstaltung" data-name="AG Veranstaltung" class="cls-10" transform="translate(59 89.766)"><tspan x="0" y="0">AG Veranstaltung</tspan></text>
+      </g>
+      <g id="Karte-4" data-name="Karte" class="cls-9" transform="translate(1071.975 1385)">
+        <g class="cls-17" transform="matrix(1, 0, 0, 1, -712.79, -879.55)">
+          <rect id="Rechteck_235-9" data-name="Rechteck 235" class="cls-6" width="362.701" height="147.261" rx="12" transform="translate(721.79 885.55)"/>
+        </g>
+        <text id="AG_Öffentlichkeitsarbeit" data-name="AG Öffentlichkeitsarbeit" class="cls-12" transform="translate(34 89)"><tspan x="0" y="0">AG Öffentlichkeitsarbeit</tspan></text>
+      </g>
+      <g id="Karte-5" data-name="Karte" class="cls-13" transform="translate(568.086 1317.265)">
+        <g class="cls-16" transform="matrix(1, 0, 0, 1, -208.91, -811.82)">
+          <rect id="Rechteck_235-10" data-name="Rechteck 235" class="cls-6" width="269.687" height="77.1" rx="12" transform="translate(217.91 817.82)"/>
+        </g>
+        <text id="Schatzmeister" class="cls-14" transform="translate(84 50.627)"><tspan x="0" y="0">Schatzmeister</tspan></text>
+      </g>
+      <g id="Connectors">
+        <line id="Linie_14" data-name="Linie 14" class="cls-15" y1="216.239" x2="116" transform="translate(928.825 999.261)"/>
+        <line id="Linie_15" data-name="Linie 15" class="cls-15" x2="132" transform="translate(928.825 1229.5)"/>
+        <line id="Linie_16" data-name="Linie 16" class="cls-15" x2="116" y2="220.761" transform="translate(928.825 1239.5)"/>
+        <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-6" cx="13.685" cy="13.685" r="13.685" transform="translate(914.018 1213.963)"/>
+        <circle id="Ellipse_38" data-name="Ellipse 38" class="cls-6" cx="13.685" cy="13.685" r="13.685" transform="translate(1034.596 1448.101)"/>
+        <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-6" cx="13.685" cy="13.685" r="13.685" transform="translate(1035.083 1214.184)"/>
+        <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-6" cx="13.685" cy="13.685" r="13.685" transform="translate(1035.023 980.554)"/>
+      </g>
+    </g>
+  </g>
+</svg>
