@@ -1,5 +1,5 @@
 ---
-title: "Netzwerktreffen 2018"
+title: "Netzwerktreffen XXXI"
 place: "Frankfurt an der Oder"
 partner: "ViaMUN"
 startDate: "2018-09-13"

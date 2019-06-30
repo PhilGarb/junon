@@ -1,5 +1,5 @@
 ---
-title: "Netzwerktreffen 2019"
+title: "Netzwerktreffen XXXII"
 place: "München"
 partner: "MUNAM e.V."
 signup: true

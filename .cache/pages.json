@@ -6,6 +6,11 @@
     },
     {
         "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "2017-05-20-rhetorik-workshop-4c0",
+        "path": "/2017-05-20_Rhetorik Workshop/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "delegiertenversammlung-2016-91a",
         "path": "/Delegiertenversammlung 2016/"
     },
@@ -43,11 +48,6 @@
         "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "summer-school-2017-98d",
         "path": "/Summer School 2017/"
-    },
-    {
-        "componentChunkName": "component---src-templates-projekt-js",
-        "jsonName": "workshop-tubingen-2017-d82",
-        "path": "/Workshop Tübingen 2017/"
     },
     {
         "componentChunkName": "component---src-pages-arbeitsgruppen-js",
