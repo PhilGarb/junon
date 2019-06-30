@@ -16,13 +16,6 @@ const GlobalGrid = styled.div`
   }
 `
 
-// const ContentGrid = styled.div`
-//   grid-column: 1/ -1;
-//   display: grid;
-//   grid: inherit;
-//   align-content: center;
-// `
-
 const Layout = ({ children }) => {
   return (
     <>

@@ -6,33 +6,38 @@
     },
     {
         "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "2017-01-21-delegiertenversammlung-xxix-58a",
+        "path": "/2017-01-21_Delegiertenversammlung XXIX/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "2017-05-20-rhetorik-workshop-4c0",
         "path": "/2017-05-20_Rhetorik Workshop/"
     },
     {
         "componentChunkName": "component---src-templates-projekt-js",
-        "jsonName": "delegiertenversammlung-2016-91a",
-        "path": "/Delegiertenversammlung 2016/"
+        "jsonName": "2017-08-14-summer-school-837",
+        "path": "/2017-08-14_Summer School/"
     },
     {
         "componentChunkName": "component---src-templates-projekt-js",
-        "jsonName": "delegiertenversammlung-2017-581",
-        "path": "/Delegiertenversammlung 2017/"
+        "jsonName": "2017-12-08-delegiertenversammlung-xxx-fc5",
+        "path": "/2017-12-08_Delegiertenversammlung XXX/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "2018-09-13-netzwerktreffen-xxxi-509",
+        "path": "/2018-09-13_Netzwerktreffen XXXI/"
+    },
+    {
+        "componentChunkName": "component---src-templates-projekt-js",
+        "jsonName": "2019-09-06-netzwerktreffen-xxxii-c7c",
+        "path": "/2019-09-06_Netzwerktreffen XXXII/"
     },
     {
         "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "facebook-aktionen-e1f",
         "path": "/Facebook Aktionen/"
-    },
-    {
-        "componentChunkName": "component---src-templates-projekt-js",
-        "jsonName": "netzwerktreffen-2018-2b4",
-        "path": "/Netzwerktreffen 2018/"
-    },
-    {
-        "componentChunkName": "component---src-templates-projekt-js",
-        "jsonName": "netzwerktreffen-2019-889",
-        "path": "/Netzwerktreffen 2019/"
     },
     {
         "componentChunkName": "component---src-templates-projekt-js",
@@ -43,11 +48,6 @@
         "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "sdg-mondays-9ce",
         "path": "/SDG Mondays/"
-    },
-    {
-        "componentChunkName": "component---src-templates-projekt-js",
-        "jsonName": "summer-school-2017-98d",
-        "path": "/Summer School 2017/"
     },
     {
         "componentChunkName": "component---src-pages-arbeitsgruppen-js",
