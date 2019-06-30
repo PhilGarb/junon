@@ -2,7 +2,12 @@ import React from "react"
 import styled from "styled-components"
 import { graphql } from "gatsby"
 
-import { Layout, Button, SVGImage, Image } from "../components/ComponentsIndex"
+import {
+  Layout,
+  ButtonExternalLink,
+  SVGImage,
+  Image,
+} from "../components/ComponentsIndex"
 import { DGVN_logo_SVG } from "../images/ImageIndex"
 
 const Content = styled.section`
@@ -55,12 +60,18 @@ const Partner = ({ data }) => {
           <StyledText>
             <h1>DGVN</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur voluptatem eos repellat fugiat, laudantium amet
-              corporis autem voluptates cumque dolorem laboriosam sed placeat
-              quos consectetur deserunt a. Architecto, dignissimos praesentium?
+              Die DGVN setzt sich für starke Vereinte Nationen ein: Denn nur
+              durch enge inter­nationale Zusammen­arbeit können wir den Frieden
+              sichern, die Menschen­rechte stärken und eine nach­haltige
+              Ent­wick­lung fördern. Die DGVN bietet In­for­mationen und
+              Analysen zur Arbeit der Vereinten Nationen, sie ermöglicht ihren
+              Mitgliedern sich zu engagieren und gibt Impulse für eine aktive
+              UN-Politik. Sie unterstützt das Junon wesentlich bei seiner
+              Arbeit.
             </p>
-            <Button>Mehr erfahren</Button>
+            <ButtonExternalLink to="https://dgvn.de/">
+              Mehr erfahren
+            </ButtonExternalLink>
           </StyledText>
         </Item>
         <Item>
@@ -68,12 +79,16 @@ const Partner = ({ data }) => {
           <StyledText>
             <h1>UNYANET</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur voluptatem eos repellat fugiat, laudantium amet
-              corporis autem voluptates cumque dolorem laboriosam sed placeat
-              quos consectetur deserunt a. Architecto, dignissimos praesentium?
+              Im August 2011 haben in Wien Jugendliche aus elf europäischen
+              Ländern UNYANET gegründet. Im “United Nations Youth Associations
+              Network” sind Dachverbände wie JUNON zusammengeschlossen. Zu den
+              Gründungsmitgliedern zählen die nationalen UN-Jugendorganisationen
+              aus Deutschland, Finnland, Norwegen, Österreich, Polen, Rumänien,
+              Russland, der Schweiz, Serbien, Slowenien und Spanien.
             </p>
-            <Button>Mehr erfahren</Button>
+            <ButtonExternalLink to="http://www.facebook.com/UNYANET">
+              Mehr erfahren
+            </ButtonExternalLink>
           </StyledText>
         </Item>
       </Content>

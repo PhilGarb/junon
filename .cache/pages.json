@@ -46,11 +46,11 @@
     },
     {
         "componentChunkName": "component---src-templates-projekt-js",
-        "jsonName": "workshop-tubingen-2016-279",
-        "path": "/Workshop Tübingen 2016/"
+        "jsonName": "workshop-tubingen-2017-d82",
+        "path": "/Workshop Tübingen 2017/"
     },
     {
-        "componentChunkName": "component---src-templates-projekt-js",
+        "componentChunkName": "component---src-pages-arbeitsgruppen-js",
         "jsonName": "arbeitsgruppen-0b1",
         "path": "/arbeitsgruppen/"
     },
@@ -65,17 +65,17 @@
         "path": "/impressum/"
     },
     {
-        "componentChunkName": "component---src-templates-projekt-js",
+        "componentChunkName": "component---src-pages-netzwerk-js",
         "jsonName": "netzwerk-bd3",
         "path": "/netzwerk/"
     },
     {
-        "componentChunkName": "component---src-templates-projekt-js",
+        "componentChunkName": "component---src-pages-partner-js",
         "jsonName": "partner-512",
         "path": "/partner/"
     },
     {
-        "componentChunkName": "component---src-templates-projekt-js",
+        "componentChunkName": "component---src-pages-projekte-js",
         "jsonName": "projekte-ac3",
         "path": "/projekte/"
     }

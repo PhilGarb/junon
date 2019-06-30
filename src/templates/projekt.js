@@ -41,16 +41,11 @@ const Projekt = ({ data }) => {
       <StyledHero img={img}>
         <PositionedCard>
           <h1>{title}</h1>
-          {(() => {
-            switch ((startDate, endDate)) {
-              case startDate && endDate === null:
-                return null
-              case endDate === null:
-                return <h2>{startDate}</h2>
-              default:
-                return <h2>{`${startDate} - ${endDate}`}</h2>
-            }
-          })()}
+          {endDate === null ? (
+            <h2>{startDate}</h2>
+          ) : (
+            <h2>{`${startDate} - ${endDate}`}</h2>
+          )}
           {place !== null && <h2>in {place}</h2>}
         </PositionedCard>
       </StyledHero>

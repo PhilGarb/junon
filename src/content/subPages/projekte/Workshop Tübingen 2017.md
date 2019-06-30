@@ -1,5 +1,5 @@
 ---
-title: "Workshop 2016"
+title: "Workshop 2017"
 place: "Tübingen"
 startDate: "2017-05-20"
 titleImage: "../../../images/Projekte/Tübingen_Titelbild.jpg"
