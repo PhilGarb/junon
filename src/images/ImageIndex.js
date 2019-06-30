@@ -6,7 +6,11 @@ import diagramm_SVG from "./Homepage/diagramm.svg"
 import kontakt_SVG from "./Homepage/kontakt.svg"
 import netzwerk_SVG from "./Homepage/netzwerk.svg"
 import teams_SVG from "./Homepage/teams.svg"
+
 import karte_SVG from "./Netzwerk/Karte.svg"
+import MUN from "./Netzwerk/Model United Nations.jpg"
+import UNimKlassenzimmer from "./Netzwerk/Un im Klassenzimmer.jpg"
+import YouthDelegates from "./Netzwerk/Youth Delegates.jpg"
 
 import struktur_SVG from "./Arbeitsgruppen/Struktur.svg"
 
@@ -25,4 +29,7 @@ export {
   DGVN_logo_SVG,
   UNYANET_logo,
   karte_SVG,
+  MUN,
+  UNimKlassenzimmer,
+  YouthDelegates,
 }

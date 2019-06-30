@@ -66,9 +66,9 @@ const PositionedCard = styled(Card)`
 
 const ProjekteSection = () => {
   return (
-    <Background>
+    <Background id="contact">
       <PositionedCard>
-        <h1 id="contact">Interesse oder Fragen?</h1>
+        <h1>Interesse oder Fragen?</h1>
         <h2>Schreib uns:</h2>
         <form action="#">
           <label htmlFor="email">E-Mail:</label>

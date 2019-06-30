@@ -7,6 +7,7 @@ import Button from "./UI Components/Button"
 import Card from "./UI Components/Card"
 import Link from "./UI Components/Link"
 import ButtonExternalLink from "./UI Components/ButtonExternalLink"
+import ExternalLink from "./UI Components/ExternalLink"
 
 import Logo from "./Image Components/Logo"
 import SVGBackgroundImage from "./Image Components/SVGBackgroundImage"
@@ -28,6 +29,7 @@ export {
   Footer,
   Button,
   ButtonExternalLink,
+  ExternalLink,
   Card,
   Link,
   Logo,
