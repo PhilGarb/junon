@@ -32,15 +32,12 @@ const StyledText = styled.div`
 
 const StyledSVGImage = styled(SVGImage)`
   flex-basis: 20em;
-  object-position: top;
-  margin: 0 3em;
+  margin-right: 3em;
 `
 
 const StyledImage = styled(Image)`
   flex-basis: 20em;
-  object-fit: scale-down;
-  object-position: top;
-  margin: 0 3em;
+  margin-right: 3em;
 `
 
 const Partner = ({ data }) => {
