@@ -52,7 +52,7 @@ const ContactForm = () => {
     <PositionedCard>
       <h1>Interesse oder Fragen?</h1>
       <h2>Schreib uns:</h2>
-      <form name="contact" method="post" netlify>
+      <form name="contact" method="post" data-netlify="true">
         <label htmlFor="email">E-Mail:</label>
         <input
           type="email"
