@@ -53,7 +53,7 @@ const ContactForm = () => {
       <h1>Interesse oder Fragen?</h1>
       <h2>Schreib uns:</h2>
       <form name="contact" method="post" data-netlify="true">
-        <input type="hidden" name="form-name" value="Contact Form" />
+        <input type="hidden" name="form-name" value="contact" />
         <label htmlFor="email">E-Mail:</label>
         <input
           type="email"
