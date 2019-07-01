@@ -1,22 +1,25 @@
+//Layout Components
 import Layout from "./Layout Components/Layout"
-
 import Header from "./Layout Components/Header/Header"
 import Footer from "./Layout Components/Footer/Footer"
 
+//UI Components
 import Button from "./UI Components/Button"
 import Card from "./UI Components/Card"
 import Link from "./UI Components/Link"
 import ButtonExternalLink from "./UI Components/ButtonExternalLink"
 import ExternalLink from "./UI Components/ExternalLink"
+import ContactForm from "./UI Components/ContactForm"
 
+//Image Components
 import Logo from "./Image Components/Logo"
 import SVGBackgroundImage from "./Image Components/SVGBackgroundImage"
 import BackgroundImage from "./Image Components/BackgroundImage"
 import SVGImage from "./Image Components/SVGImage"
 import Image from "./Image Components/Image"
 
+//Section Components
 import Hero from "./Layout Components/Hero"
-
 //Homepage Section Components
 import ProjekteSection from "./Layout Components/HomepageSections/ProjekteSection"
 import NetzwerkSection from "./Layout Components/HomepageSections/NetzwerkSection"
@@ -30,6 +33,7 @@ export {
   Button,
   ButtonExternalLink,
   ExternalLink,
+  ContactForm,
   Card,
   Link,
   Logo,
