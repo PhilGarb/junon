@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-const StyledLink = styled.button`
+const StyledButton = styled.button`
   /* style resets */
   border: none;
   padding: 0;
@@ -31,11 +31,11 @@ const StyledLink = styled.button`
   }
 `
 
-const Button = ({ children, to, state, className }) => {
+const Button = ({ children, type, state, className }) => {
   return (
-    <StyledLink to={to} state={state} className={className}>
+    <StyledButton type={type} state={state} className={className}>
       {children}
-    </StyledLink>
+    </StyledButton>
   )
 }
 
