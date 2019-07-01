@@ -2,7 +2,12 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 
-import { Layout, Card, Image, Button } from "../components/ComponentsIndex"
+import {
+  Layout,
+  Card,
+  Image,
+  ButtonInternalLink,
+} from "../components/ComponentsIndex"
 
 const Content = styled.div`
   grid-column: 2/3;
@@ -31,7 +36,7 @@ const StyledCard = styled(Card)`
   }
 `
 
-const StyledButton = styled(Button)`
+const StyledButton = styled(ButtonInternalLink)`
   margin-right: 2em;
 `
 

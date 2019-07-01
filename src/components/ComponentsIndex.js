@@ -4,9 +4,10 @@ import Header from "./Layout Components/Header/Header"
 import Footer from "./Layout Components/Footer/Footer"
 
 //UI Components
-import Button from "./UI Components/Button"
+import ButtonInternalLink from "./UI Components/ButtonInternalLink"
 import Card from "./UI Components/Card"
 import Link from "./UI Components/Link"
+import Button from "./UI Components/Button"
 import ButtonExternalLink from "./UI Components/ButtonExternalLink"
 import ExternalLink from "./UI Components/ExternalLink"
 import ContactForm from "./UI Components/ContactForm"
@@ -31,6 +32,7 @@ export {
   Header,
   Footer,
   Button,
+  ButtonInternalLink,
   ButtonExternalLink,
   ExternalLink,
   ContactForm,

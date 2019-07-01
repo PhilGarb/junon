@@ -2,6 +2,8 @@ import React from "react"
 import styled from "styled-components"
 
 const StyledLink = styled.a`
+  cursor: pointer;
+
   background: rgb(var(--tertiary-color));
   padding: 0.3rem 1.3rem;
   border-radius: 0.4rem;

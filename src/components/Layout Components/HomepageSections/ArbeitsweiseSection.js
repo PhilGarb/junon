@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Button, Card } from "../../ComponentsIndex"
+import { ButtonInternalLink, Card } from "../../ComponentsIndex"
 import { teams_SVG } from "../../../images/ImageIndex"
 
 const PositionedSection = styled.section`
@@ -37,7 +37,7 @@ const ProjekteSection = () => {
           Unsere Vorstandsmitglieder sowie die Mitgliedsgruppen und
           Fördermitglieder verteilen sich über ganz Deutschland.{` `}
         </p>
-        <Button to="/arbeitsgruppen">Mehr erfahren</Button>
+        <ButtonInternalLink to="/arbeitsgruppen">Mehr erfahren</ButtonInternalLink>
       </SectionParagraph>
     </PositionedSection>
   )

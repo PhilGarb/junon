@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Button, Card } from "../../ComponentsIndex"
+import { ButtonInternalLink, Card } from "../../ComponentsIndex"
 import { netzwerk_SVG } from "../../../images/ImageIndex"
 
 const BackgroundGradient = styled.div`
@@ -54,7 +54,7 @@ const ArbeitsweiseSection = () => {
             Als Netzwerk wollen wir aktiv das Interesse an Politik und den
             Wissenstransfer unserer Mitgliedsgruppen fördern.
           </p>
-          <Button to="/netzwerk">Mehr erfahren</Button>
+          <ButtonInternalLink to="/netzwerk">Mehr erfahren</ButtonInternalLink>
         </TopLeftCard>
         <BottomRightCard>
           <h1>Partner</h1>
@@ -63,7 +63,7 @@ const ArbeitsweiseSection = () => {
             bekennen wir uns zu den universellen Werten und der Zielen Vereinten
             Nationen.
           </p>
-          <Button to="/partner">Mehr erfahren</Button>
+          <ButtonInternalLink to="/partner">Mehr erfahren</ButtonInternalLink>
         </BottomRightCard>
       </PositionedSection>
     </BackgroundGradient>

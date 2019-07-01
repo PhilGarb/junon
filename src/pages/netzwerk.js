@@ -1,7 +1,11 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Layout, Button, SVGImage } from "../components/ComponentsIndex"
+import {
+  Layout,
+  ButtonInternalLink,
+  SVGImage,
+} from "../components/ComponentsIndex"
 import {
   karte_SVG,
   MUN,
@@ -68,7 +72,7 @@ const Netzwerk = () => {
               </strong>
             </p>
             <h2>Dann schreib uns:</h2>
-            <Button to="/#contact">Kontakt</Button>
+            <ButtonInternalLink to="/#contact">Kontakt</ButtonInternalLink>
           </Text>
           <StyledSVGImage img={karte_SVG} />
         </Section>

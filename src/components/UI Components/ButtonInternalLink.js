@@ -1,13 +1,8 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
-const StyledLink = styled.button`
-  /* style resets */
-  border: none;
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
+const StyledLink = styled(Link)`
   cursor: pointer;
 
   background: rgb(var(--tertiary-color));
@@ -31,7 +26,7 @@ const StyledLink = styled.button`
   }
 `
 
-const Button = ({ children, to, state, className }) => {
+const ButtonInternalLink = ({ children, to, state, className }) => {
   return (
     <StyledLink to={to} state={state} className={className}>
       {children}
@@ -39,4 +34,4 @@ const Button = ({ children, to, state, className }) => {
   )
 }
 
-export default Button
+export default ButtonInternalLink
