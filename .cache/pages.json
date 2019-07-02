@@ -78,5 +78,10 @@
         "componentChunkName": "component---src-pages-projekte-js",
         "jsonName": "projekte-ac3",
         "path": "/projekte/"
+    },
+    {
+        "componentChunkName": "component---src-pages-thank-you-js",
+        "jsonName": "thank-you-a93",
+        "path": "/thank-you/"
     }
 ]
