@@ -42,12 +42,11 @@ const StyledCard = styled(Card)`
 
 const Text = styled.div`
   flex: 2 1 50%;
-  margin: 1em 0;
 `
 
 const StyledSVGImage = styled(SVGImage)`
   flex: 1 1 40%;
-  margin: 0 2em;
+  margin: 0 3em;
 `
 
 const Arbeitsgruppen = () => {
