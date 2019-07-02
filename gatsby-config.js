@@ -49,7 +49,6 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     {
-      //TODO Icon is missing
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Junges UNO Netzwerk Deutschland e.V.`,
@@ -58,7 +57,7 @@ module.exports = {
         background_color: `rgb(99, 147, 244)`,
         theme_color: `rgb(99, 147, 244)`,
         display: `minimal-ui`,
-        // icon can be specified here
+        icon: `./src/images/Logo/favicon-32x32.png`,
       },
     },
     {
