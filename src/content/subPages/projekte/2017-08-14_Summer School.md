@@ -6,6 +6,8 @@ endDate: "2017-08-17"
 titleImage: "../../../images/Projekte/Summer School 2017/Köln_Titelbild.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#Inhalt
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+2017 fand zum ersten Mal eine Junon Summer School als ergänzendes Treffen neben den jährlichen Delegiertenversammlungen (DV) statt. Bei dieser ging es im Unterschied zur DV um ein inhaltliches Thema und nicht das Junon. In diesem Jahr setzten wir uns intensiv mit dem Thema der Presse- und Meinungsfreiheit auseinander. Im Lichte der "Fake News" Debatte war es interessant sich mit den Schwierigkeiten und Chancen moderner Kommunikationsmittel zu beschäftigen.
+
+Wir konnten, unter anderem, Dr. Ekkehard Griep (stellv. Vorsitzender der DGVN) und Arne Molfenter (Leiter des Informationszentrums der Vreinten Naitonen in Bonn) für einen spannenden Einblick in den Berufsalltag bei den Vereintan Nationen gewinnen. Darüber hinaus gaben uns Professoren und Journalisten aus Köln und Bonn einen Einblick in ihre Arbeit im Bezug auf die Pressefreiheit.

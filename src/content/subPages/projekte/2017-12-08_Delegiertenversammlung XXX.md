@@ -6,6 +6,12 @@ endDate: "2017-12-10"
 titleImage: "../../../images/Projekte/Delegiertenversammlung 2017/Berlin_Titelbild.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Auf der 30. Delegiertenversammlung in Berlin beschäftigten wir uns thematisch mit dem Klimawandel. Vor allem die existenzielle Bedrohung kleiner Inseln durch Überflutung waren dabei ein Thema.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Darüber hinaus nutzten wir die Zeit in Berlin um über die Zukunft des Junon zu diskutieren. Wir nahmen uns vor die:
+- Kommunikation mit den Mitgliedsgruppen zu verbessern
+- die Webseite zu aktualisieren
+- die erfolgreichen Projekte des Jahres, wie die Summer School und Postkartenaktionen, fortzuführen
+- dem zukünftigen Vorstand wurde empfohlen auch persönlich Treffen anzustreben und nicht nur über Skype zu kommunizieren
+
+In diesem Jahr wurde die MUN Gruppe ViaMUN aus Frankfurt an der Oder ins Junon aufgenommen. [ViaMUN](https://viamun.jimdo.com/)

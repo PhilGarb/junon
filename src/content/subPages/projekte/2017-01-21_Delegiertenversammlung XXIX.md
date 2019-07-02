@@ -6,6 +6,8 @@ endDate: "2017-01-23"
 titleImage: "../../../images/Projekte/Delegiertenversammlung 2016/Münster_Titelbild.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Auf der 29. Delegiertenversammlung in Münster kamen mehrere Junon Mitgliedsgruppen zusammen um über die Zukunft des Junon zu debattieren. Neben den üblichen Vorstandswahlen und der Entlastung des alten Vorstands, wurde auch beschlossen die Satzung des Junon Geschlechtergerecht zu formulieren und das Amt der Sprecher in das der Generalsekretäre umzubennen. Dies geschah in Anlehnung an die übliche Praxis in den Mitgliedsgruppen ihren Vorstand Generalsekretäre zu nennen um die Vereinten Nationen nachzubilden.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Ein wesentliches Thema war in diesem Jahr die Kooperation des Junon mit der DGVN. Wir nahmen uns vor die Kooperation zu vertiefen.
+
+Inhaltlich war es uns eine Freunde die Jugenddelegierten begrüßt zu haben. Sie erarbeiteten mit uns Forderungen, welche sie bei ihrem Besuch der Vereinten Nationen mitnehmen konnten.

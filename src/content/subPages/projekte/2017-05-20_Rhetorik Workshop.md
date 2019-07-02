@@ -5,6 +5,6 @@ startDate: "2017-05-20"
 titleImage: "../../../images/Projekte/Tübingen_Titelbild.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Mitte 2017 veranstalte das Junon, zum ersten Mal, einen Rhetorik Workshop. Durch die freundliche Unterstützung der United Nations Hochschulgruppe Tübingen, konnten 15 Teilnehmer direkt von einem Rhetorik Trainer ihre Redekunst trainieren. Der praktische Ansatz und die vielfältigen Übungen sorgten für eine interessante und lustige Veranstaltung.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Leider konnte diese Art von Veranstaltung, auf Grund des Aufwands, danach nicht noch einmal umgesetzt werden.

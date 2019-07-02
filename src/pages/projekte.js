@@ -87,7 +87,7 @@ const Projects = ({ data }) => {
                   ) : (
                     <h2>{`${startDate} - ${endDate}`}</h2>
                   )}
-                  <p>{excerpt}</p>
+                  <p dangerouslySetInnerHTML={{ __html: excerpt }} />
                   <StyledButton to={slug}>Mehr erfahren</StyledButton>
                   {signup === true && <StyledButton>Anmeldung</StyledButton>}
                 </StyledText>
@@ -112,7 +112,7 @@ export const query = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 200)
+          excerpt(pruneLength: 200, format: HTML)
           fields {
             slug
           }

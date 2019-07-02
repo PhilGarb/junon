@@ -55,6 +55,11 @@
         "path": "/arbeitsgruppen/"
     },
     {
+        "componentChunkName": "component---src-pages-datenschutz-js",
+        "jsonName": "datenschutz-30a",
+        "path": "/datenschutz/"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"

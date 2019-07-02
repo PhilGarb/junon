@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-projekte-js": hot(preferDefault(require("/home/philipp/Projects/junon/src/pages/projekte.js"))),
   "component---src-templates-projekt-js": hot(preferDefault(require("/home/philipp/Projects/junon/src/templates/projekt.js"))),
   "component---cache-dev-404-page-js": hot(preferDefault(require("/home/philipp/Projects/junon/.cache/dev-404-page.js"))),
+  "component---src-pages-datenschutz-js": hot(preferDefault(require("/home/philipp/Projects/junon/src/pages/datenschutz.js"))),
   "component---src-pages-impressum-js": hot(preferDefault(require("/home/philipp/Projects/junon/src/pages/impressum.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/home/philipp/Projects/junon/src/pages/index.js"))),
   "component---src-pages-thank-you-js": hot(preferDefault(require("/home/philipp/Projects/junon/src/pages/thank-you.js")))

@@ -39,8 +39,8 @@ const StyledLogo = styled(Logo)`
 
 const StyledFooterMenu = styled(FooterMenu)`
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  /* flex-direction: column; */
+  align-content: flex-start;
   flex-wrap: wrap;
 
   @media (max-width: 50em) {
