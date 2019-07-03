@@ -1,7 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 import { graphql } from "gatsby"
-import { Card, Layout, Hero } from "../components/ComponentsIndex"
+import {
+  Card,
+  Layout,
+  Hero,
+  ButtonExternalLink,
+} from "../components/ComponentsIndex"
 
 const Content = styled.div`
   grid-column: 1/ -1;
@@ -33,6 +38,8 @@ const Projekt = ({ data }) => {
       frontmatter: {
         title,
         place,
+        signup,
+        signupLink,
         startDate,
         endDate,
         titleImage: {
@@ -56,6 +63,9 @@ const Projekt = ({ data }) => {
               <h2>{`${startDate} - ${endDate}`}</h2>
             )}
             {place !== null && <h2>in {place}</h2>}
+            {signup === true && (
+              <ButtonExternalLink to={signupLink}>Anmeldung</ButtonExternalLink>
+            )}
           </PositionedCard>
         </StyledHero>
         <Text dangerouslySetInnerHTML={{ __html: content }} />
@@ -72,6 +82,7 @@ export const query = graphql`
         title
         place
         signup
+        signupLink
         startDate(formatString: "DD.MM.YYYY", locale: "de-DE")
         endDate(formatString: "DD.MM.YYYY", locale: "de-DE")
         titleImage {

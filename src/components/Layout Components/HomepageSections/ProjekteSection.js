@@ -1,7 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 
-import { ButtonInternalLink, SVGImage, Card } from "../../ComponentsIndex"
+import {
+  ButtonExternalLink,
+  ButtonInternalLink,
+  SVGImage,
+  Card,
+} from "../../ComponentsIndex"
 import { netzwerktreffen_SVG, projekte_SVG } from "../../../images/ImageIndex"
 
 //FIXME When resizing the Browser Window larger then the desktop the Layout breaks with the grid minmaxing. I am unsure wether this is happening on larger displays by default.
@@ -33,13 +38,13 @@ const ProjekteSection = () => {
           Dieses Jahr beschäftigen wir uns mit den Vereinten Nationen, Model
           United Nations und ihren Rollen zum Thema Umweltschutz.
         </p>
-        <ButtonInternalLink to="/Netzwerktreffen 2019">
+        <ButtonInternalLink to="/2019-09-06_Netzwerktreffen XXXII">
           Mehr erfahren
         </ButtonInternalLink>
         <p>Komm für ein Wochenende nach München es geht auf uns!</p>
-        <ButtonInternalLink to="/Netzwerktreffen 2019">
+        <ButtonExternalLink to="https://forms.office.com/Pages/ResponsePage.aspx?id=eyIcqezhW0W2pIZ3S0d_c6sErDk5pp1Ft8S0OVK8RtNUNEVNT1FOQTBKQ0IyREE3MVpQTUMyQUowNiQlQCN0PWcu">
           Anmeldung
-        </ButtonInternalLink>
+        </ButtonExternalLink>
       </Card>
       <SVGImage img={netzwerktreffen_SVG} />
       <Card>

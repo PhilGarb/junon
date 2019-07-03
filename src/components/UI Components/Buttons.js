@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 const StyledButton = styled.button`
   /* style resets */
@@ -39,4 +40,20 @@ const Button = ({ children, type, state, className }) => {
   )
 }
 
-export default Button
+const ButtonInternalLink = ({ children, to, state, className }) => {
+  return (
+    <StyledButton as={Link} to={to} state={state} className={className}>
+      {children}
+    </StyledButton>
+  )
+}
+
+const ButtonExternalLink = ({ children, to, className }) => {
+  return (
+    <StyledButton as="a" href={to} className={className}>
+      {children}
+    </StyledButton>
+  )
+}
+
+export { Button, ButtonInternalLink, ButtonExternalLink }

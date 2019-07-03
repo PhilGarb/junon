@@ -4,11 +4,13 @@ import Header from "./Layout Components/Header/Header"
 import Footer from "./Layout Components/Footer/Footer"
 
 //UI Components
-import ButtonInternalLink from "./UI Components/ButtonInternalLink"
 import Card from "./UI Components/Card"
 import Link from "./UI Components/Link"
-import Button from "./UI Components/Button"
-import ButtonExternalLink from "./UI Components/ButtonExternalLink"
+import {
+  Button,
+  ButtonExternalLink,
+  ButtonInternalLink,
+} from "./UI Components/Buttons"
 import ExternalLink from "./UI Components/ExternalLink"
 import ContactForm from "./UI Components/ContactForm"
 

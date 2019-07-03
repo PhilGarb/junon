@@ -7,6 +7,7 @@ import {
   Card,
   Image,
   ButtonInternalLink,
+  ButtonExternalLink,
 } from "../components/ComponentsIndex"
 
 const Content = styled.div`
@@ -67,6 +68,7 @@ const Projects = ({ data }) => {
                 frontmatter: {
                   title,
                   signup,
+                  signupLink,
                   startDate,
                   endDate,
                   titleImage: {
@@ -89,7 +91,11 @@ const Projects = ({ data }) => {
                   )}
                   <p dangerouslySetInnerHTML={{ __html: excerpt }} />
                   <StyledButton to={slug}>Mehr erfahren</StyledButton>
-                  {signup === true && <StyledButton>Anmeldung</StyledButton>}
+                  {signup === true && (
+                    <StyledButton as={ButtonExternalLink} to={signupLink}>
+                      Anmeldung
+                    </StyledButton>
+                  )}
                 </StyledText>
                 <StyledImage img={img} />
               </StyledCard>
@@ -120,6 +126,7 @@ export const query = graphql`
             title
             place
             signup
+            signupLink
             startDate(formatString: "DD.MM.YYYY", locale: "de-DE")
             endDate(formatString: "DD.MM.YYYY", locale: "de-DE")
             titleImage {
