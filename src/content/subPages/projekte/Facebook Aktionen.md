@@ -1,5 +1,5 @@
 ---
-title: "Facebook Aktionen"
+title: "Social Media Aktionen"
 titleImage: "../../../images/Projekte/Facebook Aktionen/Facebook_Aktion_2.jpg"
 ---
 

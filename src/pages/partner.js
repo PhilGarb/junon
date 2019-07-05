@@ -36,7 +36,9 @@ const StyledSVGImage = styled(SVGImage)`
 `
 
 const StyledImage = styled(Image)`
-  flex-basis: 20em;
+  object-fit: contain;
+  width: 20%;
+  /* flex-basis: 20em; */
   margin-right: 3em;
 `
 
