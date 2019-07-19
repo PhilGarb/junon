@@ -124,7 +124,7 @@ const Arbeitsgruppen = () => {
                     bspw. die Netzwerktreffen, die Delegiertenversammlung oder
                     andere Vorstandstreffen. Dazu zählt zum einen die
                     Koordination der Veranstaltung vor Ort (Austragungsorte,
-                    Logistik etc.) sowie ebenfalls die inhaltliche Gestaltung
+                    Logistik etc.), sowie ebenfalls die inhaltliche Gestaltung
                     der Veranstaltungen (Themenfindung, Umsetzungsformate etc.).
                     Der/die LeiterIn der wird dabei ebenfalls von einer
                     Ortsgruppe unterstützt, damit anfallende Aufgaben

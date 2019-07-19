@@ -8,7 +8,7 @@ titleImage: "../../../images/Projekte/Delegiertenversammlung 2017/Berlin_Titelbi
 
 Auf der 30. Delegiertenversammlung in Berlin beschäftigten wir uns thematisch mit dem Klimawandel. Vor allem die existenzielle Bedrohung kleiner Inseln durch Überflutung waren dabei ein Thema.
 
-Darüber hinaus nutzten wir die Zeit in Berlin um über die Zukunft des Junon zu diskutieren. Wir nahmen uns vor die:
+Darüber hinaus nutzten wir die Zeit in Berlin, um über die Zukunft des Junon zu diskutieren. Wir nahmen uns vor die:
 - Kommunikation mit den Mitgliedsgruppen zu verbessern
 - die Webseite zu aktualisieren
 - die erfolgreichen Projekte des Jahres, wie die Summer School und Postkartenaktionen, fortzuführen

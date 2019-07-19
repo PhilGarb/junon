@@ -6,7 +6,7 @@ endDate: "2017-01-23"
 titleImage: "../../../images/Projekte/Delegiertenversammlung 2016/Münster_Titelbild.jpg"
 ---
 
-Auf der 29. Delegiertenversammlung in Münster kamen mehrere Junon Mitgliedsgruppen zusammen um über die Zukunft des Junon zu debattieren. Neben den üblichen Vorstandswahlen und der Entlastung des alten Vorstands, wurde auch beschlossen die Satzung des Junon Geschlechtergerecht zu formulieren und das Amt der Sprecher in das der Generalsekretäre umzubennen. Dies geschah in Anlehnung an die übliche Praxis in den Mitgliedsgruppen ihren Vorstand Generalsekretäre zu nennen um die Vereinten Nationen nachzubilden.
+Auf der 29. Delegiertenversammlung in Münster kamen mehrere Junonmitgliedsgruppen zusammen, um über die Zukunft des Junon zu debattieren. Neben den üblichen Vorstandswahlen und der Entlastung des alten Vorstands wurde auch beschlossen die Satzung des Junon geschlechtergerecht zu formulieren und das Amt der Sprecher in das der Generalsekretäre umzubennen. Dies geschah in Anlehnung an die übliche Praxis in den Mitgliedsgruppen, ihren Vorstand Generalsekretäre zu nennen, um die Vereinten Nationen nachzubilden.
 
 Ein wesentliches Thema war in diesem Jahr die Kooperation des Junon mit der DGVN. Wir nahmen uns vor die Kooperation zu vertiefen.
 

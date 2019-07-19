@@ -34,7 +34,7 @@ const Impressum = () => {
           <p>
             <strong>Vertreten durch:</strong>
             <br />
-            Philipp Garbowsky &amp; Anke Freuw&ouml;rt (Generalsekret&auml;re)
+            Philipp Garbowsky und Anke Freuw&ouml;rt (Generalsekret&auml;re)
           </p>
           <h2>Kontakt</h2>
           <p>E-Mail: support@junges-uno-netzwerk.de</p>
@@ -45,7 +45,7 @@ const Impressum = () => {
           </p>
           <h3>Haftung f&uuml;r Inhalte</h3>
           <p>
-            Als Diensteanbieter sind wir gem&auml;&szlig; &sect; 7 Abs.1 TMG
+            Als Diensteanbieter sind wir gem&auml;&szlig; &sect; 7 Abs. 1 TMG
             f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen
             Gesetzen verantwortlich. Nach &sect;&sect; 8 bis 10 TMG sind wir als
             Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder

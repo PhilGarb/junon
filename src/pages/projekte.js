@@ -32,7 +32,7 @@ const StyledCard = styled(Card)`
   padding: 0;
 
   p {
-    font-size: smaller;
+    font-size: 0.9rem;
   }
 
   @media (max-width: 50em) {
@@ -93,7 +93,6 @@ const Projects = ({ data }) => {
                   ) : (
                     <h4>{`${startDate} - ${endDate}`}</h4>
                   )}
-                  <br />
                   <p dangerouslySetInnerHTML={{ __html: excerpt }} />
                   <StyledButton to={slug}>Mehr erfahren</StyledButton>
                   {signup === true && (

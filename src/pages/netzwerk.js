@@ -37,7 +37,7 @@ const StyledImg = styled.img`
   float: right;
   max-width: 40vmin;
   height: auto;
-  margin: 0 0 1em 1em;
+  margin: 0 0 2rem 2rem;
 `
 
 const Text = styled.div`
@@ -58,19 +58,20 @@ const Netzwerk = () => {
           <Text>
             <h1>Mitgliedsgruppen</h1>
             <p>
-              Das Junon besteht aus über 30 lokalen UN-Gruppen die sich mit
+              Das Junon besteht aus über 30 lokalen UN-Gruppen, die sich mit
               verschiedenen Projekten beschäftigen. Jährlich treffen sich
-              Delegierte dieser Gruppen um über die Zukunft des Junon zu
+              Delegierte dieser Gruppen, um über die Zukunft des Junon zu
               entscheiden.
             </p>
             <p>
               Jede/r kann an diesem Treffen teilnehmen und sich aktiv in die
               Arbeit des Junon einbringen.
               <br />
-              <strong>
-                Hast du oder hat deine Gruppe Interesse mitzumachen?
-              </strong>
+              <br />
             </p>
+            <strong>
+              Hast du oder hat deine Gruppe Interesse mitzumachen?
+            </strong>
             <h2>Dann schreib uns:</h2>
             <ButtonInternalLink to="/#contact">Kontakt</ButtonInternalLink>
           </Text>
@@ -83,15 +84,15 @@ const Netzwerk = () => {
             <StyledImg src={MUN} alt="" />
             <p>
               Model-United-Nations-Konferenzen (MUNs) sind Planspiele, bei denen
-              die Teilnehmer in die Rolle von Delegierten bei den Vereinten
-              Nationen schlüpfen. In simulierten Gremien wie dem Sicherheitsrat
-              oder der Generalversammlung debattieren die Delegierten über
-              weltpolitische Themen, handeln Kompromisse aus und verabschieden
-              Resolutionen. Jeder der Teilnehmer vertritt einen Staat, in dessen
-              Position er oder sie sich vor der Konferenz eingearbeitet hat.
-              Dabei zählt nicht die persönliche Meinung, sondern es ist das
-              erklärte Ziel, die offizielle Position des zu vertretenden Staates
-              möglichst realistisch wiederzugeben.
+              die Teilnehmer*Innen in die Rolle von Delegierten bei den
+              Vereinten Nationen schlüpfen. In simulierten Gremien wie dem
+              Sicherheitsrat oder der Generalversammlung debattieren die
+              Delegierten über weltpolitische Themen, handeln Kompromisse aus
+              und verabschieden Resolutionen. Jeder der Teilnehmer*Innen
+              vertritt einen Staat, in dessen Position er oder sie sich vor der
+              Konferenz eingearbeitet hat. Dabei zählt nicht die persönliche
+              Meinung, sondern es ist das erklärte Ziel, die offizielle Position
+              des zu vertretenden Staates möglichst realistisch wiederzugeben.
             </p>
           </Text>
         </Section>
@@ -135,7 +136,7 @@ const Netzwerk = () => {
               zusammen mit den Jugenddelegierten anderer Länder für die Belange
               junger Menschen ein. Dabei haben die Jugendlichen jedes Jahr die
               Möglichkeit, eine Rede vor dem Ausschuss für soziale, humanitäre
-              und kulturelle Fragen der Generalversammlung zu halten. Sie sind
+              und kulturelle Fragen der Generalversammlung zu halten. So sind
               die Jugenddelegierten nicht an die deutsche Regierungsposition
               gebunden, sondern sprechen stellvertretend für junge Menschen in
               Deutschland.
@@ -148,7 +149,7 @@ const Netzwerk = () => {
               informieren sie über die Arbeit der Vereinten Nationen und
               erarbeiten gemeinsam mit den Jugendlichen, welche Anliegen in New
               York vorgebracht werden sollen. Die Jugendfragen werden dann von
-              der Generalversammlung im so genannten Dritten Hauptausschuss
+              der Generalversammlung im sogenannten Dritten Hauptausschuss
               (Third Committee) behandelt. Außerdem beschäftigt sich die
               Sozialentwicklungskommission (SEK), eine funktionale Kommission
               des Wirtschafts- und Sozialrates der Vereinten Nationen (ECOSOC),
