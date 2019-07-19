@@ -31,6 +31,10 @@ const StyledCard = styled(Card)`
   grid-template-columns: 2fr 20em;
   padding: 0;
 
+  p {
+    font-size: smaller;
+  }
+
   @media (max-width: 50em) {
     grid-template-columns: 1fr;
     grid-template-rows: max-content 20em;
@@ -85,10 +89,11 @@ const Projects = ({ data }) => {
                 <StyledText>
                   <h1>{title}</h1>
                   {endDate === null ? (
-                    <h2>{startDate}</h2>
+                    <h4>{startDate}</h4>
                   ) : (
-                    <h2>{`${startDate} - ${endDate}`}</h2>
+                    <h4>{`${startDate} - ${endDate}`}</h4>
                   )}
+                  <br />
                   <p dangerouslySetInnerHTML={{ __html: excerpt }} />
                   <StyledButton to={slug}>Mehr erfahren</StyledButton>
                   {signup === true && (

@@ -58,9 +58,9 @@ const Projekt = ({ data }) => {
           <PositionedCard>
             <h1>{title}</h1>
             {endDate === null ? (
-              <h2>{startDate}</h2>
+              <h4>{startDate}</h4>
             ) : (
-              <h2>{`${startDate} - ${endDate}`}</h2>
+              <h4>{`${startDate} - ${endDate}`}</h4>
             )}
             {place !== null && <h2>in {place}</h2>}
             {signup === true && (
