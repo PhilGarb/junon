@@ -12,9 +12,9 @@ import { netzwerktreffen_SVG, projekte_SVG } from "../../../images/ImageIndex"
 //FIXME When resizing the Browser Window larger then the desktop the Layout breaks with the grid minmaxing. I am unsure wether this is happening on larger displays by default.
 const PositionedSection = styled.section`
   grid-column: 2 / 3;
-  margin-top: 5em;
+  margin-top: 3rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 5em;
   min-height: 80vmin;
   justify-content: center;
