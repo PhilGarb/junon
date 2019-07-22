@@ -21,7 +21,7 @@ const Section = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 3em 0;
+  padding: 3em 0;
 
   h1 {
     border-bottom: 1px solid rgb(var(--dark-gray));

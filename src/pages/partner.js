@@ -15,6 +15,7 @@ const Content = styled.section`
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+  padding: 3em 0;
 `
 
 const Item = styled.div`

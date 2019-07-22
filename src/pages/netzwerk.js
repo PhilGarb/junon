@@ -17,7 +17,6 @@ const Content = styled.div`
   grid-column: 2 / 3;
   grid-row: 2;
   display: flex;
-  margin: 5em 0;
   flex-direction: column;
 `
 
@@ -26,23 +25,26 @@ const Section = styled.div`
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-  margin: 2em 0;
+  padding: 3em 0;
+`
+
+const Text = styled.div`
+  flex: 1 4 15em;
+  align-self: flex-start;
+  min-width: 0%;
 `
 
 const StyledSVGImage = styled(SVGImage)`
-  flex: 1 1 10em;
-  margin: 0 3em;
+  flex: 1 1 5rem;
+  margin: 2rem;
+  min-width: 0%;
 `
+
 const StyledImg = styled.img`
   float: right;
   max-width: 40vmin;
   height: auto;
   margin: 0 0 2rem 2rem;
-`
-
-const Text = styled.div`
-  flex: 1 1 20em;
-  align-self: flex-start;
 `
 
 const StyledH1 = styled.h1`
