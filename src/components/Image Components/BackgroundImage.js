@@ -4,6 +4,7 @@ import GatsbyBackgroundImage from "gatsby-background-image"
 
 const StyledBackgroundImage = styled(GatsbyBackgroundImage)`
   width: 100%;
+  min-width: 0%;
 `
 const BackgroundImage = ({ className, children, img }) => {
   return (

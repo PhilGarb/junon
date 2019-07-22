@@ -37,7 +37,6 @@ const Text = styled.div`
 const StyledSVGImage = styled(SVGImage)`
   flex: 1 1 5rem;
   margin: 2rem;
-  min-width: 0%;
 `
 
 const StyledImg = styled.img`

@@ -22,7 +22,7 @@ const Text = styled.div`
 `
 
 const StyledHero = styled(Hero)`
-  height: 40vmin;
+  height: 60vmin;
 `
 
 const PositionedCard = styled(Card)`

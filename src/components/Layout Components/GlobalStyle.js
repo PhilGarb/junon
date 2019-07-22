@@ -32,6 +32,13 @@ export const GlobalStyle = createGlobalStyle`
     color: rgb(var(--dark-gray));
   }
 
+${
+  `` /* Margins for Headings reset to associate them better with their respective content. */
+}
+  h1, h2, h3, h4,h5,h6{
+    margin: 1rem 0 0.5rem 0;
+  }
+
   h1 {
     font-weight: 700;
   }

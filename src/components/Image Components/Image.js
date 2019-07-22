@@ -4,8 +4,9 @@ import GatsbyImage from "gatsby-image"
 
 const StyledImage = styled(GatsbyImage)`
   width: 100%;
+  min-width: 0%;
 `
-const BackgroundImage = ({ className, children, img }) => {
+const Image = ({ className, children, img }) => {
   return (
     <StyledImage className={className} fluid={img}>
       {children}
@@ -13,4 +14,4 @@ const BackgroundImage = ({ className, children, img }) => {
   )
 }
 
-export default BackgroundImage
+export default Image
