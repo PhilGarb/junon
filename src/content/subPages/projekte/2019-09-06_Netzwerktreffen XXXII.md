@@ -35,7 +35,7 @@ Zum Auftakt der Veranstaltung wird es eine Paneldiskussion mit dem Thema *"Umwel
 
 Aber auch die Entwicklungen und Fragen aus eurer Welt und den Mitgliedsgruppen werden uns beschäftigen. Dazu wird es u.a. einen MUN Chairing Workshop in Kooperation mit unserer Mitgliedsgruppe MUNAM e.V. geben und wir werden uns mit der Frage auseinandersetzen, wie man MUN Konferenzen nachhaltiger gestalten kann.
 
-Unsere jährliche Delegiertenversammlung am Sonntag sowie ein abwechslungsreiches Abendprogramm runden das Format ab. Das Programm könnt ihr unter diesem Link finden: [Programm](https://junongermany.sharepoint.com/:b:/s/AGEventmanagement2/EY-7i8Pq5e1LkNOQALZnyvcBp2Mv3yIP3zOcXIdOkGJ-Cg?e=3qoqxn)
+Unsere jährliche Delegiertenversammlung am Sonntag sowie ein abwechslungsreiches Abendprogramm runden das Format ab. Das Programm könnt ihr unter diesem Link finden: [Programm](https://junongermany.sharepoint.com/:b:/s/AGEventmanagement2/EY-7i8Pq5e1LkNOQALZnyvcBp2Mv3yIP3zOcXIdOkGJ-Cg?e=VkXKyQ)
 
 Das Netzwerktreffen wird im Salesianum zentral in München stattfinden.
 Im Selbstverständnis der Mitarbeiter*Innen findet sich folgendes, für unsere Zwecke voll unterstütztes Leitbild: “... Orte und Räume der Begegnung zu schaffen, für die Sorgen und Nöte junger Menschen hellhörig zu sein und gemeinsam Ziele und Perspektiven für die Zukunft zu entwickeln, sind Herausforderungen, die die Salesianer Don Boscos genauso wie die Mitarbeiterinnen und Mitarbeiter gerne annehmen.”
