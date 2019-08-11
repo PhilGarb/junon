@@ -50,7 +50,7 @@
         "path": "/SDG Mondays/"
     },
     {
-        "componentChunkName": "component---src-pages-arbeitsgruppen-js",
+        "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "arbeitsgruppen-0b1",
         "path": "/arbeitsgruppen/"
     },
@@ -70,17 +70,17 @@
         "path": "/impressum/"
     },
     {
-        "componentChunkName": "component---src-pages-netzwerk-js",
+        "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "netzwerk-bd3",
         "path": "/netzwerk/"
     },
     {
-        "componentChunkName": "component---src-pages-partner-js",
+        "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "partner-512",
         "path": "/partner/"
     },
     {
-        "componentChunkName": "component---src-pages-projekte-js",
+        "componentChunkName": "component---src-templates-projekt-js",
         "jsonName": "projekte-ac3",
         "path": "/projekte/"
     },
