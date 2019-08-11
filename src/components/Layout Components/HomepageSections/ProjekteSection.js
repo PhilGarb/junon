@@ -50,7 +50,7 @@ const ProjekteSection = () => {
       <Card>
         <h2>Unsere Arbeit</h2>
         <p>
-          Wir bündeln und vermitteln das Wussen unserer Mitgliedsgruppen bei
+          Wir bündeln und vermitteln das Wissen unserer Mitgliedsgruppen bei
           Seminaren und Konferenzen.
         </p>
         <p>
