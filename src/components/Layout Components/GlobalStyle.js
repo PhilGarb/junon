@@ -50,7 +50,5 @@ ${
   p {
     font-weight: 400;
     line-height: 1.5em;
-    overflow-wrap: break-word;
-    text-align: justify;
   }
 `
