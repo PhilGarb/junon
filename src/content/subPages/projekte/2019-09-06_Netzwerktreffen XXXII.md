@@ -44,7 +44,9 @@ Am Abend wird es eine Paneldiskussion mit dem Thema *"Umweltschutz global gedach
 
 Am Samstag geht es um die Praktische Seite des Netzwerks. Bei einem Chairing Workshop könnt ihr nicht nur lernen ein Model United Nations Komittee zu moderieren, sondern ganz allgemein lernen wie es ist eine Debatte zu leiten.
 
-Am Nachmittag wird uns Felix Kaminski, der diesjährige Jugenddelegierte für nachhaltige Entwicklung, mit der Realität der UN Arbeit zum Umweltschutz konfrontieren. Er sagt dazu:
+Am Nachmittag begrüßen wir BenE München e.V. das Regionales Kompetenzzentrum zur Förderung der Bildung für eine nachhaltige Entwicklung. Diese geben uns in einem Workshop zur zukünftigen Verbesserung, Planung und Durchführung von MUN-Konferenzen einen Einblick in die *“nachhaltige Beschaffung bei Veranstaltungen/Konferenzen"*.
+
+Danach wird uns Felix Kaminski, der diesjährige Jugenddelegierte für nachhaltige Entwicklung, mit der Realität der UN Arbeit zum Umweltschutz konfrontieren. Er sagt dazu:
 
 >**Vor dem Gipfel - Wie können wir das Momentum für die SDGs erneuern?**
 >Vier Jahre sind vergangen seitdem die Sustainable Development Goals (SDGs) beschlossen wurden. Seither ist zu wenig passiert: Das Momentum scheint verstrichen und bei der Umsetzung hapert es gewaltig. Am 24. und 25.9. kommen die Staats- und Regierungschef*innen in New York zusammen, um zu beraten, wie wir in den verbleibenden 11 Jahren die SDGs noch erreichen können. In diesem Workshop werden wir mit dem UN-Jugenddelegierten für Nachhaltige Entwicklung diskutieren, wie ernsthaft die Bestrebungen der UN-Mitgliedsstaaten überhaupt sind, wie sich die deutsche Bundesregierung verhält und wie wir als Jugendliche Einfluss auf die Nachhaltigkeitspolitik nehmen können.
