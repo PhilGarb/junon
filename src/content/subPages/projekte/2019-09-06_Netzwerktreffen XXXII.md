@@ -14,7 +14,7 @@ titleImage: "../../../images/Projekte/Netzwerktreffen 2019/München_Titelbild.jp
 
 * Preis: 15€
 * Wann: 06 - 08.09.2019
-* Freitag Start um 15:00 Uhr - Sonntag Ende um 16:00 Uhr
+* Freitag Start um 15:00 Uhr - Sonntag Ende um 15:00 Uhr
 * Wo: Salesianum München
 
 ***
@@ -31,7 +31,8 @@ Dabei werden wir uns inhaltlich mit den folgenden SDGs auseinandersetzen:
 - SDG 14: Life below water
 - SDG 15: Life on Land
 
-Das vollständige Programm findet ihr hier => **[Programm](https://junongermany.sharepoint.com/:b:/s/AGEventmanagement2/EY-7i8Pq5e1LkNOQALZnyvcBp2Mv3yIP3zOcXIdOkGJ-Cg?e=VkXKyQ)**
+Das vollständige Programm findet ihr hier => **<a href="https://junongermany.sharepoint.com/:b:/s/AGEventmanagement2/EY-7i8Pq5e1LkNOQALZnyvcBp2Mv3yIP3zOcXIdOkGJ-Cg?e=VkXKyQ" target="_blank">Programm</a>**
+<!-- **[Programm](https://junongermany.sharepoint.com/:b:/s/AGEventmanagement2/EY-7i8Pq5e1LkNOQALZnyvcBp2Mv3yIP3zOcXIdOkGJ-Cg?e=VkXKyQ)** -->
 
 ### Freitag 06.09
 
