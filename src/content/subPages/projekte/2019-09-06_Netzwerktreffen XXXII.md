@@ -61,7 +61,7 @@ Generell gilt: Jede Junon Mitgliedsgruppe hat eine Stimme. Doch auch wenn du kei
 
 >Begeisterst du dich für die Vereinten Nationen, Model United Nations oder die Vereinsarbeit? Vielleicht auch für alles drei? Dann wärst du genau richtig um dem Junon zu helfen die MUN Szene Deutschlands zu vernetzen. Interesse? **Dann schreib uns [hier](https://www.junges-uno-netzwerk.de/#contact) oder sprich mit uns auf dem Treffen an!**
 
-Die Teilnahmegebühr unseres Netzwerktreffens beträgt **15€**. Dafür erhaltet ihr zwei Übernachtungen und die Verpflegung in unserer Tagungsstätte. Mitglieder aus Mitgliedsgruppen erhalten (wie bei uns üblich) einen Fahrtkostenzuschuss, der sich an den Preisen des öffentlichen Nah- und Fernverkehrs orientiert.
+Die Teilnahmegebühr unseres Netzwerktreffens beträgt **15€**. Dafür erhaltet ihr zwei Übernachtungen und die Verpflegung in unserer Tagungsstätte. Alle Teilnehmer können einen Fahrtkostenzuschuss von bis zu 50€ erhalten.
 Es gilt also wie letztes Jahr: zuhause bleiben kommt euch teurer!
 
 Die Anmeldungen über das [Anmeldeformular]([https://link](https://forms.office.com/Pages/ResponsePage.aspx?id=eyIcqezhW0W2pIZ3S0d_c6sErDk5pp1Ft8S0OVK8RtNUNEVNT1FOQTBKQ0IyREE3MVpQTUMyQUowNiQlQCN0PWcu)) sind bereits geöffnet.
