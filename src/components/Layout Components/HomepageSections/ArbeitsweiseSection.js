@@ -29,7 +29,7 @@ const ProjekteSection = () => {
       <SectionParagraph>
         <h1>Arbeitsweise</h1>
         <p>
-          Im JUNON arbeiten wir komplett ehrenamtlichen ohne eine lokale
+          Im JUNON arbeiten wir komplett ehrenamtlichen, ohne eine lokale
           Anbindung. Wir organisieren uns in Arbeitsgruppen und bleiben online
           in Kontakt.
           <br />
@@ -37,7 +37,9 @@ const ProjekteSection = () => {
           Unsere Vorstandsmitglieder sowie die Mitgliedsgruppen und
           Fördermitglieder verteilen sich über ganz Deutschland.{` `}
         </p>
-        <ButtonInternalLink to="/arbeitsgruppen">Mehr erfahren</ButtonInternalLink>
+        <ButtonInternalLink to="/arbeitsgruppen">
+          Mehr erfahren
+        </ButtonInternalLink>
       </SectionParagraph>
     </PositionedSection>
   )

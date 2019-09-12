@@ -60,7 +60,7 @@ const ArbeitsweiseSection = () => {
           <h1>Partner</h1>
           <p>
             Zusammen mit unseren nationalen und internationalen Partnern
-            bekennen wir uns zu den universellen Werten und der Zielen Vereinten
+            bekennen wir uns zu den universellen Werten und den Zielen Vereinten
             Nationen.
           </p>
           <ButtonInternalLink to="/partner">Mehr erfahren</ButtonInternalLink>
