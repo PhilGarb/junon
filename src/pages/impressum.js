@@ -34,7 +34,7 @@ const Impressum = () => {
           <p>
             <strong>Vertreten durch:</strong>
             <br />
-            Philipp Garbowsky und Anke Freuw&ouml;rt (Generalsekret&auml;re)
+            Maximilian Smécz und Julian Wittkamp (Generalsekret&auml;re)
           </p>
           <h2>Kontakt</h2>
           <p>E-Mail: support@junges-uno-netzwerk.de</p>
