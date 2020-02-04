@@ -3,8 +3,6 @@ title: "Netzwerktreffen XXXII"
 subtitle: "“Stop talking sustainable- be sustainable!”"
 place: "München"
 partner: "MUNAM e.V."
-signup: true
-signupLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=eyIcqezhW0W2pIZ3S0d_c6sErDk5pp1Ft8S0OVK8RtNUNEVNT1FOQTBKQ0IyREE3MVpQTUMyQUowNiQlQCN0PWcu"
 startDate: "2019-09-06"
 endDate: "2019-09-08"
 titleImage: "../../../images/Projekte/Netzwerktreffen 2019/München_Titelbild.jpg"
