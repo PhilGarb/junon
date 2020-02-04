@@ -14,12 +14,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-exports.createPages = async function({ graphql, actions }) {
+exports.createPages = async function ({ graphql, actions }) {
   const { createPage } = actions
 
   const { data } = await graphql(`
-    {
-      allMarkdownRemark {
+  {
+    allMarkdownRemark {
         edges {
           node {
             fields {
@@ -29,7 +29,7 @@ exports.createPages = async function({ graphql, actions }) {
         }
       }
     }
-  `)
+    `)
   data.allMarkdownRemark.edges.forEach(edge => {
     const slug = edge.node.fields.slug
 
@@ -39,4 +39,18 @@ exports.createPages = async function({ graphql, actions }) {
       context: { slug: slug },
     })
   })
+}
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter }
+
+      type Frontmatter {
+      signup: Boolean
+      signupLink: String
+    }
+  `
+  createTypes(typeDefs)
 }

@@ -13,7 +13,7 @@ import YouthDelegates from "./Netzwerk/Youth Delegates.jpg"
 import struktur_SVG from "./Arbeitsgruppen/Struktur.svg"
 
 import DGVN_logo_SVG from "./Partner/DGVN_Logo.svg"
-import UNYANET_logo from "./Partner/UNYANET-Logo_Colour.png"
+import UNYANET_logo from "./Partner/UNYANET_Logo.png"
 
 export {
   netzwerktreffen_SVG,
