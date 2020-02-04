@@ -1,1 +1,0 @@
-{"errors":[{"message":"Variable \"$title\" is never used in operation \"ProjektByTitle\".","locations":[{"line":2,"column":3}]}],"pageContext":{"isCreatedByStatefulCreatePages":true}}

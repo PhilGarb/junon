@@ -96,7 +96,7 @@ const Partner = ({ data }) => {
 
 export const query = graphql`
   query PartnerQuery {
-    file(relativePath: { regex: "/UNYANET/" }) {
+    file(relativePath: { regex: "/UNYANET_Logo/" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_tracedSVG

@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/home/philipp/projects/junon/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/home/philipp/Projects/code_junon/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/philipp/projects/junon/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/home/philipp/Projects/code_junon/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Junges UNO Netzwerk Deutschland e.V.","short_name":"JUNON","start_url":"/","background_color":"rgb(99, 147, 244)","theme_color":"rgb(99, 147, 244)","display":"minimal-ui","icon":"./src/images/Logo/favicon-32x32.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
