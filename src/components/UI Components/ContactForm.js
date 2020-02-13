@@ -20,6 +20,10 @@ const PositionedCard = styled(Card)`
     align-self: stretch;
     display: flex;
     flex-direction: column;
+
+    .hidden {
+      display: none;
+    }
   }
 
   .input {
