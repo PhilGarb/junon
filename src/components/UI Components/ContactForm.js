@@ -57,8 +57,14 @@ const ContactForm = () => {
         method="post"
         data-netlify="true"
         action="/thank-you"
+        netlify-honeypot="bot-field"
       >
         <input type="hidden" name="form-name" value="contact" />
+        <p class="hidden">
+          <label>
+            Don’t fill this out if you're human: <input name="bot-field" />
+          </label>
+        </p>
         <label htmlFor="email">E-Mail:</label>
         <input
           type="email"
