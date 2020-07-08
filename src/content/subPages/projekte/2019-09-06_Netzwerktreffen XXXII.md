@@ -10,7 +10,6 @@ titleImage: "../../../images/Projekte/Netzwerktreffen 2019/München_Titelbild.jp
 
 ##Eckdaten
 
-* Preis: 15€
 * Wann: 06 - 08.09.2019
 * Freitag Start um 15:00 Uhr - Sonntag Ende um 15:00 Uhr
 * Wo: Salesianum München

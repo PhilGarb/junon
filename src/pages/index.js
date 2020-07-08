@@ -23,6 +23,7 @@ const PositionedCard = styled(Card)`
   align-self: flex-end;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  box-shadow: none;
 `
 
 const index = ({ data }) => {
