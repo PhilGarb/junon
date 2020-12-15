@@ -34,7 +34,7 @@ const Impressum = () => {
           <p>
             <strong>Vertreten durch:</strong>
             <br />
-            Maximilian Smécz und Julian Wittkamp (Generalsekret&auml;re)
+            Lilien Weiss und Sharon Wihaki (Generalsekret&auml;re) Parthena Iordanidou (Schatzmeisterin)
           </p>
           <h2>Kontakt</h2>
           <p>E-Mail: support@junges-uno-netzwerk.de</p>
