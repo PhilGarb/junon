@@ -48,9 +48,9 @@ const ButtonInternalLink = ({ children, to, state, className }) => {
   )
 }
 
-const ButtonExternalLink = ({ children, to, className }) => {
+const ButtonExternalLink = ({ children, to, className, target }) => {
   return (
-    <StyledButton as="a" href={to} className={className}>
+    <StyledButton as="a" href={to} className={className} target={target}>
       {children}
     </StyledButton>
   )

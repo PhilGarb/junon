@@ -14,6 +14,7 @@ import struktur_SVG from "./Arbeitsgruppen/Struktur.svg"
 
 import DGVN_logo_SVG from "./Partner/DGVN_Logo.svg"
 import UNYANET_logo from "./Partner/UNYANET_Logo.png"
+import netzwerktreffen_2022 from "./Projekte/Delegiertenversammlung 2022/Flyer.png"
 
 export {
   netzwerktreffen_SVG,
@@ -29,4 +30,5 @@ export {
   MUN,
   UNimKlassenzimmer,
   YouthDelegates,
+  netzwerktreffen_2022,
 }

@@ -7,7 +7,7 @@ import {
   SVGImage,
   Card,
 } from "../../ComponentsIndex"
-import { netzwerktreffen_SVG, projekte_SVG } from "../../../images/ImageIndex"
+import { netzwerktreffen_2022, projekte_SVG } from "../../../images/ImageIndex"
 
 //TODO Remove with next commit! When resizing the Browser Window larger then the desktop the Layout breaks with the grid minmaxing. I am unsure wether this is happening on larger displays by default.
 const PositionedSection = styled.section`
@@ -15,6 +15,7 @@ const PositionedSection = styled.section`
   margin-top: 3rem;
   display: grid;
   grid-template-rows: 5rem 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 5em;
   min-height: 80vmin;
   justify-content: center;
@@ -33,8 +34,9 @@ const PositionedCard = styled(Card)`
 `
 
 const PositionedSubSection = styled.div`
-  display: flex;
-  flex: 1 0 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
 `
 
 const ProjekteSection = () => {
@@ -43,20 +45,24 @@ const ProjekteSection = () => {
       <h1>Projekte</h1>
       <PositionedSubSection>
         <PositionedCard>
-          <h2>Netzwerktreffen</h2>
-          <p>
-            Dieses Jahr beschäftigen wir uns mit den Vereinten Nationen, Model
-            United Nations und ihren Rollen zum Thema Umweltschutz.
-          </p>
-          <ButtonInternalLink to="/2019-09-06_Netzwerktreffen XXXII">
+          <div>
+            <h2>Netzwerktreffen in Bonn</h2>
+            <p style={{ marginTop: "0", fontSize: "0.8rem", color: "gray" }}>
+              Vom 25.08.2022 - 28.08.2022
+            </p>
+            <p>Dieses Jahr geht es um Klima und Sicherheitspolitik.</p>
+          </div>
+          <ButtonExternalLink to="/netzwerktreffen.pdf" target="_blank">
             Mehr erfahren
-          </ButtonInternalLink>
-          <p>Komm für ein Wochenende nach München es geht auf uns!</p>
-          <ButtonExternalLink to="https://forms.office.com/Pages/ResponsePage.aspx?id=eyIcqezhW0W2pIZ3S0d_c6sErDk5pp1Ft8S0OVK8RtNUNEVNT1FOQTBKQ0IyREE3MVpQTUMyQUowNiQlQCN0PWcu">
-            Anmeldung
+          </ButtonExternalLink>
+          <p>Komm für ein Wochenende nach Bonn!</p>
+          <ButtonExternalLink href="mailto:vorstand@unya.de">
+            Anmeldung per E-Mail
           </ButtonExternalLink>
         </PositionedCard>
-        <SVGImage img={netzwerktreffen_SVG} />
+        <div style={{ borderRadius: "10px", overflow: "hidden" }}>
+          <SVGImage style={{ lineHeight: 0 }} img={netzwerktreffen_2022} />
+        </div>
       </PositionedSubSection>
       <PositionedSubSection>
         <PositionedCard>

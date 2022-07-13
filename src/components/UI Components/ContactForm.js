@@ -76,6 +76,7 @@ const ContactForm = () => {
           id="email"
           className="input"
           placeholder="maria.musterfrau@gmail.com"
+          required
         />
         <label htmlFor="description">Anliegen:</label>
         <textarea
@@ -83,6 +84,7 @@ const ContactForm = () => {
           name="description"
           id="description"
           className="input"
+          required
         />
         <Button type="submit">Senden</Button>
       </form>
