@@ -34,8 +34,9 @@ const Impressum = () => {
           <p>
             <strong>Vertreten durch:</strong>
             <br />
-            Parthena Iordanidou und Sharon Mwihaki (Generalsekret&auml;re)
-            Lilien Weiss (Schatzmeisterin)
+            Dahlia Arora und Natalie Eymann (Generalsekret&auml;re)
+            <br />
+            Nora Dornis (Schatzmeisterin)
           </p>
           <h2>Kontakt</h2>
           <p>E-Mail: support@junges-uno-netzwerk.de</p>
