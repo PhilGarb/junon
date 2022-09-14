@@ -36,7 +36,7 @@ const Impressum = () => {
             <br />
             Dahlia Arora und Natalie Eymann (Generalsekret&auml;re)
             <br />
-            Nora Dornis (Schatzmeisterin)
+            Shaya Mirmoayedi (Schatzmeisterin)
           </p>
           <h2>Kontakt</h2>
           <p>E-Mail: support@junges-uno-netzwerk.de</p>
